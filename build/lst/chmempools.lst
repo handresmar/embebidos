@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccGyWWFR.s 			page 1
+ARM GAS  /tmp/ccNwNp8e.s 			page 1
 
 
    1              		.syntax unified
@@ -27,7 +27,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
   24              		.type	chPoolInit, %function
   25              	chPoolInit:
   26              	.LFB7:
-  27              		.file 1 "../../ext/ChibiOS/os/kernel/src/chmempools.c"
+  27              		.file 1 "ChibiOS/os/kernel/src/chmempools.c"
   28              		.loc 1 61 0
   29              		.cfi_startproc
   30              		@ args = 0, pretend = 0, frame = 0
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
   55              		.thumb
   56              		.thumb_func
   57              		.type	chPoolAllocI, %function
-ARM GAS  /tmp/ccGyWWFR.s 			page 2
+ARM GAS  /tmp/ccNwNp8e.s 			page 2
 
 
   58              	chPoolAllocI:
@@ -118,10 +118,10 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  112              	.LBB10:
  113              		.loc 1 104 0
  114 0004 2023     		movs	r3, #32
-ARM GAS  /tmp/ccGyWWFR.s 			page 3
+ARM GAS  /tmp/ccNwNp8e.s 			page 3
 
 
- 115              	@ 104 "../../ext/ChibiOS/os/kernel/src/chmempools.c" 1
+ 115              	@ 104 "ChibiOS/os/kernel/src/chmempools.c" 1
  116 0006 83F31188 		msr     BASEPRI, r3
  117              	@ 0 "" 2
  118              	.LVL10:
@@ -142,7 +142,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  133              	.LBB14:
  134              		.loc 1 106 0
  135 0012 0023     		movs	r3, #0
- 136              	@ 106 "../../ext/ChibiOS/os/kernel/src/chmempools.c" 1
+ 136              	@ 106 "ChibiOS/os/kernel/src/chmempools.c" 1
  137 0014 83F31188 		msr     BASEPRI, r3
  138              	@ 0 "" 2
  139              		.thumb
@@ -166,7 +166,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  157              	.LBB16:
  158              		.loc 1 106 0
  159 0024 0023     		movs	r3, #0
- 160              	@ 106 "../../ext/ChibiOS/os/kernel/src/chmempools.c" 1
+ 160              	@ 106 "ChibiOS/os/kernel/src/chmempools.c" 1
  161 0026 83F31188 		msr     BASEPRI, r3
  162              	@ 0 "" 2
  163              		.thumb
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  169              		.size	chPoolAlloc, .-chPoolAlloc
  170              		.section	.text.chPoolFreeI,"ax",%progbits
  171              		.align	2
-ARM GAS  /tmp/ccGyWWFR.s 			page 4
+ARM GAS  /tmp/ccNwNp8e.s 			page 4
 
 
  172              		.p2align 4,,15
@@ -221,7 +221,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  209              	.LBB17:
  210              		.loc 1 147 0
  211 0000 2023     		movs	r3, #32
- 212              	@ 147 "../../ext/ChibiOS/os/kernel/src/chmempools.c" 1
+ 212              	@ 147 "ChibiOS/os/kernel/src/chmempools.c" 1
  213 0002 83F31188 		msr     BASEPRI, r3
  214              	@ 0 "" 2
  215              	.LVL16:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  226 0008 0023     		movs	r3, #0
  227              	.LBE21:
  228              	.LBB22:
-ARM GAS  /tmp/ccGyWWFR.s 			page 5
+ARM GAS  /tmp/ccNwNp8e.s 			page 5
 
 
  229              	.LBB20:
@@ -250,7 +250,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  235              	.LBE22:
  236              	.LBB23:
  237              		.loc 1 149 0
- 238              	@ 149 "../../ext/ChibiOS/os/kernel/src/chmempools.c" 1
+ 238              	@ 149 "ChibiOS/os/kernel/src/chmempools.c" 1
  239 000e 83F31188 		msr     BASEPRI, r3
  240              	@ 0 "" 2
  241              		.thumb
@@ -264,8 +264,8 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  249              		.file 2 "/home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/lib/gcc/arm-none-eabi/4.9.3/in
  250              		.file 3 "/home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/machine/
  251              		.file 4 "/home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/_std
- 252              		.file 5 "../../ext/ChibiOS/os/kernel/include/chmemcore.h"
- 253              		.file 6 "../../ext/ChibiOS/os/kernel/include/chmempools.h"
+ 252              		.file 5 "ChibiOS/os/kernel/include/chmemcore.h"
+ 253              		.file 6 "ChibiOS/os/kernel/include/chmempools.h"
  254              		.section	.debug_info,"",%progbits
  255              	.Ldebug_info0:
  256 0000 0D030000 		.4byte	0x30d
@@ -273,10 +273,10 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  258 0006 00000000 		.4byte	.Ldebug_abbrev0
  259 000a 04       		.byte	0x4
  260 000b 01       		.uleb128 0x1
- 261 000c 17010000 		.4byte	.LASF23
+ 261 000c FA000000 		.4byte	.LASF23
  262 0010 01       		.byte	0x1
- 263 0011 DD000000 		.4byte	.LASF24
- 264 0015 07000000 		.4byte	.LASF25
+ 263 0011 2F000000 		.4byte	.LASF24
+ 264 0015 C5000000 		.4byte	.LASF25
  265 0019 60000000 		.4byte	.Ldebug_ranges0+0x60
  266 001d 00000000 		.4byte	0
  267 0021 00000000 		.4byte	.Ldebug_line0
@@ -292,49 +292,49 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  277 0037 04       		.uleb128 0x4
  278 0038 04       		.byte	0x4
  279 0039 07       		.byte	0x7
- 280 003a 51000000 		.4byte	.LASF0
+ 280 003a 16000000 		.4byte	.LASF0
  281 003e 04       		.uleb128 0x4
  282 003f 01       		.byte	0x1
  283 0040 06       		.byte	0x6
- 284 0041 78020000 		.4byte	.LASF1
+ 284 0041 5B020000 		.4byte	.LASF1
  285 0045 04       		.uleb128 0x4
-ARM GAS  /tmp/ccGyWWFR.s 			page 6
+ARM GAS  /tmp/ccNwNp8e.s 			page 6
 
 
  286 0046 01       		.byte	0x1
  287 0047 08       		.byte	0x8
- 288 0048 A9000000 		.4byte	.LASF2
+ 288 0048 91000000 		.4byte	.LASF2
  289 004c 04       		.uleb128 0x4
  290 004d 02       		.byte	0x2
  291 004e 05       		.byte	0x5
- 292 004f 50020000 		.4byte	.LASF3
+ 292 004f 33020000 		.4byte	.LASF3
  293 0053 04       		.uleb128 0x4
  294 0054 02       		.byte	0x2
  295 0055 07       		.byte	0x7
- 296 0056 81000000 		.4byte	.LASF4
+ 296 0056 69000000 		.4byte	.LASF4
  297 005a 04       		.uleb128 0x4
  298 005b 04       		.byte	0x4
  299 005c 05       		.byte	0x5
- 300 005d 6F020000 		.4byte	.LASF5
+ 300 005d 52020000 		.4byte	.LASF5
  301 0061 03       		.uleb128 0x3
- 302 0062 B7000000 		.4byte	.LASF7
+ 302 0062 9F000000 		.4byte	.LASF7
  303 0066 03       		.byte	0x3
  304 0067 41       		.byte	0x41
  305 0068 6C000000 		.4byte	0x6c
  306 006c 04       		.uleb128 0x4
  307 006d 04       		.byte	0x4
  308 006e 07       		.byte	0x7
- 309 006f 6F000000 		.4byte	.LASF8
+ 309 006f 57000000 		.4byte	.LASF8
  310 0073 04       		.uleb128 0x4
  311 0074 08       		.byte	0x8
  312 0075 05       		.byte	0x5
- 313 0076 24020000 		.4byte	.LASF9
+ 313 0076 07020000 		.4byte	.LASF9
  314 007a 04       		.uleb128 0x4
  315 007b 08       		.byte	0x8
  316 007c 07       		.byte	0x7
- 317 007d FC010000 		.4byte	.LASF10
+ 317 007d DF010000 		.4byte	.LASF10
  318 0081 03       		.uleb128 0x3
- 319 0082 66020000 		.4byte	.LASF11
+ 319 0082 49020000 		.4byte	.LASF11
  320 0086 04       		.byte	0x4
  321 0087 20       		.byte	0x20
  322 0088 61000000 		.4byte	0x61
@@ -343,9 +343,9 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  325 008e 04       		.uleb128 0x4
  326 008f 04       		.byte	0x4
  327 0090 07       		.byte	0x7
- 328 0091 1B020000 		.4byte	.LASF12
+ 328 0091 FE010000 		.4byte	.LASF12
  329 0095 03       		.uleb128 0x3
- 330 0096 37020000 		.4byte	.LASF13
+ 330 0096 1A020000 		.4byte	.LASF13
  331 009a 05       		.byte	0x5
  332 009b 2C       		.byte	0x2c
  333 009c A0000000 		.4byte	0xa0
@@ -358,17 +358,17 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  340 00af 08       		.uleb128 0x8
  341 00b0 2C000000 		.4byte	0x2c
  342 00b4 00       		.byte	0
-ARM GAS  /tmp/ccGyWWFR.s 			page 7
+ARM GAS  /tmp/ccNwNp8e.s 			page 7
 
 
  343 00b5 09       		.uleb128 0x9
- 344 00b6 5E000000 		.4byte	.LASF26
+ 344 00b6 23000000 		.4byte	.LASF26
  345 00ba 04       		.byte	0x4
  346 00bb 06       		.byte	0x6
  347 00bc 2C       		.byte	0x2c
  348 00bd CE000000 		.4byte	0xce
  349 00c1 0A       		.uleb128 0xa
- 350 00c2 13020000 		.4byte	.LASF14
+ 350 00c2 F6010000 		.4byte	.LASF14
  351 00c6 06       		.byte	0x6
  352 00c7 2D       		.byte	0x2d
  353 00c8 CE000000 		.4byte	0xce
@@ -383,42 +383,42 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  362 00d7 34       		.byte	0x34
  363 00d8 01010000 		.4byte	0x101
  364 00dc 0A       		.uleb128 0xa
- 365 00dd 84020000 		.4byte	.LASF15
+ 365 00dd 67020000 		.4byte	.LASF15
  366 00e1 06       		.byte	0x6
  367 00e2 35       		.byte	0x35
  368 00e3 CE000000 		.4byte	0xce
  369 00e7 00       		.byte	0
  370 00e8 0A       		.uleb128 0xa
- 371 00e9 42000000 		.4byte	.LASF16
+ 371 00e9 07000000 		.4byte	.LASF16
  372 00ed 06       		.byte	0x6
  373 00ee 36       		.byte	0x36
  374 00ef 2C000000 		.4byte	0x2c
  375 00f3 04       		.byte	0x4
  376 00f4 0A       		.uleb128 0xa
- 377 00f5 44020000 		.4byte	.LASF17
+ 377 00f5 27020000 		.4byte	.LASF17
  378 00f9 06       		.byte	0x6
  379 00fa 38       		.byte	0x38
  380 00fb 95000000 		.4byte	0x95
  381 00ff 08       		.byte	0x8
  382 0100 00       		.byte	0
  383 0101 03       		.uleb128 0x3
- 384 0102 CD000000 		.4byte	.LASF18
+ 384 0102 B5000000 		.4byte	.LASF18
  385 0106 06       		.byte	0x6
  386 0107 3A       		.byte	0x3a
  387 0108 D4000000 		.4byte	0xd4
  388 010c 04       		.uleb128 0x4
  389 010d 01       		.byte	0x1
  390 010e 08       		.byte	0x8
- 391 010f 32020000 		.4byte	.LASF19
+ 391 010f 15020000 		.4byte	.LASF19
  392 0113 0C       		.uleb128 0xc
- 393 0114 0A010000 		.4byte	.LASF27
+ 393 0114 ED000000 		.4byte	.LASF27
  394 0118 01       		.byte	0x1
  395 0119 4F       		.byte	0x4f
  396 011a 8C000000 		.4byte	0x8c
  397 011e 01       		.byte	0x1
  398 011f 39010000 		.4byte	0x139
  399 0123 0D       		.uleb128 0xd
-ARM GAS  /tmp/ccGyWWFR.s 			page 8
+ARM GAS  /tmp/ccNwNp8e.s 			page 8
 
 
  400 0124 6D7000   		.ascii	"mp\000"
@@ -426,7 +426,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  402 0128 4F       		.byte	0x4f
  403 0129 39010000 		.4byte	0x139
  404 012d 0E       		.uleb128 0xe
- 405 012e D8000000 		.4byte	.LASF20
+ 405 012e C0000000 		.4byte	.LASF20
  406 0132 01       		.byte	0x1
  407 0133 50       		.byte	0x50
  408 0134 8C000000 		.4byte	0x8c
@@ -435,7 +435,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  411 013a 04       		.byte	0x4
  412 013b 01010000 		.4byte	0x101
  413 013f 0F       		.uleb128 0xf
- 414 0140 9D000000 		.4byte	.LASF28
+ 414 0140 85000000 		.4byte	.LASF28
  415 0144 01       		.byte	0x1
  416 0145 7A       		.byte	0x7a
  417 0146 01       		.byte	0x1
@@ -446,7 +446,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  422 0150 7A       		.byte	0x7a
  423 0151 39010000 		.4byte	0x139
  424 0155 10       		.uleb128 0x10
- 425 0156 D8000000 		.4byte	.LASF20
+ 425 0156 C0000000 		.4byte	.LASF20
  426 015a 01       		.byte	0x1
  427 015b 7A       		.byte	0x7a
  428 015c 8C000000 		.4byte	0x8c
@@ -457,7 +457,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  433 0167 CE000000 		.4byte	0xce
  434 016b 00       		.byte	0
  435 016c 12       		.uleb128 0x12
- 436 016d 8C020000 		.4byte	.LASF29
+ 436 016d 6F020000 		.4byte	.LASF29
  437 0171 01       		.byte	0x1
  438 0172 3D       		.byte	0x3d
  439 0173 00000000 		.4byte	.LFB7
@@ -473,16 +473,16 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  449 018b 01       		.uleb128 0x1
  450 018c 50       		.byte	0x50
  451 018d 14       		.uleb128 0x14
- 452 018e 6A000000 		.4byte	.LASF21
+ 452 018e 52000000 		.4byte	.LASF21
  453 0192 01       		.byte	0x1
  454 0193 3D       		.byte	0x3d
  455 0194 2C000000 		.4byte	0x2c
  456 0198 00000000 		.4byte	.LLST0
-ARM GAS  /tmp/ccGyWWFR.s 			page 9
+ARM GAS  /tmp/ccNwNp8e.s 			page 9
 
 
  457 019c 15       		.uleb128 0x15
- 458 019d 94000000 		.4byte	.LASF22
+ 458 019d 7C000000 		.4byte	.LASF22
  459 01a1 01       		.byte	0x1
  460 01a2 3D       		.byte	0x3d
  461 01a3 95000000 		.4byte	0x95
@@ -504,7 +504,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  477 01cb 68000000 		.4byte	.LLST2
  478 01cf 00       		.byte	0
  479 01d0 19       		.uleb128 0x19
- 480 01d1 5A020000 		.4byte	.LASF30
+ 480 01d1 3D020000 		.4byte	.LASF30
  481 01d5 01       		.byte	0x1
  482 01d6 65       		.byte	0x65
  483 01d7 8C000000 		.4byte	0x8c
@@ -520,7 +520,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  493 01ef 39010000 		.4byte	0x139
  494 01f3 7B000000 		.4byte	.LLST3
  495 01f7 1B       		.uleb128 0x1b
- 496 01f8 D8000000 		.4byte	.LASF20
+ 496 01f8 C0000000 		.4byte	.LASF20
  497 01fc 01       		.byte	0x1
  498 01fd 66       		.byte	0x66
  499 01fe 8C000000 		.4byte	0x8c
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  511 021c 01       		.uleb128 0x1
  512 021d 53       		.byte	0x53
  513 021e 00       		.byte	0
-ARM GAS  /tmp/ccGyWWFR.s 			page 10
+ARM GAS  /tmp/ccNwNp8e.s 			page 10
 
 
  514 021f 1E       		.uleb128 0x1e
@@ -590,7 +590,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  560 0286 51       		.byte	0x51
  561 0287 00       		.byte	0
  562 0288 23       		.uleb128 0x23
- 563 0289 C2000000 		.4byte	.LASF31
+ 563 0289 AA000000 		.4byte	.LASF31
  564 028d 01       		.byte	0x1
  565 028e 91       		.byte	0x91
  566 028f 00000000 		.4byte	.LFB11
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  568 0297 01       		.uleb128 0x1
  569 0298 9C       		.byte	0x9c
  570 0299 13       		.uleb128 0x13
-ARM GAS  /tmp/ccGyWWFR.s 			page 11
+ARM GAS  /tmp/ccNwNp8e.s 			page 11
 
 
  571 029a 6D7000   		.ascii	"mp\000"
@@ -608,7 +608,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  575 02a3 01       		.uleb128 0x1
  576 02a4 50       		.byte	0x50
  577 02a5 15       		.uleb128 0x15
- 578 02a6 D8000000 		.4byte	.LASF20
+ 578 02a6 C0000000 		.4byte	.LASF20
  579 02aa 01       		.byte	0x1
  580 02ab 91       		.byte	0x91
  581 02ac 8C000000 		.4byte	0x8c
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  625 0308 81000000 		.4byte	0x81
  626 030c 01       		.uleb128 0x1
  627 030d 53       		.byte	0x53
-ARM GAS  /tmp/ccGyWWFR.s 			page 12
+ARM GAS  /tmp/ccNwNp8e.s 			page 12
 
 
  628 030e 00       		.byte	0
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  682 0031 0B       		.uleb128 0xb
  683 0032 03       		.uleb128 0x3
  684 0033 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccGyWWFR.s 			page 13
+ARM GAS  /tmp/ccNwNp8e.s 			page 13
 
 
  685 0034 00       		.byte	0
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  739 006a 03       		.uleb128 0x3
  740 006b 0E       		.uleb128 0xe
  741 006c 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccGyWWFR.s 			page 14
+ARM GAS  /tmp/ccNwNp8e.s 			page 14
 
 
  742 006d 0B       		.uleb128 0xb
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  796 00a3 00       		.byte	0
  797 00a4 00       		.byte	0
  798 00a5 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccGyWWFR.s 			page 15
+ARM GAS  /tmp/ccNwNp8e.s 			page 15
 
 
  799 00a6 34       		.uleb128 0x34
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  853 00dc 13       		.uleb128 0x13
  854 00dd 00       		.byte	0
  855 00de 00       		.byte	0
-ARM GAS  /tmp/ccGyWWFR.s 			page 16
+ARM GAS  /tmp/ccNwNp8e.s 			page 16
 
 
  856 00df 12       		.uleb128 0x12
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  910 0116 00       		.byte	0
  911 0117 15       		.uleb128 0x15
  912 0118 05       		.uleb128 0x5
-ARM GAS  /tmp/ccGyWWFR.s 			page 17
+ARM GAS  /tmp/ccNwNp8e.s 			page 17
 
 
  913 0119 00       		.byte	0
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  967 014f 0B       		.uleb128 0xb
  968 0150 3B       		.uleb128 0x3b
  969 0151 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccGyWWFR.s 			page 18
+ARM GAS  /tmp/ccNwNp8e.s 			page 18
 
 
  970 0152 27       		.uleb128 0x27
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  1024 0189 13       		.uleb128 0x13
  1025 018a 00       		.byte	0
  1026 018b 00       		.byte	0
-ARM GAS  /tmp/ccGyWWFR.s 			page 19
+ARM GAS  /tmp/ccNwNp8e.s 			page 19
 
 
  1027 018c 1D       		.uleb128 0x1d
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  1081 01c3 00       		.byte	0
  1082 01c4 00       		.byte	0
  1083 01c5 21       		.uleb128 0x21
-ARM GAS  /tmp/ccGyWWFR.s 			page 20
+ARM GAS  /tmp/ccNwNp8e.s 			page 20
 
 
  1084 01c6 05       		.uleb128 0x5
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  1138 0018 06000000 		.4byte	.LVL2
  1139 001c 10000000 		.4byte	.LFE7
  1140 0020 0400     		.2byte	0x4
-ARM GAS  /tmp/ccGyWWFR.s 			page 21
+ARM GAS  /tmp/ccNwNp8e.s 			page 21
 
 
  1141 0022 F3       		.byte	0xf3
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  1195 009f 00000000 		.4byte	0
  1196 00a3 00000000 		.4byte	0
  1197              	.LLST4:
-ARM GAS  /tmp/ccGyWWFR.s 			page 22
+ARM GAS  /tmp/ccNwNp8e.s 			page 22
 
 
  1198 00a7 0A000000 		.4byte	.LVL10
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  1252              	.Ldebug_ranges0:
  1253 0000 0A000000 		.4byte	.LBB11
  1254 0004 12000000 		.4byte	.LBE11
-ARM GAS  /tmp/ccGyWWFR.s 			page 23
+ARM GAS  /tmp/ccNwNp8e.s 			page 23
 
 
  1255 0008 1A000000 		.4byte	.LBB15
@@ -1357,198 +1357,196 @@ ARM GAS  /tmp/ccGyWWFR.s 			page 1
  1288 008c 00000000 		.4byte	0
  1289              		.section	.debug_line,"",%progbits
  1290              	.Ldebug_line0:
- 1291 0000 41020000 		.section	.debug_str,"MS",%progbits,1
- 1291      0200C001 
+ 1291 0000 2D020000 		.section	.debug_str,"MS",%progbits,1
+ 1291      0200AC01 
  1291      00000201 
  1291      FB0E0D00 
  1291      01010101 
  1292              	.LASF6:
  1293 0000 73697A65 		.ascii	"size_t\000"
  1293      5F7400
- 1294              	.LASF25:
- 1295 0007 2F686F6D 		.ascii	"/home/david/Desktop/Embebidos/code/src/chibios_hell"
- 1295      652F6461 
- 1295      7669642F 
- 1295      4465736B 
- 1295      746F702F 
- 1296 003a 6F5F776F 		.ascii	"o_world\000"
- 1296      726C6400 
- 1297              	.LASF16:
- 1298 0042 6D705F6F 		.ascii	"mp_object_size\000"
- 1298      626A6563 
- 1298      745F7369 
- 1298      7A6500
-ARM GAS  /tmp/ccGyWWFR.s 			page 24
+ 1294              	.LASF16:
+ 1295 0007 6D705F6F 		.ascii	"mp_object_size\000"
+ 1295      626A6563 
+ 1295      745F7369 
+ 1295      7A6500
+ 1296              	.LASF0:
+ 1297 0016 756E7369 		.ascii	"unsigned int\000"
+ 1297      676E6564 
+ 1297      20696E74 
+ 1297      00
+ 1298              	.LASF26:
+ 1299 0023 706F6F6C 		.ascii	"pool_header\000"
+ 1299      5F686561 
+ARM GAS  /tmp/ccNwNp8e.s 			page 24
 
 
- 1299              	.LASF0:
- 1300 0051 756E7369 		.ascii	"unsigned int\000"
- 1300      676E6564 
- 1300      20696E74 
- 1300      00
- 1301              	.LASF26:
- 1302 005e 706F6F6C 		.ascii	"pool_header\000"
- 1302      5F686561 
- 1302      64657200 
- 1303              	.LASF21:
- 1304 006a 73697A65 		.ascii	"size\000"
- 1304      00
- 1305              	.LASF8:
- 1306 006f 6C6F6E67 		.ascii	"long unsigned int\000"
- 1306      20756E73 
- 1306      69676E65 
- 1306      6420696E 
- 1306      7400
- 1307              	.LASF4:
- 1308 0081 73686F72 		.ascii	"short unsigned int\000"
- 1308      7420756E 
- 1308      7369676E 
- 1308      65642069 
- 1308      6E7400
- 1309              	.LASF22:
- 1310 0094 70726F76 		.ascii	"provider\000"
- 1310      69646572 
- 1310      00
- 1311              	.LASF28:
- 1312 009d 6368506F 		.ascii	"chPoolFreeI\000"
- 1312      6F6C4672 
- 1312      65654900 
- 1313              	.LASF2:
- 1314 00a9 756E7369 		.ascii	"unsigned char\000"
- 1314      676E6564 
- 1314      20636861 
- 1314      7200
- 1315              	.LASF7:
- 1316 00b7 5F5F7569 		.ascii	"__uint32_t\000"
- 1316      6E743332 
- 1316      5F7400
- 1317              	.LASF31:
- 1318 00c2 6368506F 		.ascii	"chPoolFree\000"
- 1318      6F6C4672 
- 1318      656500
- 1319              	.LASF18:
- 1320 00cd 4D656D6F 		.ascii	"MemoryPool\000"
- 1320      7279506F 
- 1320      6F6C00
- 1321              	.LASF20:
- 1322 00d8 6F626A70 		.ascii	"objp\000"
- 1322      00
- 1323              	.LASF24:
- 1324 00dd 2E2E2F2E 		.ascii	"../../ext/ChibiOS/os/kernel/src/chmempools.c\000"
- 1324      2E2F6578 
- 1324      742F4368 
- 1324      6962694F 
-ARM GAS  /tmp/ccGyWWFR.s 			page 25
+ 1299      64657200 
+ 1300              	.LASF24:
+ 1301 002f 43686962 		.ascii	"ChibiOS/os/kernel/src/chmempools.c\000"
+ 1301      694F532F 
+ 1301      6F732F6B 
+ 1301      65726E65 
+ 1301      6C2F7372 
+ 1302              	.LASF21:
+ 1303 0052 73697A65 		.ascii	"size\000"
+ 1303      00
+ 1304              	.LASF8:
+ 1305 0057 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1305      20756E73 
+ 1305      69676E65 
+ 1305      6420696E 
+ 1305      7400
+ 1306              	.LASF4:
+ 1307 0069 73686F72 		.ascii	"short unsigned int\000"
+ 1307      7420756E 
+ 1307      7369676E 
+ 1307      65642069 
+ 1307      6E7400
+ 1308              	.LASF22:
+ 1309 007c 70726F76 		.ascii	"provider\000"
+ 1309      69646572 
+ 1309      00
+ 1310              	.LASF28:
+ 1311 0085 6368506F 		.ascii	"chPoolFreeI\000"
+ 1311      6F6C4672 
+ 1311      65654900 
+ 1312              	.LASF2:
+ 1313 0091 756E7369 		.ascii	"unsigned char\000"
+ 1313      676E6564 
+ 1313      20636861 
+ 1313      7200
+ 1314              	.LASF7:
+ 1315 009f 5F5F7569 		.ascii	"__uint32_t\000"
+ 1315      6E743332 
+ 1315      5F7400
+ 1316              	.LASF31:
+ 1317 00aa 6368506F 		.ascii	"chPoolFree\000"
+ 1317      6F6C4672 
+ 1317      656500
+ 1318              	.LASF18:
+ 1319 00b5 4D656D6F 		.ascii	"MemoryPool\000"
+ 1319      7279506F 
+ 1319      6F6C00
+ 1320              	.LASF20:
+ 1321 00c0 6F626A70 		.ascii	"objp\000"
+ 1321      00
+ 1322              	.LASF25:
+ 1323 00c5 2F686F6D 		.ascii	"/home/david/Desktop/Embebidos/StampRepo\000"
+ 1323      652F6461 
+ 1323      7669642F 
+ 1323      4465736B 
+ 1323      746F702F 
+ 1324              	.LASF27:
+ARM GAS  /tmp/ccNwNp8e.s 			page 25
 
 
- 1324      532F6F73 
- 1325              	.LASF27:
- 1326 010a 6368506F 		.ascii	"chPoolAllocI\000"
- 1326      6F6C416C 
- 1326      6C6F6349 
- 1326      00
- 1327              	.LASF23:
- 1328 0117 474E5520 		.ascii	"GNU C 4.9.3 20150529 (release) [ARM/embedded-4_9-br"
- 1328      4320342E 
- 1328      392E3320 
- 1328      32303135 
- 1328      30353239 
- 1329 014a 616E6368 		.ascii	"anch revision 227977] -mcpu=cortex-m3 -mno-thumb-in"
- 1329      20726576 
- 1329      6973696F 
- 1329      6E203232 
- 1329      37393737 
- 1330 017d 74657277 		.ascii	"terwork -mthumb -ggdb -O2 -std=gnu99 -fomit-frame-p"
- 1330      6F726B20 
- 1330      2D6D7468 
- 1330      756D6220 
- 1330      2D676764 
- 1331 01b0 6F696E74 		.ascii	"ointer -falign-functions=16 -ffunction-sections -fd"
- 1331      6572202D 
- 1331      66616C69 
- 1331      676E2D66 
- 1331      756E6374 
- 1332 01e3 6174612D 		.ascii	"ata-sections -fno-common\000"
- 1332      73656374 
- 1332      696F6E73 
- 1332      202D666E 
- 1332      6F2D636F 
- 1333              	.LASF10:
- 1334 01fc 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1334      206C6F6E 
- 1334      6720756E 
- 1334      7369676E 
- 1334      65642069 
- 1335              	.LASF14:
- 1336 0213 70685F6E 		.ascii	"ph_next\000"
- 1336      65787400 
- 1337              	.LASF12:
- 1338 021b 73697A65 		.ascii	"sizetype\000"
- 1338      74797065 
- 1338      00
- 1339              	.LASF9:
- 1340 0224 6C6F6E67 		.ascii	"long long int\000"
- 1340      206C6F6E 
- 1340      6720696E 
- 1340      7400
- 1341              	.LASF19:
- 1342 0232 63686172 		.ascii	"char\000"
- 1342      00
- 1343              	.LASF13:
- 1344 0237 6D656D67 		.ascii	"memgetfunc_t\000"
- 1344      65746675 
- 1344      6E635F74 
-ARM GAS  /tmp/ccGyWWFR.s 			page 26
+ 1325 00ed 6368506F 		.ascii	"chPoolAllocI\000"
+ 1325      6F6C416C 
+ 1325      6C6F6349 
+ 1325      00
+ 1326              	.LASF23:
+ 1327 00fa 474E5520 		.ascii	"GNU C 4.9.3 20150529 (release) [ARM/embedded-4_9-br"
+ 1327      4320342E 
+ 1327      392E3320 
+ 1327      32303135 
+ 1327      30353239 
+ 1328 012d 616E6368 		.ascii	"anch revision 227977] -mcpu=cortex-m3 -mno-thumb-in"
+ 1328      20726576 
+ 1328      6973696F 
+ 1328      6E203232 
+ 1328      37393737 
+ 1329 0160 74657277 		.ascii	"terwork -mthumb -ggdb -O2 -std=gnu99 -fomit-frame-p"
+ 1329      6F726B20 
+ 1329      2D6D7468 
+ 1329      756D6220 
+ 1329      2D676764 
+ 1330 0193 6F696E74 		.ascii	"ointer -falign-functions=16 -ffunction-sections -fd"
+ 1330      6572202D 
+ 1330      66616C69 
+ 1330      676E2D66 
+ 1330      756E6374 
+ 1331 01c6 6174612D 		.ascii	"ata-sections -fno-common\000"
+ 1331      73656374 
+ 1331      696F6E73 
+ 1331      202D666E 
+ 1331      6F2D636F 
+ 1332              	.LASF10:
+ 1333 01df 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1333      206C6F6E 
+ 1333      6720756E 
+ 1333      7369676E 
+ 1333      65642069 
+ 1334              	.LASF14:
+ 1335 01f6 70685F6E 		.ascii	"ph_next\000"
+ 1335      65787400 
+ 1336              	.LASF12:
+ 1337 01fe 73697A65 		.ascii	"sizetype\000"
+ 1337      74797065 
+ 1337      00
+ 1338              	.LASF9:
+ 1339 0207 6C6F6E67 		.ascii	"long long int\000"
+ 1339      206C6F6E 
+ 1339      6720696E 
+ 1339      7400
+ 1340              	.LASF19:
+ 1341 0215 63686172 		.ascii	"char\000"
+ 1341      00
+ 1342              	.LASF13:
+ 1343 021a 6D656D67 		.ascii	"memgetfunc_t\000"
+ 1343      65746675 
+ 1343      6E635F74 
+ 1343      00
+ 1344              	.LASF17:
+ARM GAS  /tmp/ccNwNp8e.s 			page 26
 
 
- 1344      00
- 1345              	.LASF17:
- 1346 0244 6D705F70 		.ascii	"mp_provider\000"
- 1346      726F7669 
- 1346      64657200 
- 1347              	.LASF3:
- 1348 0250 73686F72 		.ascii	"short int\000"
- 1348      7420696E 
- 1348      7400
- 1349              	.LASF30:
- 1350 025a 6368506F 		.ascii	"chPoolAlloc\000"
- 1350      6F6C416C 
- 1350      6C6F6300 
- 1351              	.LASF11:
- 1352 0266 75696E74 		.ascii	"uint32_t\000"
- 1352      33325F74 
- 1352      00
- 1353              	.LASF5:
- 1354 026f 6C6F6E67 		.ascii	"long int\000"
- 1354      20696E74 
- 1354      00
- 1355              	.LASF1:
- 1356 0278 7369676E 		.ascii	"signed char\000"
- 1356      65642063 
- 1356      68617200 
- 1357              	.LASF15:
- 1358 0284 6D705F6E 		.ascii	"mp_next\000"
- 1358      65787400 
- 1359              	.LASF29:
- 1360 028c 6368506F 		.ascii	"chPoolInit\000"
- 1360      6F6C496E 
- 1360      697400
- 1361              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccGyWWFR.s 			page 27
+ 1345 0227 6D705F70 		.ascii	"mp_provider\000"
+ 1345      726F7669 
+ 1345      64657200 
+ 1346              	.LASF3:
+ 1347 0233 73686F72 		.ascii	"short int\000"
+ 1347      7420696E 
+ 1347      7400
+ 1348              	.LASF30:
+ 1349 023d 6368506F 		.ascii	"chPoolAlloc\000"
+ 1349      6F6C416C 
+ 1349      6C6F6300 
+ 1350              	.LASF11:
+ 1351 0249 75696E74 		.ascii	"uint32_t\000"
+ 1351      33325F74 
+ 1351      00
+ 1352              	.LASF5:
+ 1353 0252 6C6F6E67 		.ascii	"long int\000"
+ 1353      20696E74 
+ 1353      00
+ 1354              	.LASF1:
+ 1355 025b 7369676E 		.ascii	"signed char\000"
+ 1355      65642063 
+ 1355      68617200 
+ 1356              	.LASF15:
+ 1357 0267 6D705F6E 		.ascii	"mp_next\000"
+ 1357      65787400 
+ 1358              	.LASF29:
+ 1359 026f 6368506F 		.ascii	"chPoolInit\000"
+ 1359      6F6C496E 
+ 1359      697400
+ 1360              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
+ARM GAS  /tmp/ccNwNp8e.s 			page 27
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chmempools.c
-     /tmp/ccGyWWFR.s:19     .text.chPoolInit:00000000 $t
-     /tmp/ccGyWWFR.s:25     .text.chPoolInit:00000000 chPoolInit
-     /tmp/ccGyWWFR.s:52     .text.chPoolAllocI:00000000 $t
-     /tmp/ccGyWWFR.s:58     .text.chPoolAllocI:00000000 chPoolAllocI
-     /tmp/ccGyWWFR.s:93     .text.chPoolAlloc:00000000 $t
-     /tmp/ccGyWWFR.s:99     .text.chPoolAlloc:00000000 chPoolAlloc
-     /tmp/ccGyWWFR.s:171    .text.chPoolFreeI:00000000 $t
-     /tmp/ccGyWWFR.s:177    .text.chPoolFreeI:00000000 chPoolFreeI
-     /tmp/ccGyWWFR.s:195    .text.chPoolFree:00000000 $t
-     /tmp/ccGyWWFR.s:201    .text.chPoolFree:00000000 chPoolFree
+     /tmp/ccNwNp8e.s:19     .text.chPoolInit:00000000 $t
+     /tmp/ccNwNp8e.s:25     .text.chPoolInit:00000000 chPoolInit
+     /tmp/ccNwNp8e.s:52     .text.chPoolAllocI:00000000 $t
+     /tmp/ccNwNp8e.s:58     .text.chPoolAllocI:00000000 chPoolAllocI
+     /tmp/ccNwNp8e.s:93     .text.chPoolAlloc:00000000 $t
+     /tmp/ccNwNp8e.s:99     .text.chPoolAlloc:00000000 chPoolAlloc
+     /tmp/ccNwNp8e.s:171    .text.chPoolFreeI:00000000 $t
+     /tmp/ccNwNp8e.s:177    .text.chPoolFreeI:00000000 chPoolFreeI
+     /tmp/ccNwNp8e.s:195    .text.chPoolFree:00000000 $t
+     /tmp/ccNwNp8e.s:201    .text.chPoolFree:00000000 chPoolFree
                      .debug_frame:00000010 $d
 
 NO UNDEFINED SYMBOLS

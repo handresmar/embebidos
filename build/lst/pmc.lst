@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccCRYepJ.s 			page 1
+ARM GAS  /tmp/cceEhs83.s 			page 1
 
 
    1              		.syntax unified
@@ -27,7 +27,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
   24              		.type	PMC_EnablePeripheral, %function
   25              	PMC_EnablePeripheral:
   26              	.LFB0:
-  27              		.file 1 "../../ext/ChibiOS/os/hal/platforms/AT91SAM3S/pmc.c"
+  27              		.file 1 "ChibiOS/os/hal/platforms/AT91SAM3S/pmc.c"
   28              		.loc 1 62 0
   29              		.cfi_startproc
   30              		@ args = 0, pretend = 0, frame = 0
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
   55              		.loc 1 73 0
   56 0018 0B61     		str	r3, [r1, #16]
   57 001a 08BD     		pop	{r3, pc}
-ARM GAS  /tmp/ccCRYepJ.s 			page 2
+ARM GAS  /tmp/cceEhs83.s 			page 2
 
 
   58              	.L3:
@@ -93,7 +93,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
   87 0040 00040E40 		.word	1074660352
   88 0044 00000000 		.word	.LC0
   89 0048 00000000 		.word	.LANCHOR0
-  90 004c 34000000 		.word	.LC1
+  90 004c 2C000000 		.word	.LC1
   91              		.cfi_endproc
   92              	.LFE0:
   93              		.size	PMC_EnablePeripheral, .-PMC_EnablePeripheral
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  112              		.cfi_def_cfa_offset 8
  113              		.cfi_offset 3, -8
  114              		.cfi_offset 14, -4
-ARM GAS  /tmp/ccCRYepJ.s 			page 3
+ARM GAS  /tmp/cceEhs83.s 			page 3
 
 
  115              		.loc 1 100 0
@@ -171,14 +171,14 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  162 0040 00040E40 		.word	1074660352
  163 0044 00000000 		.word	.LC0
  164 0048 00000000 		.word	.LANCHOR1
- 165 004c 34000000 		.word	.LC1
+ 165 004c 2C000000 		.word	.LC1
  166              		.cfi_endproc
  167              	.LFE1:
  168              		.size	PMC_DisablePeripheral, .-PMC_DisablePeripheral
  169              		.section	.text.PMC_EnableAllPeripherals,"ax",%progbits
  170              		.align	2
  171              		.p2align 4,,15
-ARM GAS  /tmp/ccCRYepJ.s 			page 4
+ARM GAS  /tmp/cceEhs83.s 			page 4
 
 
  172              		.global	PMC_EnableAllPeripherals
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  226              		.cfi_startproc
  227              		@ args = 0, pretend = 0, frame = 0
  228              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/ccCRYepJ.s 			page 5
+ARM GAS  /tmp/cceEhs83.s 			page 5
 
 
  229              		@ link register save eliminated.
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  283              		.loc 1 162 0
  284 0004 10D8     		bhi	.L38
  285              		.loc 1 164 0
-ARM GAS  /tmp/ccCRYepJ.s 			page 6
+ARM GAS  /tmp/cceEhs83.s 			page 6
 
 
  286 0006 1F28     		cmp	r0, #31
@@ -341,7 +341,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  323 0034 00040E40 		.word	1074660352
  324 0038 00000000 		.word	.LC0
  325 003c 00000000 		.word	.LANCHOR2
- 326 0040 34000000 		.word	.LC1
+ 326 0040 2C000000 		.word	.LC1
  327              		.cfi_endproc
  328              	.LFE4:
  329              		.size	PMC_IsPeriphEnabled, .-PMC_IsPeriphEnabled
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  340              		.cfi_startproc
  341              		@ args = 0, pretend = 0, frame = 0
  342              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/ccCRYepJ.s 			page 7
+ARM GAS  /tmp/cceEhs83.s 			page 7
 
 
  343              		@ link register save eliminated.
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  397              	.LVL24:
  398 0036 2163     		str	r1, [r4, #48]
  399              		.loc 1 192 0
-ARM GAS  /tmp/ccCRYepJ.s 			page 8
+ARM GAS  /tmp/cceEhs83.s 			page 8
 
 
  400 0038 02E0     		b	.L50
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  454              	.LVL34:
  455              	.L52:
  456              		.loc 1 204 0 is_stmt 1
-ARM GAS  /tmp/ccCRYepJ.s 			page 9
+ARM GAS  /tmp/cceEhs83.s 			page 9
 
 
  457 0068 0849     		ldr	r1, .L65
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  511 0000 084B     		ldr	r3, .L72
  512              		.loc 1 213 0
  513 0002 30B4     		push	{r4, r5}
-ARM GAS  /tmp/ccCRYepJ.s 			page 10
+ARM GAS  /tmp/cceEhs83.s 			page 10
 
 
  514              		.cfi_def_cfa_offset 8
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  568 0000 054B     		ldr	r3, .L79
  569 0002 064A     		ldr	r2, .L79+4
  570              		.loc 1 235 0
-ARM GAS  /tmp/ccCRYepJ.s 			page 11
+ARM GAS  /tmp/cceEhs83.s 			page 11
 
 
  571 0004 1946     		mov	r1, r3
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  625 000c 1440     		ands	r4, r4, r2
  626 000e 43F4F853 		orr	r3, r3, #7936
  627 0012 124A     		ldr	r2, .L96+4
-ARM GAS  /tmp/ccCRYepJ.s 			page 12
+ARM GAS  /tmp/cceEhs83.s 			page 12
 
 
  628 0014 2343     		orrs	r3, r3, r4
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  682              		.align	2
  683              	.L96:
  684 0058 0000FF07 		.word	134152192
-ARM GAS  /tmp/ccCRYepJ.s 			page 13
+ARM GAS  /tmp/cceEhs83.s 			page 13
 
 
  685 005c 00040E40 		.word	1074660352
@@ -761,24 +761,24 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  710              		.section	.rodata.str1.4,"aMS",%progbits,1
  711              		.align	2
  712              	.LC0:
- 713 0000 2E2E2F2E 		.ascii	"../../ext/ChibiOS/os/hal/platforms/AT91SAM3S/pmc.c\000"
- 713      2E2F6578 
- 713      742F4368 
- 713      6962694F 
- 713      532F6F73 
- 714 0033 00       		.space	1
+ 713 0000 43686962 		.ascii	"ChibiOS/os/hal/platforms/AT91SAM3S/pmc.c\000"
+ 713      694F532F 
+ 713      6F732F68 
+ 713      616C2F70 
+ 713      6C617466 
+ 714 0029 000000   		.space	3
  715              	.LC1:
- 716 0034 64774964 		.ascii	"dwId < 35\000"
+ 716 002c 64774964 		.ascii	"dwId < 35\000"
  716      203C2033 
  716      3500
  717              		.text
  718              	.Letext0:
  719              		.file 2 "/home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/machine/
  720              		.file 3 "/home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/_std
- 721              		.file 4 "../../ext/ChibiOS/os/hal/platforms/AT91SAM3S/at91lib/SAM3S.h"
+ 721              		.file 4 "ChibiOS/os/hal/platforms/AT91SAM3S/at91lib/SAM3S.h"
  722              		.file 5 "/home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/assert.h
  723              		.section	.debug_info,"",%progbits
-ARM GAS  /tmp/ccCRYepJ.s 			page 14
+ARM GAS  /tmp/cceEhs83.s 			page 14
 
 
  724              	.Ldebug_info0:
@@ -787,26 +787,26 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  727 0006 00000000 		.4byte	.Ldebug_abbrev0
  728 000a 04       		.byte	0x4
  729 000b 01       		.uleb128 0x1
- 730 000c 7A010000 		.4byte	.LASF68
+ 730 000c A2010000 		.4byte	.LASF68
  731 0010 01       		.byte	0x1
- 732 0011 A9030000 		.4byte	.LASF69
- 733 0015 D8020000 		.4byte	.LASF70
+ 732 0011 61030000 		.4byte	.LASF69
+ 733 0015 44000000 		.4byte	.LASF70
  734 0019 00000000 		.4byte	.Ldebug_ranges0+0
  735 001d 00000000 		.4byte	0
  736 0021 00000000 		.4byte	.Ldebug_line0
  737 0025 02       		.uleb128 0x2
  738 0026 01       		.byte	0x1
  739 0027 06       		.byte	0x6
- 740 0028 9F020000 		.4byte	.LASF0
+ 740 0028 C7020000 		.4byte	.LASF0
  741 002c 03       		.uleb128 0x3
- 742 002d 58010000 		.4byte	.LASF5
+ 742 002d 80010000 		.4byte	.LASF5
  743 0031 02       		.byte	0x2
  744 0032 1D       		.byte	0x1d
  745 0033 37000000 		.4byte	0x37
  746 0037 02       		.uleb128 0x2
  747 0038 01       		.byte	0x1
  748 0039 08       		.byte	0x8
- 749 003a 6D020000 		.4byte	.LASF1
+ 749 003a 95020000 		.4byte	.LASF1
  750 003e 02       		.uleb128 0x2
  751 003f 02       		.byte	0x2
  752 0040 05       		.byte	0x5
@@ -814,31 +814,31 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  754 0045 02       		.uleb128 0x2
  755 0046 02       		.byte	0x2
  756 0047 07       		.byte	0x7
- 757 0048 3D030000 		.4byte	.LASF3
+ 757 0048 34030000 		.4byte	.LASF3
  758 004c 02       		.uleb128 0x2
  759 004d 04       		.byte	0x4
  760 004e 05       		.byte	0x5
- 761 004f 4F010000 		.4byte	.LASF4
+ 761 004f 77010000 		.4byte	.LASF4
  762 0053 03       		.uleb128 0x3
- 763 0054 69000000 		.4byte	.LASF6
+ 763 0054 91000000 		.4byte	.LASF6
  764 0058 02       		.byte	0x2
  765 0059 41       		.byte	0x41
  766 005a 5E000000 		.4byte	0x5e
  767 005e 02       		.uleb128 0x2
  768 005f 04       		.byte	0x4
  769 0060 07       		.byte	0x7
- 770 0061 DC030000 		.4byte	.LASF7
+ 770 0061 C9030000 		.4byte	.LASF7
  771 0065 02       		.uleb128 0x2
  772 0066 08       		.byte	0x8
  773 0067 05       		.byte	0x5
- 774 0068 24010000 		.4byte	.LASF8
+ 774 0068 4C010000 		.4byte	.LASF8
  775 006c 02       		.uleb128 0x2
  776 006d 08       		.byte	0x8
  777 006e 07       		.byte	0x7
- 778 006f AB020000 		.4byte	.LASF9
+ 778 006f D3020000 		.4byte	.LASF9
  779 0073 04       		.uleb128 0x4
  780 0074 04       		.byte	0x4
-ARM GAS  /tmp/ccCRYepJ.s 			page 15
+ARM GAS  /tmp/cceEhs83.s 			page 15
 
 
  781 0075 05       		.byte	0x5
@@ -846,19 +846,19 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  783 007a 02       		.uleb128 0x2
  784 007b 04       		.byte	0x4
  785 007c 07       		.byte	0x7
- 786 007d CB020000 		.4byte	.LASF10
+ 786 007d F3020000 		.4byte	.LASF10
  787 0081 03       		.uleb128 0x3
- 788 0082 AB000000 		.4byte	.LASF11
+ 788 0082 D3000000 		.4byte	.LASF11
  789 0086 03       		.byte	0x3
  790 0087 14       		.byte	0x14
  791 0088 2C000000 		.4byte	0x2c
  792 008c 03       		.uleb128 0x3
- 793 008d C2020000 		.4byte	.LASF12
+ 793 008d EA020000 		.4byte	.LASF12
  794 0091 03       		.byte	0x3
  795 0092 20       		.byte	0x20
  796 0093 53000000 		.4byte	0x53
  797 0097 03       		.uleb128 0x3
- 798 0098 67020000 		.4byte	.LASF13
+ 798 0098 8F020000 		.4byte	.LASF13
  799 009c 04       		.byte	0x4
  800 009d 35       		.byte	0x35
  801 009e A2000000 		.4byte	0xa2
@@ -867,14 +867,14 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  804 00a7 06       		.uleb128 0x6
  805 00a8 8C000000 		.4byte	0x8c
  806 00ac 03       		.uleb128 0x3
- 807 00ad 88000000 		.4byte	.LASF14
+ 807 00ad B0000000 		.4byte	.LASF14
  808 00b1 04       		.byte	0x4
  809 00b2 39       		.byte	0x39
  810 00b3 B7000000 		.4byte	0xb7
  811 00b7 06       		.uleb128 0x6
  812 00b8 8C000000 		.4byte	0x8c
  813 00bc 03       		.uleb128 0x3
- 814 00bd 99020000 		.4byte	.LASF15
+ 814 00bd C1020000 		.4byte	.LASF15
  815 00c1 04       		.byte	0x4
  816 00c2 3A       		.byte	0x3a
  817 00c3 B7000000 		.4byte	0xb7
@@ -898,20 +898,20 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  835 00ed 00       		.byte	0
  836 00ee 09       		.uleb128 0x9
  837 00ef 1401     		.2byte	0x114
-ARM GAS  /tmp/ccCRYepJ.s 			page 16
+ARM GAS  /tmp/cceEhs83.s 			page 16
 
 
  838 00f1 04       		.byte	0x4
  839 00f2 3F0D     		.2byte	0xd3f
  840 00f4 B8020000 		.4byte	0x2b8
  841 00f8 0A       		.uleb128 0xa
- 842 00f9 80030000 		.4byte	.LASF17
+ 842 00f9 A0030000 		.4byte	.LASF17
  843 00fd 04       		.byte	0x4
  844 00fe 400D     		.2byte	0xd40
  845 0100 AC000000 		.4byte	0xac
  846 0104 00       		.byte	0
  847 0105 0A       		.uleb128 0xa
- 848 0106 5E040000 		.4byte	.LASF18
+ 848 0106 41040000 		.4byte	.LASF18
  849 010a 04       		.byte	0x4
  850 010b 410D     		.2byte	0xd41
  851 010d AC000000 		.4byte	0xac
@@ -923,102 +923,102 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  857 011a 97000000 		.4byte	0x97
  858 011e 08       		.byte	0x8
  859 011f 0A       		.uleb128 0xa
- 860 0120 97000000 		.4byte	.LASF20
+ 860 0120 BF000000 		.4byte	.LASF20
  861 0124 04       		.byte	0x4
  862 0125 430D     		.2byte	0xd43
  863 0127 B8020000 		.4byte	0x2b8
  864 012b 0C       		.byte	0xc
  865 012c 0A       		.uleb128 0xa
- 866 012d 74000000 		.4byte	.LASF21
+ 866 012d 9C000000 		.4byte	.LASF21
  867 0131 04       		.byte	0x4
  868 0132 440D     		.2byte	0xd44
  869 0134 AC000000 		.4byte	0xac
  870 0138 10       		.byte	0x10
  871 0139 0A       		.uleb128 0xa
- 872 013a 08010000 		.4byte	.LASF22
+ 872 013a 30010000 		.4byte	.LASF22
  873 013e 04       		.byte	0x4
  874 013f 450D     		.2byte	0xd45
  875 0141 AC000000 		.4byte	0xac
  876 0145 14       		.byte	0x14
  877 0146 0A       		.uleb128 0xa
- 878 0147 3E040000 		.4byte	.LASF23
+ 878 0147 00030000 		.4byte	.LASF23
  879 014b 04       		.byte	0x4
  880 014c 460D     		.2byte	0xd46
  881 014e 97000000 		.4byte	0x97
  882 0152 18       		.byte	0x18
  883 0153 0A       		.uleb128 0xa
- 884 0154 A1000000 		.4byte	.LASF24
+ 884 0154 C9000000 		.4byte	.LASF24
  885 0158 04       		.byte	0x4
  886 0159 470D     		.2byte	0xd47
  887 015b BD020000 		.4byte	0x2bd
  888 015f 1C       		.byte	0x1c
  889 0160 0A       		.uleb128 0xa
- 890 0161 E5000000 		.4byte	.LASF25
+ 890 0161 0D010000 		.4byte	.LASF25
  891 0165 04       		.byte	0x4
  892 0166 480D     		.2byte	0xd48
  893 0168 BC000000 		.4byte	0xbc
  894 016c 20       		.byte	0x20
-ARM GAS  /tmp/ccCRYepJ.s 			page 17
+ARM GAS  /tmp/cceEhs83.s 			page 17
 
 
  895 016d 0A       		.uleb128 0xa
- 896 016e 0D040000 		.4byte	.LASF26
+ 896 016e FA030000 		.4byte	.LASF26
  897 0172 04       		.byte	0x4
  898 0173 490D     		.2byte	0xd49
  899 0175 97000000 		.4byte	0x97
  900 0179 24       		.byte	0x24
  901 017a 0A       		.uleb128 0xa
- 902 017b 75030000 		.4byte	.LASF27
+ 902 017b 95030000 		.4byte	.LASF27
  903 017f 04       		.byte	0x4
  904 0180 4A0D     		.2byte	0xd4a
  905 0182 BC000000 		.4byte	0xbc
  906 0186 28       		.byte	0x28
  907 0187 0A       		.uleb128 0xa
- 908 0188 67040000 		.4byte	.LASF28
+ 908 0188 4A040000 		.4byte	.LASF28
  909 018c 04       		.byte	0x4
  910 018d 4B0D     		.2byte	0xd4b
  911 018f BC000000 		.4byte	0xbc
  912 0193 2C       		.byte	0x2c
  913 0194 0A       		.uleb128 0xa
- 914 0195 32010000 		.4byte	.LASF29
+ 914 0195 5A010000 		.4byte	.LASF29
  915 0199 04       		.byte	0x4
  916 019a 4C0D     		.2byte	0xd4c
  917 019c BC000000 		.4byte	0xbc
  918 01a0 30       		.byte	0x30
  919 01a1 0A       		.uleb128 0xa
- 920 01a2 EE030000 		.4byte	.LASF30
+ 920 01a2 DB030000 		.4byte	.LASF30
  921 01a6 04       		.byte	0x4
  922 01a7 4D0D     		.2byte	0xd4d
  923 01a9 C2020000 		.4byte	0x2c2
  924 01ad 34       		.byte	0x34
  925 01ae 0A       		.uleb128 0xa
- 926 01af 2C030000 		.4byte	.LASF31
+ 926 01af 23030000 		.4byte	.LASF31
  927 01b3 04       		.byte	0x4
  928 01b4 4E0D     		.2byte	0xd4e
  929 01b6 BC000000 		.4byte	0xbc
  930 01ba 38       		.byte	0x38
  931 01bb 0A       		.uleb128 0xa
- 932 01bc B3000000 		.4byte	.LASF32
+ 932 01bc DB000000 		.4byte	.LASF32
  933 01c0 04       		.byte	0x4
  934 01c1 4F0D     		.2byte	0xd4f
  935 01c3 C7020000 		.4byte	0x2c7
  936 01c7 3C       		.byte	0x3c
  937 01c8 0A       		.uleb128 0xa
- 938 01c9 56040000 		.4byte	.LASF33
+ 938 01c9 39040000 		.4byte	.LASF33
  939 01cd 04       		.byte	0x4
  940 01ce 500D     		.2byte	0xd50
  941 01d0 DC020000 		.4byte	0x2dc
  942 01d4 40       		.byte	0x40
  943 01d5 0A       		.uleb128 0xa
- 944 01d6 BD000000 		.4byte	.LASF34
+ 944 01d6 E5000000 		.4byte	.LASF34
  945 01da 04       		.byte	0x4
  946 01db 510D     		.2byte	0xd51
  947 01dd E1020000 		.4byte	0x2e1
  948 01e1 4C       		.byte	0x4c
  949 01e2 0A       		.uleb128 0xa
- 950 01e3 1C010000 		.4byte	.LASF35
+ 950 01e3 44010000 		.4byte	.LASF35
  951 01e7 04       		.byte	0x4
-ARM GAS  /tmp/ccCRYepJ.s 			page 18
+ARM GAS  /tmp/cceEhs83.s 			page 18
 
 
  952 01e8 520D     		.2byte	0xd52
@@ -1031,19 +1031,19 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  959 01f7 AC000000 		.4byte	0xac
  960 01fb 64       		.byte	0x64
  961 01fc 0A       		.uleb128 0xa
- 962 01fd 50030000 		.4byte	.LASF37
+ 962 01fd 47030000 		.4byte	.LASF37
  963 0201 04       		.byte	0x4
  964 0202 540D     		.2byte	0xd54
  965 0204 97000000 		.4byte	0x97
  966 0208 68       		.byte	0x68
  967 0209 0A       		.uleb128 0xa
- 968 020a 5F020000 		.4byte	.LASF38
+ 968 020a 87020000 		.4byte	.LASF38
  969 020e 04       		.byte	0x4
  970 020f 550D     		.2byte	0xd55
  971 0211 97000000 		.4byte	0x97
  972 0215 6C       		.byte	0x6c
  973 0216 0A       		.uleb128 0xa
- 974 0217 8E000000 		.4byte	.LASF39
+ 974 0217 B6000000 		.4byte	.LASF39
  975 021b 04       		.byte	0x4
  976 021c 560D     		.2byte	0xd56
  977 021e BC000000 		.4byte	0xbc
@@ -1061,52 +1061,52 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  989 0238 AC000000 		.4byte	0xac
  990 023c 78       		.byte	0x78
  991 023d 0A       		.uleb128 0xa
- 992 023e C7000000 		.4byte	.LASF42
+ 992 023e EF000000 		.4byte	.LASF42
  993 0242 04       		.byte	0x4
  994 0243 590D     		.2byte	0xd59
  995 0245 F6020000 		.4byte	0x2f6
  996 0249 7C       		.byte	0x7c
  997 024a 0A       		.uleb128 0xa
- 998 024b 7B020000 		.4byte	.LASF43
+ 998 024b A3020000 		.4byte	.LASF43
  999 024f 04       		.byte	0x4
  1000 0250 5A0D     		.2byte	0xd5a
  1001 0252 BC000000 		.4byte	0xbc
  1002 0256 E4       		.byte	0xe4
  1003 0257 0A       		.uleb128 0xa
- 1004 0258 23030000 		.4byte	.LASF44
+ 1004 0258 1A030000 		.4byte	.LASF44
  1005 025c 04       		.byte	0x4
  1006 025d 5B0D     		.2byte	0xd5b
  1007 025f 97000000 		.4byte	0x97
  1008 0263 E8       		.byte	0xe8
-ARM GAS  /tmp/ccCRYepJ.s 			page 19
+ARM GAS  /tmp/cceEhs83.s 			page 19
 
 
  1009 0264 0A       		.uleb128 0xa
- 1010 0265 D1000000 		.4byte	.LASF45
+ 1010 0265 F9000000 		.4byte	.LASF45
  1011 0269 04       		.byte	0x4
  1012 026a 5C0D     		.2byte	0xd5c
  1013 026c FB020000 		.4byte	0x2fb
  1014 0270 EC       		.byte	0xec
  1015 0271 0B       		.uleb128 0xb
- 1016 0272 7E000000 		.4byte	.LASF46
+ 1016 0272 A6000000 		.4byte	.LASF46
  1017 0276 04       		.byte	0x4
  1018 0277 5D0D     		.2byte	0xd5d
  1019 0279 AC000000 		.4byte	0xac
  1020 027d 0001     		.2byte	0x100
  1021 027f 0B       		.uleb128 0xb
- 1022 0280 12010000 		.4byte	.LASF47
+ 1022 0280 3A010000 		.4byte	.LASF47
  1023 0284 04       		.byte	0x4
  1024 0285 5E0D     		.2byte	0xd5e
  1025 0287 AC000000 		.4byte	0xac
  1026 028b 0401     		.2byte	0x104
  1027 028d 0B       		.uleb128 0xb
- 1028 028e 13030000 		.4byte	.LASF48
+ 1028 028e 0A030000 		.4byte	.LASF48
  1029 0292 04       		.byte	0x4
  1030 0293 5F0D     		.2byte	0xd5f
  1031 0295 97000000 		.4byte	0x97
  1032 0299 0801     		.2byte	0x108
  1033 029b 0B       		.uleb128 0xb
- 1034 029c DB000000 		.4byte	.LASF49
+ 1034 029c 03010000 		.4byte	.LASF49
  1035 02a0 04       		.byte	0x4
  1036 02a1 600D     		.2byte	0xd60
  1037 02a3 00030000 		.4byte	0x300
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  1063 02e1 06       		.uleb128 0x6
  1064 02e2 DE000000 		.4byte	0xde
  1065 02e6 07       		.uleb128 0x7
-ARM GAS  /tmp/ccCRYepJ.s 			page 20
+ARM GAS  /tmp/cceEhs83.s 			page 20
 
 
  1066 02e7 BC000000 		.4byte	0xbc
@@ -1159,7 +1159,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  1081 030b 620D     		.2byte	0xd62
  1082 030d EE000000 		.4byte	0xee
  1083 0311 0D       		.uleb128 0xd
- 1084 0312 F8030000 		.4byte	.LASF52
+ 1084 0312 E5030000 		.4byte	.LASF52
  1085 0316 01       		.byte	0x1
  1086 0317 3D       		.byte	0x3d
  1087 0318 00000000 		.4byte	.LFB0
@@ -1168,13 +1168,13 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  1090 0321 9C       		.byte	0x9c
  1091 0322 70030000 		.4byte	0x370
  1092 0326 0E       		.uleb128 0xe
- 1093 0327 70030000 		.4byte	.LASF54
+ 1093 0327 90030000 		.4byte	.LASF54
  1094 032b 01       		.byte	0x1
  1095 032c 3D       		.byte	0x3d
  1096 032d 8C000000 		.4byte	0x8c
  1097 0331 00000000 		.4byte	.LLST0
  1098 0335 0F       		.uleb128 0xf
- 1099 0336 34030000 		.4byte	.LASF55
+ 1099 0336 2B030000 		.4byte	.LASF55
  1100 033a 87030000 		.4byte	0x387
  1101 033e 05       		.uleb128 0x5
  1102 033f 03       		.byte	0x3
@@ -1187,7 +1187,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  1109 034f 53       		.byte	0x53
  1110 0350 05       		.uleb128 0x5
  1111 0351 03       		.byte	0x3
- 1112 0352 34000000 		.4byte	.LC1
+ 1112 0352 2C000000 		.4byte	.LC1
  1113 0356 11       		.uleb128 0x11
  1114 0357 01       		.uleb128 0x1
  1115 0358 52       		.byte	0x52
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  1120 0360 01       		.uleb128 0x1
  1121 0361 51       		.byte	0x51
  1122 0362 02       		.uleb128 0x2
-ARM GAS  /tmp/ccCRYepJ.s 			page 21
+ARM GAS  /tmp/cceEhs83.s 			page 21
 
 
  1123 0363 08       		.byte	0x8
@@ -1221,11 +1221,11 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  1140 0380 02       		.uleb128 0x2
  1141 0381 01       		.byte	0x1
  1142 0382 08       		.byte	0x8
- 1143 0383 57030000 		.4byte	.LASF51
+ 1143 0383 4E030000 		.4byte	.LASF51
  1144 0387 05       		.uleb128 0x5
  1145 0388 70030000 		.4byte	0x370
  1146 038c 0D       		.uleb128 0xd
- 1147 038d 89030000 		.4byte	.LASF53
+ 1147 038d A9030000 		.4byte	.LASF53
  1148 0391 01       		.byte	0x1
  1149 0392 62       		.byte	0x62
  1150 0393 00000000 		.4byte	.LFB1
@@ -1234,13 +1234,13 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  1153 039c 9C       		.byte	0x9c
  1154 039d EB030000 		.4byte	0x3eb
  1155 03a1 0E       		.uleb128 0xe
- 1156 03a2 70030000 		.4byte	.LASF54
+ 1156 03a2 90030000 		.4byte	.LASF54
  1157 03a6 01       		.byte	0x1
  1158 03a7 62       		.byte	0x62
  1159 03a8 8C000000 		.4byte	0x8c
  1160 03ac 39000000 		.4byte	.LLST1
  1161 03b0 0F       		.uleb128 0xf
- 1162 03b1 34030000 		.4byte	.LASF55
+ 1162 03b1 2B030000 		.4byte	.LASF55
  1163 03b5 FB030000 		.4byte	0x3fb
  1164 03b9 05       		.uleb128 0x5
  1165 03ba 03       		.byte	0x3
@@ -1253,12 +1253,12 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  1172 03ca 53       		.byte	0x53
  1173 03cb 05       		.uleb128 0x5
  1174 03cc 03       		.byte	0x3
- 1175 03cd 34000000 		.4byte	.LC1
+ 1175 03cd 2C000000 		.4byte	.LC1
  1176 03d1 11       		.uleb128 0x11
  1177 03d2 01       		.uleb128 0x1
  1178 03d3 52       		.byte	0x52
  1179 03d4 05       		.uleb128 0x5
-ARM GAS  /tmp/ccCRYepJ.s 			page 22
+ARM GAS  /tmp/cceEhs83.s 			page 22
 
 
  1180 03d5 03       		.byte	0x3
@@ -1287,7 +1287,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  1203 03fb 05       		.uleb128 0x5
  1204 03fc EB030000 		.4byte	0x3eb
  1205 0400 12       		.uleb128 0x12
- 1206 0401 50000000 		.4byte	.LASF56
+ 1206 0401 78000000 		.4byte	.LASF56
  1207 0405 01       		.byte	0x1
  1208 0406 82       		.byte	0x82
  1209 0407 00000000 		.4byte	.LFB2
@@ -1295,7 +1295,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  1211 040f 01       		.uleb128 0x1
  1212 0410 9C       		.byte	0x9c
  1213 0411 12       		.uleb128 0x12
- 1214 0412 EE000000 		.4byte	.LASF57
+ 1214 0412 16010000 		.4byte	.LASF57
  1215 0416 01       		.byte	0x1
  1216 0417 90       		.byte	0x90
  1217 0418 00000000 		.4byte	.LFB3
@@ -1303,7 +1303,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  1219 0420 01       		.uleb128 0x1
  1220 0421 9C       		.byte	0x9c
  1221 0422 13       		.uleb128 0x13
- 1222 0423 3B010000 		.4byte	.LASF71
+ 1222 0423 63010000 		.4byte	.LASF71
  1223 0427 01       		.byte	0x1
  1224 0428 A0       		.byte	0xa0
  1225 0429 8C000000 		.4byte	0x8c
@@ -1313,16 +1313,16 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  1229 0436 9C       		.byte	0x9c
  1230 0437 85040000 		.4byte	0x485
  1231 043b 0E       		.uleb128 0xe
- 1232 043c 70030000 		.4byte	.LASF54
+ 1232 043c 90030000 		.4byte	.LASF54
  1233 0440 01       		.byte	0x1
  1234 0441 A0       		.byte	0xa0
  1235 0442 8C000000 		.4byte	0x8c
  1236 0446 72000000 		.4byte	.LLST2
-ARM GAS  /tmp/ccCRYepJ.s 			page 23
+ARM GAS  /tmp/cceEhs83.s 			page 23
 
 
  1237 044a 0F       		.uleb128 0xf
- 1238 044b 34030000 		.4byte	.LASF55
+ 1238 044b 2B030000 		.4byte	.LASF55
  1239 044f 95040000 		.4byte	0x495
  1240 0453 05       		.uleb128 0x5
  1241 0454 03       		.byte	0x3
@@ -1335,7 +1335,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  1248 0464 53       		.byte	0x53
  1249 0465 05       		.uleb128 0x5
  1250 0466 03       		.byte	0x3
- 1251 0467 34000000 		.4byte	.LC1
+ 1251 0467 2C000000 		.4byte	.LC1
  1252 046b 11       		.uleb128 0x11
  1253 046c 01       		.uleb128 0x1
  1254 046d 52       		.byte	0x52
@@ -1366,7 +1366,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  1279 0495 05       		.uleb128 0x5
  1280 0496 85040000 		.4byte	0x485
  1281 049a 0D       		.uleb128 0xd
- 1282 049b 62010000 		.4byte	.LASF58
+ 1282 049b 8A010000 		.4byte	.LASF58
  1283 049f 01       		.byte	0x1
  1284 04a0 AE       		.byte	0xae
  1285 04a1 00000000 		.4byte	.LFB5
@@ -1375,29 +1375,29 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  1288 04aa 9C       		.byte	0x9c
  1289 04ab DD040000 		.4byte	0x4dd
  1290 04af 0E       		.uleb128 0xe
- 1291 04b0 5C030000 		.4byte	.LASF59
+ 1291 04b0 53030000 		.4byte	.LASF59
  1292 04b4 01       		.byte	0x1
  1293 04b5 AE       		.byte	0xae
-ARM GAS  /tmp/ccCRYepJ.s 			page 24
+ARM GAS  /tmp/cceEhs83.s 			page 24
 
 
  1294 04b6 8C000000 		.4byte	0x8c
  1295 04ba D2000000 		.4byte	.LLST3
  1296 04be 0E       		.uleb128 0xe
- 1297 04bf 44000000 		.4byte	.LASF60
+ 1297 04bf 6C000000 		.4byte	.LASF60
  1298 04c3 01       		.byte	0x1
  1299 04c4 AE       		.byte	0xae
  1300 04c5 8C000000 		.4byte	0x8c
  1301 04c9 0C010000 		.4byte	.LLST4
  1302 04cd 14       		.uleb128 0x14
- 1303 04ce 9F030000 		.4byte	.LASF63
+ 1303 04ce BF030000 		.4byte	.LASF63
  1304 04d2 01       		.byte	0x1
  1305 04d3 B0       		.byte	0xb0
  1306 04d4 8C000000 		.4byte	0x8c
  1307 04d8 46010000 		.4byte	.LLST5
  1308 04dc 00       		.byte	0
  1309 04dd 0D       		.uleb128 0xd
- 1310 04de 31040000 		.4byte	.LASF61
+ 1310 04de 1E040000 		.4byte	.LASF61
  1311 04e2 01       		.byte	0x1
  1312 04e3 D4       		.byte	0xd4
  1313 04e4 00000000 		.4byte	.LFB6
@@ -1406,21 +1406,21 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  1316 04ed 9C       		.byte	0x9c
  1317 04ee 0F050000 		.4byte	0x50f
  1318 04f2 15       		.uleb128 0x15
- 1319 04f3 5C030000 		.4byte	.LASF59
+ 1319 04f3 53030000 		.4byte	.LASF59
  1320 04f7 01       		.byte	0x1
  1321 04f8 D4       		.byte	0xd4
  1322 04f9 8C000000 		.4byte	0x8c
  1323 04fd 01       		.uleb128 0x1
  1324 04fe 50       		.byte	0x50
  1325 04ff 0E       		.uleb128 0xe
- 1326 0500 44000000 		.4byte	.LASF60
+ 1326 0500 6C000000 		.4byte	.LASF60
  1327 0504 01       		.byte	0x1
  1328 0505 D4       		.byte	0xd4
  1329 0506 8C000000 		.4byte	0x8c
  1330 050a 08020000 		.4byte	.LLST6
  1331 050e 00       		.byte	0
  1332 050f 0D       		.uleb128 0xd
- 1333 0510 17040000 		.4byte	.LASF62
+ 1333 0510 04040000 		.4byte	.LASF62
  1334 0514 01       		.byte	0x1
  1335 0515 E3       		.byte	0xe3
  1336 0516 00000000 		.4byte	.LFB7
@@ -1429,16 +1429,16 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  1339 051f 9C       		.byte	0x9c
  1340 0520 34050000 		.4byte	0x534
  1341 0524 14       		.uleb128 0x14
- 1342 0525 9F030000 		.4byte	.LASF63
+ 1342 0525 BF030000 		.4byte	.LASF63
  1343 0529 01       		.byte	0x1
  1344 052a E5       		.byte	0xe5
  1345 052b 8C000000 		.4byte	0x8c
  1346 052f 29020000 		.4byte	.LLST7
  1347 0533 00       		.byte	0
  1348 0534 0D       		.uleb128 0xd
- 1349 0535 84020000 		.4byte	.LASF64
+ 1349 0535 AC020000 		.4byte	.LASF64
  1350 0539 01       		.byte	0x1
-ARM GAS  /tmp/ccCRYepJ.s 			page 25
+ARM GAS  /tmp/cceEhs83.s 			page 25
 
 
  1351 053a EF       		.byte	0xef
@@ -1455,27 +1455,27 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  1362 0554 01       		.uleb128 0x1
  1363 0555 50       		.byte	0x50
  1364 0556 15       		.uleb128 0x15
- 1365 0557 6A030000 		.4byte	.LASF66
+ 1365 0557 8A030000 		.4byte	.LASF66
  1366 055b 01       		.byte	0x1
  1367 055c EF       		.byte	0xef
  1368 055d 8C000000 		.4byte	0x8c
  1369 0561 01       		.uleb128 0x1
  1370 0562 51       		.byte	0x51
  1371 0563 15       		.uleb128 0x15
- 1372 0564 1D030000 		.4byte	.LASF67
+ 1372 0564 14030000 		.4byte	.LASF67
  1373 0568 01       		.byte	0x1
  1374 0569 EF       		.byte	0xef
  1375 056a 8C000000 		.4byte	0x8c
  1376 056e 01       		.uleb128 0x1
  1377 056f 52       		.byte	0x52
  1378 0570 16       		.uleb128 0x16
- 1379 0571 9F030000 		.4byte	.LASF63
+ 1379 0571 BF030000 		.4byte	.LASF63
  1380 0575 01       		.byte	0x1
  1381 0576 F1       		.byte	0xf1
  1382 0577 8C000000 		.4byte	0x8c
  1383 057b 00       		.byte	0
  1384 057c 17       		.uleb128 0x17
- 1385 057d 48040000 		.4byte	.LASF72
+ 1385 057d 2B040000 		.4byte	.LASF72
  1386 0581 05       		.byte	0x5
  1387 0582 29       		.byte	0x29
  1388 0583 9C050000 		.4byte	0x59c
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  1405              	.Ldebug_abbrev0:
  1406 0000 01       		.uleb128 0x1
  1407 0001 11       		.uleb128 0x11
-ARM GAS  /tmp/ccCRYepJ.s 			page 26
+ARM GAS  /tmp/cceEhs83.s 			page 26
 
 
  1408 0002 01       		.byte	0x1
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  1462 0038 00       		.byte	0
  1463 0039 49       		.uleb128 0x49
  1464 003a 13       		.uleb128 0x13
-ARM GAS  /tmp/ccCRYepJ.s 			page 27
+ARM GAS  /tmp/cceEhs83.s 			page 27
 
 
  1465 003b 00       		.byte	0
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  1519 0071 00       		.byte	0
  1520 0072 0B       		.uleb128 0xb
  1521 0073 0D       		.uleb128 0xd
-ARM GAS  /tmp/ccCRYepJ.s 			page 28
+ARM GAS  /tmp/cceEhs83.s 			page 28
 
 
  1522 0074 00       		.byte	0
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  1576 00ab 03       		.uleb128 0x3
  1577 00ac 0E       		.uleb128 0xe
  1578 00ad 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccCRYepJ.s 			page 29
+ARM GAS  /tmp/cceEhs83.s 			page 29
 
 
  1579 00ae 0B       		.uleb128 0xb
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  1633 00e9 01       		.uleb128 0x1
  1634 00ea 12       		.uleb128 0x12
  1635 00eb 06       		.uleb128 0x6
-ARM GAS  /tmp/ccCRYepJ.s 			page 30
+ARM GAS  /tmp/cceEhs83.s 			page 30
 
 
  1636 00ec 40       		.uleb128 0x40
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  1690 0124 0B       		.uleb128 0xb
  1691 0125 3B       		.uleb128 0x3b
  1692 0126 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccCRYepJ.s 			page 31
+ARM GAS  /tmp/cceEhs83.s 			page 31
 
 
  1693 0127 49       		.uleb128 0x49
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  1747 015d 00       		.byte	0
  1748              		.section	.debug_loc,"",%progbits
  1749              	.Ldebug_loc0:
-ARM GAS  /tmp/ccCRYepJ.s 			page 32
+ARM GAS  /tmp/cceEhs83.s 			page 32
 
 
  1750              	.LLST0:
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  1804 0081 18000000 		.4byte	.LVL12
  1805 0085 0300     		.2byte	0x3
  1806 0087 70       		.byte	0x70
-ARM GAS  /tmp/ccCRYepJ.s 			page 33
+ARM GAS  /tmp/cceEhs83.s 			page 33
 
 
  1807 0088 20       		.sleb128 32
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  1861 0102 50       		.byte	0x50
  1862 0103 9F       		.byte	0x9f
  1863 0104 00000000 		.4byte	0
-ARM GAS  /tmp/ccCRYepJ.s 			page 34
+ARM GAS  /tmp/cceEhs83.s 			page 34
 
 
  1864 0108 00000000 		.4byte	0
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  1918 018a 0100     		.2byte	0x1
  1919 018c 51       		.byte	0x51
  1920 018d 40000000 		.4byte	.LVL26
-ARM GAS  /tmp/ccCRYepJ.s 			page 35
+ARM GAS  /tmp/cceEhs83.s 			page 35
 
 
  1921 0191 44000000 		.4byte	.LVL27
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  1975 021d F3       		.byte	0xf3
  1976 021e 01       		.uleb128 0x1
  1977 021f 51       		.byte	0x51
-ARM GAS  /tmp/ccCRYepJ.s 			page 36
+ARM GAS  /tmp/cceEhs83.s 			page 36
 
 
  1978 0220 9F       		.byte	0x9f
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  2032 0040 00000000 		.4byte	.LFB6
  2033 0044 2C000000 		.4byte	.LFE6-.LFB6
  2034 0048 00000000 		.4byte	.LFB7
-ARM GAS  /tmp/ccCRYepJ.s 			page 37
+ARM GAS  /tmp/cceEhs83.s 			page 37
 
 
  2035 004c 20000000 		.4byte	.LFE7-.LFB7
@@ -2190,8 +2190,8 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  2061 004c 00000000 		.4byte	0
  2062              		.section	.debug_line,"",%progbits
  2063              	.Ldebug_line0:
- 2064 0000 3A030000 		.section	.debug_str,"MS",%progbits,1
- 2064      0200B501 
+ 2064 0000 26030000 		.section	.debug_str,"MS",%progbits,1
+ 2064      0200A101 
  2064      00000201 
  2064      FB0E0D00 
  2064      01010101 
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  2076      6200
  2077              	.LASF2:
  2078 0031 73686F72 		.ascii	"short int\000"
-ARM GAS  /tmp/ccCRYepJ.s 			page 38
+ARM GAS  /tmp/cceEhs83.s 			page 38
 
 
  2078      7420696E 
@@ -2227,366 +2227,364 @@ ARM GAS  /tmp/ccCRYepJ.s 			page 1
  2080 003b 73697A65 		.ascii	"sizetype\000"
  2080      74797065 
  2080      00
- 2081              	.LASF60:
- 2082 0044 64775072 		.ascii	"dwPrescaler\000"
- 2082      65736361 
- 2082      6C657200 
- 2083              	.LASF56:
- 2084 0050 504D435F 		.ascii	"PMC_EnableAllPeripherals\000"
- 2084      456E6162 
- 2084      6C65416C 
- 2084      6C506572 
- 2084      69706865 
- 2085              	.LASF6:
- 2086 0069 5F5F7569 		.ascii	"__uint32_t\000"
- 2086      6E743332 
- 2086      5F7400
- 2087              	.LASF21:
- 2088 0074 504D435F 		.ascii	"PMC_PCER0\000"
- 2088      50434552 
- 2088      3000
- 2089              	.LASF46:
- 2090 007e 504D435F 		.ascii	"PMC_PCER1\000"
+ 2081              	.LASF70:
+ 2082 0044 2F686F6D 		.ascii	"/home/david/Desktop/Embebidos/StampRepo\000"
+ 2082      652F6461 
+ 2082      7669642F 
+ 2082      4465736B 
+ 2082      746F702F 
+ 2083              	.LASF60:
+ 2084 006c 64775072 		.ascii	"dwPrescaler\000"
+ 2084      65736361 
+ 2084      6C657200 
+ 2085              	.LASF56:
+ 2086 0078 504D435F 		.ascii	"PMC_EnableAllPeripherals\000"
+ 2086      456E6162 
+ 2086      6C65416C 
+ 2086      6C506572 
+ 2086      69706865 
+ 2087              	.LASF6:
+ 2088 0091 5F5F7569 		.ascii	"__uint32_t\000"
+ 2088      6E743332 
+ 2088      5F7400
+ 2089              	.LASF21:
+ 2090 009c 504D435F 		.ascii	"PMC_PCER0\000"
  2090      50434552 
- 2090      3100
- 2091              	.LASF14:
- 2092 0088 576F5265 		.ascii	"WoReg\000"
- 2092      6700
- 2093              	.LASF39:
- 2094 008e 504D435F 		.ascii	"PMC_FSMR\000"
- 2094      46534D52 
- 2094      00
- 2095              	.LASF20:
- 2096 0097 52657365 		.ascii	"Reserved1\000"
- 2096      72766564 
- 2096      3100
- 2097              	.LASF24:
- 2098 00a1 52657365 		.ascii	"Reserved2\000"
+ 2090      3000
+ 2091              	.LASF46:
+ 2092 00a6 504D435F 		.ascii	"PMC_PCER1\000"
+ 2092      50434552 
+ 2092      3100
+ 2093              	.LASF14:
+ 2094 00b0 576F5265 		.ascii	"WoReg\000"
+ 2094      6700
+ 2095              	.LASF39:
+ 2096 00b6 504D435F 		.ascii	"PMC_FSMR\000"
+ 2096      46534D52 
+ 2096      00
+ 2097              	.LASF20:
+ 2098 00bf 52657365 		.ascii	"Reserved1\000"
  2098      72766564 
- 2098      3200
- 2099              	.LASF11:
- 2100 00ab 75696E74 		.ascii	"uint8_t\000"
- 2100      385F7400 
- 2101              	.LASF32:
- 2102 00b3 52657365 		.ascii	"Reserved4\000"
- 2102      72766564 
- 2102      3400
- 2103              	.LASF34:
- 2104 00bd 52657365 		.ascii	"Reserved5\000"
+ 2098      3100
+ 2099              	.LASF24:
+ 2100 00c9 52657365 		.ascii	"Reserved2\000"
+ 2100      72766564 
+ 2100      3200
+ 2101              	.LASF11:
+ 2102 00d3 75696E74 		.ascii	"uint8_t\000"
+ 2102      385F7400 
+ 2103              	.LASF32:
+ 2104 00db 52657365 		.ascii	"Reserved4\000"
  2104      72766564 
- 2104      3500
- 2105              	.LASF42:
- 2106 00c7 52657365 		.ascii	"Reserved6\000"
+ 2104      3400
+ 2105              	.LASF34:
+ARM GAS  /tmp/cceEhs83.s 			page 39
+
+
+ 2106 00e5 52657365 		.ascii	"Reserved5\000"
  2106      72766564 
-ARM GAS  /tmp/ccCRYepJ.s 			page 39
-
-
- 2106      3600
- 2107              	.LASF45:
- 2108 00d1 52657365 		.ascii	"Reserved7\000"
+ 2106      3500
+ 2107              	.LASF42:
+ 2108 00ef 52657365 		.ascii	"Reserved6\000"
  2108      72766564 
- 2108      3700
- 2109              	.LASF49:
- 2110 00db 52657365 		.ascii	"Reserved8\000"
+ 2108      3600
+ 2109              	.LASF45:
+ 2110 00f9 52657365 		.ascii	"Reserved7\000"
  2110      72766564 
- 2110      3800
- 2111              	.LASF25:
- 2112 00e5 434B4752 		.ascii	"CKGR_MOR\000"
- 2112      5F4D4F52 
- 2112      00
- 2113              	.LASF57:
- 2114 00ee 504D435F 		.ascii	"PMC_DisableAllPeripherals\000"
- 2114      44697361 
- 2114      626C6541 
- 2114      6C6C5065 
- 2114      72697068 
- 2115              	.LASF22:
- 2116 0108 504D435F 		.ascii	"PMC_PCDR0\000"
- 2116      50434452 
- 2116      3000
- 2117              	.LASF47:
- 2118 0112 504D435F 		.ascii	"PMC_PCDR1\000"
+ 2110      3700
+ 2111              	.LASF49:
+ 2112 0103 52657365 		.ascii	"Reserved8\000"
+ 2112      72766564 
+ 2112      3800
+ 2113              	.LASF25:
+ 2114 010d 434B4752 		.ascii	"CKGR_MOR\000"
+ 2114      5F4D4F52 
+ 2114      00
+ 2115              	.LASF57:
+ 2116 0116 504D435F 		.ascii	"PMC_DisableAllPeripherals\000"
+ 2116      44697361 
+ 2116      626C6541 
+ 2116      6C6C5065 
+ 2116      72697068 
+ 2117              	.LASF22:
+ 2118 0130 504D435F 		.ascii	"PMC_PCDR0\000"
  2118      50434452 
- 2118      3100
- 2119              	.LASF35:
- 2120 011c 504D435F 		.ascii	"PMC_IER\000"
- 2120      49455200 
- 2121              	.LASF8:
- 2122 0124 6C6F6E67 		.ascii	"long long int\000"
- 2122      206C6F6E 
- 2122      6720696E 
- 2122      7400
- 2123              	.LASF29:
- 2124 0132 504D435F 		.ascii	"PMC_MCKR\000"
- 2124      4D434B52 
- 2124      00
- 2125              	.LASF71:
- 2126 013b 504D435F 		.ascii	"PMC_IsPeriphEnabled\000"
- 2126      49735065 
- 2126      72697068 
- 2126      456E6162 
- 2126      6C656400 
- 2127              	.LASF4:
- 2128 014f 6C6F6E67 		.ascii	"long int\000"
- 2128      20696E74 
- 2128      00
- 2129              	.LASF5:
- 2130 0158 5F5F7569 		.ascii	"__uint8_t\000"
- 2130      6E74385F 
- 2130      7400
- 2131              	.LASF58:
- 2132 0162 506D634D 		.ascii	"PmcMasterClockSelection\000"
- 2132      61737465 
- 2132      72436C6F 
-ARM GAS  /tmp/ccCRYepJ.s 			page 40
+ 2118      3000
+ 2119              	.LASF47:
+ 2120 013a 504D435F 		.ascii	"PMC_PCDR1\000"
+ 2120      50434452 
+ 2120      3100
+ 2121              	.LASF35:
+ 2122 0144 504D435F 		.ascii	"PMC_IER\000"
+ 2122      49455200 
+ 2123              	.LASF8:
+ 2124 014c 6C6F6E67 		.ascii	"long long int\000"
+ 2124      206C6F6E 
+ 2124      6720696E 
+ 2124      7400
+ 2125              	.LASF29:
+ 2126 015a 504D435F 		.ascii	"PMC_MCKR\000"
+ 2126      4D434B52 
+ 2126      00
+ 2127              	.LASF71:
+ 2128 0163 504D435F 		.ascii	"PMC_IsPeriphEnabled\000"
+ 2128      49735065 
+ 2128      72697068 
+ 2128      456E6162 
+ 2128      6C656400 
+ 2129              	.LASF4:
+ 2130 0177 6C6F6E67 		.ascii	"long int\000"
+ 2130      20696E74 
+ 2130      00
+ 2131              	.LASF5:
+ 2132 0180 5F5F7569 		.ascii	"__uint8_t\000"
+ARM GAS  /tmp/cceEhs83.s 			page 40
 
 
- 2132      636B5365 
- 2132      6C656374 
- 2133              	.LASF68:
- 2134 017a 474E5520 		.ascii	"GNU C 4.9.3 20150529 (release) [ARM/embedded-4_9-br"
- 2134      4320342E 
- 2134      392E3320 
- 2134      32303135 
- 2134      30353239 
- 2135 01ad 616E6368 		.ascii	"anch revision 227977] -mcpu=cortex-m3 -mno-thumb-in"
- 2135      20726576 
- 2135      6973696F 
- 2135      6E203232 
- 2135      37393737 
- 2136 01e0 74657277 		.ascii	"terwork -mthumb -ggdb -O2 -std=gnu99 -fomit-frame-p"
- 2136      6F726B20 
- 2136      2D6D7468 
- 2136      756D6220 
- 2136      2D676764 
- 2137 0213 6F696E74 		.ascii	"ointer -falign-functions=16 -ffunction-sections -fd"
- 2137      6572202D 
- 2137      66616C69 
- 2137      676E2D66 
- 2137      756E6374 
- 2138 0246 6174612D 		.ascii	"ata-sections -fno-common\000"
- 2138      73656374 
- 2138      696F6E73 
- 2138      202D666E 
- 2138      6F2D636F 
- 2139              	.LASF38:
- 2140 025f 504D435F 		.ascii	"PMC_IMR\000"
- 2140      494D5200 
- 2141              	.LASF13:
- 2142 0267 526F5265 		.ascii	"RoReg\000"
- 2142      6700
- 2143              	.LASF1:
- 2144 026d 756E7369 		.ascii	"unsigned char\000"
- 2144      676E6564 
- 2144      20636861 
- 2144      7200
- 2145              	.LASF43:
- 2146 027b 504D435F 		.ascii	"PMC_WPMR\000"
- 2146      57504D52 
- 2146      00
- 2147              	.LASF64:
- 2148 0284 506D6343 		.ascii	"PmcConfigurePllClock\000"
- 2148      6F6E6669 
- 2148      67757265 
- 2148      506C6C43 
- 2148      6C6F636B 
- 2149              	.LASF15:
- 2150 0299 52775265 		.ascii	"RwReg\000"
- 2150      6700
- 2151              	.LASF0:
- 2152 029f 7369676E 		.ascii	"signed char\000"
- 2152      65642063 
- 2152      68617200 
- 2153              	.LASF9:
-ARM GAS  /tmp/ccCRYepJ.s 			page 41
+ 2132      6E74385F 
+ 2132      7400
+ 2133              	.LASF58:
+ 2134 018a 506D634D 		.ascii	"PmcMasterClockSelection\000"
+ 2134      61737465 
+ 2134      72436C6F 
+ 2134      636B5365 
+ 2134      6C656374 
+ 2135              	.LASF68:
+ 2136 01a2 474E5520 		.ascii	"GNU C 4.9.3 20150529 (release) [ARM/embedded-4_9-br"
+ 2136      4320342E 
+ 2136      392E3320 
+ 2136      32303135 
+ 2136      30353239 
+ 2137 01d5 616E6368 		.ascii	"anch revision 227977] -mcpu=cortex-m3 -mno-thumb-in"
+ 2137      20726576 
+ 2137      6973696F 
+ 2137      6E203232 
+ 2137      37393737 
+ 2138 0208 74657277 		.ascii	"terwork -mthumb -ggdb -O2 -std=gnu99 -fomit-frame-p"
+ 2138      6F726B20 
+ 2138      2D6D7468 
+ 2138      756D6220 
+ 2138      2D676764 
+ 2139 023b 6F696E74 		.ascii	"ointer -falign-functions=16 -ffunction-sections -fd"
+ 2139      6572202D 
+ 2139      66616C69 
+ 2139      676E2D66 
+ 2139      756E6374 
+ 2140 026e 6174612D 		.ascii	"ata-sections -fno-common\000"
+ 2140      73656374 
+ 2140      696F6E73 
+ 2140      202D666E 
+ 2140      6F2D636F 
+ 2141              	.LASF38:
+ 2142 0287 504D435F 		.ascii	"PMC_IMR\000"
+ 2142      494D5200 
+ 2143              	.LASF13:
+ 2144 028f 526F5265 		.ascii	"RoReg\000"
+ 2144      6700
+ 2145              	.LASF1:
+ 2146 0295 756E7369 		.ascii	"unsigned char\000"
+ 2146      676E6564 
+ 2146      20636861 
+ 2146      7200
+ 2147              	.LASF43:
+ 2148 02a3 504D435F 		.ascii	"PMC_WPMR\000"
+ 2148      57504D52 
+ 2148      00
+ 2149              	.LASF64:
+ 2150 02ac 506D6343 		.ascii	"PmcConfigurePllClock\000"
+ 2150      6F6E6669 
+ 2150      67757265 
+ 2150      506C6C43 
+ 2150      6C6F636B 
+ 2151              	.LASF15:
+ 2152 02c1 52775265 		.ascii	"RwReg\000"
+ARM GAS  /tmp/cceEhs83.s 			page 41
 
 
- 2154 02ab 6C6F6E67 		.ascii	"long long unsigned int\000"
- 2154      206C6F6E 
- 2154      6720756E 
- 2154      7369676E 
- 2154      65642069 
- 2155              	.LASF12:
- 2156 02c2 75696E74 		.ascii	"uint32_t\000"
- 2156      33325F74 
- 2156      00
- 2157              	.LASF10:
- 2158 02cb 756E7369 		.ascii	"unsigned int\000"
- 2158      676E6564 
- 2158      20696E74 
+ 2152      6700
+ 2153              	.LASF0:
+ 2154 02c7 7369676E 		.ascii	"signed char\000"
+ 2154      65642063 
+ 2154      68617200 
+ 2155              	.LASF9:
+ 2156 02d3 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 2156      206C6F6E 
+ 2156      6720756E 
+ 2156      7369676E 
+ 2156      65642069 
+ 2157              	.LASF12:
+ 2158 02ea 75696E74 		.ascii	"uint32_t\000"
+ 2158      33325F74 
  2158      00
- 2159              	.LASF70:
- 2160 02d8 2F686F6D 		.ascii	"/home/david/Desktop/Embebidos/code/src/chibios_hell"
- 2160      652F6461 
- 2160      7669642F 
- 2160      4465736B 
- 2160      746F702F 
- 2161 030b 6F5F776F 		.ascii	"o_world\000"
- 2161      726C6400 
- 2162              	.LASF48:
- 2163 0313 504D435F 		.ascii	"PMC_PCSR1\000"
- 2163      50435352 
- 2163      3100
- 2164              	.LASF67:
- 2165 031d 64774469 		.ascii	"dwDiv\000"
- 2165      7600
- 2166              	.LASF44:
- 2167 0323 504D435F 		.ascii	"PMC_WPSR\000"
- 2167      57505352 
- 2167      00
- 2168              	.LASF31:
- 2169 032c 504D435F 		.ascii	"PMC_USB\000"
- 2169      55534200 
- 2170              	.LASF55:
- 2171 0334 5F5F6675 		.ascii	"__func__\000"
- 2171      6E635F5F 
- 2171      00
- 2172              	.LASF3:
- 2173 033d 73686F72 		.ascii	"short unsigned int\000"
- 2173      7420756E 
- 2173      7369676E 
- 2173      65642069 
- 2173      6E7400
- 2174              	.LASF37:
- 2175 0350 504D435F 		.ascii	"PMC_SR\000"
- 2175      535200
- 2176              	.LASF51:
- 2177 0357 63686172 		.ascii	"char\000"
- 2177      00
- 2178              	.LASF59:
- 2179 035c 6477436C 		.ascii	"dwClockSource\000"
- 2179      6F636B53 
- 2179      6F757263 
- 2179      6500
-ARM GAS  /tmp/ccCRYepJ.s 			page 42
+ 2159              	.LASF10:
+ 2160 02f3 756E7369 		.ascii	"unsigned int\000"
+ 2160      676E6564 
+ 2160      20696E74 
+ 2160      00
+ 2161              	.LASF23:
+ 2162 0300 504D435F 		.ascii	"PMC_PCSR0\000"
+ 2162      50435352 
+ 2162      3000
+ 2163              	.LASF48:
+ 2164 030a 504D435F 		.ascii	"PMC_PCSR1\000"
+ 2164      50435352 
+ 2164      3100
+ 2165              	.LASF67:
+ 2166 0314 64774469 		.ascii	"dwDiv\000"
+ 2166      7600
+ 2167              	.LASF44:
+ 2168 031a 504D435F 		.ascii	"PMC_WPSR\000"
+ 2168      57505352 
+ 2168      00
+ 2169              	.LASF31:
+ 2170 0323 504D435F 		.ascii	"PMC_USB\000"
+ 2170      55534200 
+ 2171              	.LASF55:
+ 2172 032b 5F5F6675 		.ascii	"__func__\000"
+ 2172      6E635F5F 
+ 2172      00
+ 2173              	.LASF3:
+ 2174 0334 73686F72 		.ascii	"short unsigned int\000"
+ 2174      7420756E 
+ 2174      7369676E 
+ 2174      65642069 
+ 2174      6E7400
+ 2175              	.LASF37:
+ 2176 0347 504D435F 		.ascii	"PMC_SR\000"
+ 2176      535200
+ 2177              	.LASF51:
+ 2178 034e 63686172 		.ascii	"char\000"
+ 2178      00
+ 2179              	.LASF59:
+ 2180 0353 6477436C 		.ascii	"dwClockSource\000"
+ 2180      6F636B53 
+ARM GAS  /tmp/cceEhs83.s 			page 42
 
 
- 2180              	.LASF66:
- 2181 036a 64774D75 		.ascii	"dwMul\000"
- 2181      6C00
- 2182              	.LASF54:
- 2183 0370 64774964 		.ascii	"dwId\000"
- 2183      00
- 2184              	.LASF27:
- 2185 0375 434B4752 		.ascii	"CKGR_PLLAR\000"
- 2185      5F504C4C 
- 2185      415200
- 2186              	.LASF17:
- 2187 0380 504D435F 		.ascii	"PMC_SCER\000"
- 2187      53434552 
- 2187      00
- 2188              	.LASF53:
- 2189 0389 504D435F 		.ascii	"PMC_DisablePeripheral\000"
- 2189      44697361 
- 2189      626C6550 
- 2189      65726970 
- 2189      68657261 
- 2190              	.LASF63:
- 2191 039f 64775469 		.ascii	"dwTimeout\000"
- 2191      6D656F75 
- 2191      7400
- 2192              	.LASF69:
- 2193 03a9 2E2E2F2E 		.ascii	"../../ext/ChibiOS/os/hal/platforms/AT91SAM3S/pmc.c\000"
- 2193      2E2F6578 
- 2193      742F4368 
- 2193      6962694F 
- 2193      532F6F73 
- 2194              	.LASF7:
- 2195 03dc 6C6F6E67 		.ascii	"long unsigned int\000"
- 2195      20756E73 
- 2195      69676E65 
- 2195      6420696E 
- 2195      7400
- 2196              	.LASF30:
- 2197 03ee 52657365 		.ascii	"Reserved3\000"
- 2197      72766564 
- 2197      3300
- 2198              	.LASF52:
- 2199 03f8 504D435F 		.ascii	"PMC_EnablePeripheral\000"
- 2199      456E6162 
- 2199      6C655065 
- 2199      72697068 
- 2199      6572616C 
- 2200              	.LASF26:
- 2201 040d 434B4752 		.ascii	"CKGR_MCFR\000"
- 2201      5F4D4346 
- 2201      5200
- 2202              	.LASF62:
- 2203 0417 506D634D 		.ascii	"PmcMainClockSwitchMainOsc\000"
- 2203      61696E43 
- 2203      6C6F636B 
- 2203      53776974 
- 2203      63684D61 
- 2204              	.LASF61:
-ARM GAS  /tmp/ccCRYepJ.s 			page 43
+ 2180      6F757263 
+ 2180      6500
+ 2181              	.LASF69:
+ 2182 0361 43686962 		.ascii	"ChibiOS/os/hal/platforms/AT91SAM3S/pmc.c\000"
+ 2182      694F532F 
+ 2182      6F732F68 
+ 2182      616C2F70 
+ 2182      6C617466 
+ 2183              	.LASF66:
+ 2184 038a 64774D75 		.ascii	"dwMul\000"
+ 2184      6C00
+ 2185              	.LASF54:
+ 2186 0390 64774964 		.ascii	"dwId\000"
+ 2186      00
+ 2187              	.LASF27:
+ 2188 0395 434B4752 		.ascii	"CKGR_PLLAR\000"
+ 2188      5F504C4C 
+ 2188      415200
+ 2189              	.LASF17:
+ 2190 03a0 504D435F 		.ascii	"PMC_SCER\000"
+ 2190      53434552 
+ 2190      00
+ 2191              	.LASF53:
+ 2192 03a9 504D435F 		.ascii	"PMC_DisablePeripheral\000"
+ 2192      44697361 
+ 2192      626C6550 
+ 2192      65726970 
+ 2192      68657261 
+ 2193              	.LASF63:
+ 2194 03bf 64775469 		.ascii	"dwTimeout\000"
+ 2194      6D656F75 
+ 2194      7400
+ 2195              	.LASF7:
+ 2196 03c9 6C6F6E67 		.ascii	"long unsigned int\000"
+ 2196      20756E73 
+ 2196      69676E65 
+ 2196      6420696E 
+ 2196      7400
+ 2197              	.LASF30:
+ 2198 03db 52657365 		.ascii	"Reserved3\000"
+ 2198      72766564 
+ 2198      3300
+ 2199              	.LASF52:
+ 2200 03e5 504D435F 		.ascii	"PMC_EnablePeripheral\000"
+ 2200      456E6162 
+ 2200      6C655065 
+ 2200      72697068 
+ 2200      6572616C 
+ 2201              	.LASF26:
+ 2202 03fa 434B4752 		.ascii	"CKGR_MCFR\000"
+ 2202      5F4D4346 
+ 2202      5200
+ 2203              	.LASF62:
+ 2204 0404 506D634D 		.ascii	"PmcMainClockSwitchMainOsc\000"
+ 2204      61696E43 
+ 2204      6C6F636B 
+ 2204      53776974 
+ARM GAS  /tmp/cceEhs83.s 			page 43
 
 
- 2205 0431 436F6E66 		.ascii	"ConfigurePck\000"
- 2205      69677572 
- 2205      6550636B 
- 2205      00
- 2206              	.LASF23:
- 2207 043e 504D435F 		.ascii	"PMC_PCSR0\000"
- 2207      50435352 
- 2207      3000
- 2208              	.LASF72:
- 2209 0448 5F5F6173 		.ascii	"__assert_func\000"
- 2209      73657274 
- 2209      5F66756E 
- 2209      6300
- 2210              	.LASF33:
- 2211 0456 504D435F 		.ascii	"PMC_PCK\000"
- 2211      50434B00 
- 2212              	.LASF18:
- 2213 045e 504D435F 		.ascii	"PMC_SCDR\000"
- 2213      53434452 
- 2213      00
- 2214              	.LASF28:
- 2215 0467 434B4752 		.ascii	"CKGR_PLLBR\000"
- 2215      5F504C4C 
- 2215      425200
- 2216              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccCRYepJ.s 			page 44
+ 2204      63684D61 
+ 2205              	.LASF61:
+ 2206 041e 436F6E66 		.ascii	"ConfigurePck\000"
+ 2206      69677572 
+ 2206      6550636B 
+ 2206      00
+ 2207              	.LASF72:
+ 2208 042b 5F5F6173 		.ascii	"__assert_func\000"
+ 2208      73657274 
+ 2208      5F66756E 
+ 2208      6300
+ 2209              	.LASF33:
+ 2210 0439 504D435F 		.ascii	"PMC_PCK\000"
+ 2210      50434B00 
+ 2211              	.LASF18:
+ 2212 0441 504D435F 		.ascii	"PMC_SCDR\000"
+ 2212      53434452 
+ 2212      00
+ 2213              	.LASF28:
+ 2214 044a 434B4752 		.ascii	"CKGR_PLLBR\000"
+ 2214      5F504C4C 
+ 2214      425200
+ 2215              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
+ARM GAS  /tmp/cceEhs83.s 			page 44
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 pmc.c
-     /tmp/ccCRYepJ.s:19     .text.PMC_EnablePeripheral:00000000 $t
-     /tmp/ccCRYepJ.s:25     .text.PMC_EnablePeripheral:00000000 PMC_EnablePeripheral
-     /tmp/ccCRYepJ.s:87     .text.PMC_EnablePeripheral:00000040 $d
-     /tmp/ccCRYepJ.s:95     .text.PMC_DisablePeripheral:00000000 $t
-     /tmp/ccCRYepJ.s:101    .text.PMC_DisablePeripheral:00000000 PMC_DisablePeripheral
-     /tmp/ccCRYepJ.s:162    .text.PMC_DisablePeripheral:00000040 $d
-     /tmp/ccCRYepJ.s:170    .text.PMC_EnableAllPeripherals:00000000 $t
-     /tmp/ccCRYepJ.s:176    .text.PMC_EnableAllPeripherals:00000000 PMC_EnableAllPeripherals
-     /tmp/ccCRYepJ.s:212    .text.PMC_EnableAllPeripherals:0000002c $d
-     /tmp/ccCRYepJ.s:217    .text.PMC_DisableAllPeripherals:00000000 $t
-     /tmp/ccCRYepJ.s:223    .text.PMC_DisableAllPeripherals:00000000 PMC_DisableAllPeripherals
-     /tmp/ccCRYepJ.s:258    .text.PMC_DisableAllPeripherals:00000028 $d
-     /tmp/ccCRYepJ.s:263    .text.PMC_IsPeriphEnabled:00000000 $t
-     /tmp/ccCRYepJ.s:269    .text.PMC_IsPeriphEnabled:00000000 PMC_IsPeriphEnabled
-     /tmp/ccCRYepJ.s:323    .text.PMC_IsPeriphEnabled:00000034 $d
-     /tmp/ccCRYepJ.s:331    .text.PmcMasterClockSelection:00000000 $t
-     /tmp/ccCRYepJ.s:337    .text.PmcMasterClockSelection:00000000 PmcMasterClockSelection
-     /tmp/ccCRYepJ.s:354    .text.PmcMasterClockSelection:0000000a $d
-     /tmp/ccCRYepJ.s:358    .text.PmcMasterClockSelection:0000000e $t
-     /tmp/ccCRYepJ.s:491    .text.PmcMasterClockSelection:0000008c $d
-     /tmp/ccCRYepJ.s:496    .text.ConfigurePck:00000000 $t
-     /tmp/ccCRYepJ.s:502    .text.ConfigurePck:00000000 ConfigurePck
-     /tmp/ccCRYepJ.s:548    .text.ConfigurePck:00000024 $d
-     /tmp/ccCRYepJ.s:554    .text.PmcMainClockSwitchMainOsc:00000000 $t
-     /tmp/ccCRYepJ.s:560    .text.PmcMainClockSwitchMainOsc:00000000 PmcMainClockSwitchMainOsc
-     /tmp/ccCRYepJ.s:596    .text.PmcMainClockSwitchMainOsc:00000018 $d
-     /tmp/ccCRYepJ.s:602    .text.PmcConfigurePllClock:00000000 $t
-     /tmp/ccCRYepJ.s:608    .text.PmcConfigurePllClock:00000000 PmcConfigurePllClock
-     /tmp/ccCRYepJ.s:684    .text.PmcConfigurePllClock:00000058 $d
-     /tmp/ccCRYepJ.s:690    .rodata.__func__.4818:00000000 $d
-     /tmp/ccCRYepJ.s:694    .rodata.__func__.4818:00000000 __func__.4818
-     /tmp/ccCRYepJ.s:697    .rodata.__func__.4792:00000000 $d
-     /tmp/ccCRYepJ.s:701    .rodata.__func__.4792:00000000 __func__.4792
-     /tmp/ccCRYepJ.s:704    .rodata.__func__.4796:00000000 $d
-     /tmp/ccCRYepJ.s:708    .rodata.__func__.4796:00000000 __func__.4796
-     /tmp/ccCRYepJ.s:711    .rodata.str1.4:00000000 $d
+     /tmp/cceEhs83.s:19     .text.PMC_EnablePeripheral:00000000 $t
+     /tmp/cceEhs83.s:25     .text.PMC_EnablePeripheral:00000000 PMC_EnablePeripheral
+     /tmp/cceEhs83.s:87     .text.PMC_EnablePeripheral:00000040 $d
+     /tmp/cceEhs83.s:95     .text.PMC_DisablePeripheral:00000000 $t
+     /tmp/cceEhs83.s:101    .text.PMC_DisablePeripheral:00000000 PMC_DisablePeripheral
+     /tmp/cceEhs83.s:162    .text.PMC_DisablePeripheral:00000040 $d
+     /tmp/cceEhs83.s:170    .text.PMC_EnableAllPeripherals:00000000 $t
+     /tmp/cceEhs83.s:176    .text.PMC_EnableAllPeripherals:00000000 PMC_EnableAllPeripherals
+     /tmp/cceEhs83.s:212    .text.PMC_EnableAllPeripherals:0000002c $d
+     /tmp/cceEhs83.s:217    .text.PMC_DisableAllPeripherals:00000000 $t
+     /tmp/cceEhs83.s:223    .text.PMC_DisableAllPeripherals:00000000 PMC_DisableAllPeripherals
+     /tmp/cceEhs83.s:258    .text.PMC_DisableAllPeripherals:00000028 $d
+     /tmp/cceEhs83.s:263    .text.PMC_IsPeriphEnabled:00000000 $t
+     /tmp/cceEhs83.s:269    .text.PMC_IsPeriphEnabled:00000000 PMC_IsPeriphEnabled
+     /tmp/cceEhs83.s:323    .text.PMC_IsPeriphEnabled:00000034 $d
+     /tmp/cceEhs83.s:331    .text.PmcMasterClockSelection:00000000 $t
+     /tmp/cceEhs83.s:337    .text.PmcMasterClockSelection:00000000 PmcMasterClockSelection
+     /tmp/cceEhs83.s:354    .text.PmcMasterClockSelection:0000000a $d
+     /tmp/cceEhs83.s:358    .text.PmcMasterClockSelection:0000000e $t
+     /tmp/cceEhs83.s:491    .text.PmcMasterClockSelection:0000008c $d
+     /tmp/cceEhs83.s:496    .text.ConfigurePck:00000000 $t
+     /tmp/cceEhs83.s:502    .text.ConfigurePck:00000000 ConfigurePck
+     /tmp/cceEhs83.s:548    .text.ConfigurePck:00000024 $d
+     /tmp/cceEhs83.s:554    .text.PmcMainClockSwitchMainOsc:00000000 $t
+     /tmp/cceEhs83.s:560    .text.PmcMainClockSwitchMainOsc:00000000 PmcMainClockSwitchMainOsc
+     /tmp/cceEhs83.s:596    .text.PmcMainClockSwitchMainOsc:00000018 $d
+     /tmp/cceEhs83.s:602    .text.PmcConfigurePllClock:00000000 $t
+     /tmp/cceEhs83.s:608    .text.PmcConfigurePllClock:00000000 PmcConfigurePllClock
+     /tmp/cceEhs83.s:684    .text.PmcConfigurePllClock:00000058 $d
+     /tmp/cceEhs83.s:690    .rodata.__func__.4818:00000000 $d
+     /tmp/cceEhs83.s:694    .rodata.__func__.4818:00000000 __func__.4818
+     /tmp/cceEhs83.s:697    .rodata.__func__.4792:00000000 $d
+     /tmp/cceEhs83.s:701    .rodata.__func__.4792:00000000 __func__.4792
+     /tmp/cceEhs83.s:704    .rodata.__func__.4796:00000000 $d
+     /tmp/cceEhs83.s:708    .rodata.__func__.4796:00000000 __func__.4796
+     /tmp/cceEhs83.s:711    .rodata.str1.4:00000000 $d
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

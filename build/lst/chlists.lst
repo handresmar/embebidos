@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc5hBQCa.s 			page 1
+ARM GAS  /tmp/ccYBDlon.s 			page 1
 
 
    1              		.syntax unified
@@ -28,8 +28,8 @@ ARM GAS  /tmp/cc5hBQCa.s 			page 1
   25 000b 01       		.uleb128 0x1
   26 000c 00000000 		.4byte	.LASF11
   27 0010 01       		.byte	0x1
-  28 0011 A4010000 		.4byte	.LASF12
-  29 0015 2D010000 		.4byte	.LASF13
+  28 0011 F2000000 		.4byte	.LASF12
+  29 0015 64010000 		.4byte	.LASF13
   30 0019 00000000 		.4byte	.Ldebug_line0
   31 001d 02       		.uleb128 0x2
   32 001e 04       		.byte	0x4
@@ -42,46 +42,46 @@ ARM GAS  /tmp/cc5hBQCa.s 			page 1
   39 002b 03       		.uleb128 0x3
   40 002c 01       		.byte	0x1
   41 002d 06       		.byte	0x6
-  42 002e 04010000 		.4byte	.LASF1
+  42 002e 24010000 		.4byte	.LASF1
   43 0032 03       		.uleb128 0x3
   44 0033 01       		.byte	0x1
   45 0034 08       		.byte	0x8
-  46 0035 84010000 		.4byte	.LASF2
+  46 0035 8C010000 		.4byte	.LASF2
   47 0039 03       		.uleb128 0x3
   48 003a 02       		.byte	0x2
   49 003b 05       		.byte	0x5
-  50 003c 23010000 		.4byte	.LASF3
+  50 003c 43010000 		.4byte	.LASF3
   51 0040 03       		.uleb128 0x3
   52 0041 02       		.byte	0x2
   53 0042 07       		.byte	0x7
-  54 0043 10010000 		.4byte	.LASF4
+  54 0043 30010000 		.4byte	.LASF4
   55 0047 03       		.uleb128 0x3
   56 0048 04       		.byte	0x4
   57 0049 05       		.byte	0x5
-ARM GAS  /tmp/cc5hBQCa.s 			page 2
+ARM GAS  /tmp/ccYBDlon.s 			page 2
 
 
-  58 004a 92010000 		.4byte	.LASF5
+  58 004a 9A010000 		.4byte	.LASF5
   59 004e 03       		.uleb128 0x3
   60 004f 04       		.byte	0x4
   61 0050 07       		.byte	0x7
-  62 0051 F2000000 		.4byte	.LASF6
+  62 0051 12010000 		.4byte	.LASF6
   63 0055 03       		.uleb128 0x3
   64 0056 08       		.byte	0x8
   65 0057 05       		.byte	0x5
-  66 0058 CE010000 		.4byte	.LASF7
+  66 0058 B1010000 		.4byte	.LASF7
   67 005c 03       		.uleb128 0x3
   68 005d 08       		.byte	0x8
   69 005e 07       		.byte	0x7
-  70 005f 6D010000 		.4byte	.LASF8
+  70 005f 4D010000 		.4byte	.LASF8
   71 0063 03       		.uleb128 0x3
   72 0064 04       		.byte	0x4
   73 0065 07       		.byte	0x7
-  74 0066 9B010000 		.4byte	.LASF9
+  74 0066 A8010000 		.4byte	.LASF9
   75 006a 03       		.uleb128 0x3
   76 006b 01       		.byte	0x1
   77 006c 08       		.byte	0x8
-  78 006d 68010000 		.4byte	.LASF10
+  78 006d A3010000 		.4byte	.LASF10
   79 0071 00       		.byte	0
   80              		.section	.debug_abbrev,"",%progbits
   81              	.Ldebug_abbrev0:
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc5hBQCa.s 			page 1
  112 001e 0B       		.uleb128 0xb
  113 001f 3E       		.uleb128 0x3e
  114 0020 0B       		.uleb128 0xb
-ARM GAS  /tmp/cc5hBQCa.s 			page 3
+ARM GAS  /tmp/ccYBDlon.s 			page 3
 
 
  115 0021 03       		.uleb128 0x3
@@ -174,75 +174,70 @@ ARM GAS  /tmp/cc5hBQCa.s 			page 1
  140      676E6564 
  140      20696E74 
  140      00
- 141              	.LASF6:
- 142 00f2 6C6F6E67 		.ascii	"long unsigned int\000"
- 142      20756E73 
- 142      69676E65 
-ARM GAS  /tmp/cc5hBQCa.s 			page 4
+ 141              	.LASF12:
+ 142 00f2 43686962 		.ascii	"ChibiOS/os/kernel/src/chlists.c\000"
+ 142      694F532F 
+ 142      6F732F6B 
+ARM GAS  /tmp/ccYBDlon.s 			page 4
 
 
- 142      6420696E 
- 142      7400
- 143              	.LASF1:
- 144 0104 7369676E 		.ascii	"signed char\000"
- 144      65642063 
- 144      68617200 
- 145              	.LASF4:
- 146 0110 73686F72 		.ascii	"short unsigned int\000"
- 146      7420756E 
- 146      7369676E 
- 146      65642069 
- 146      6E7400
- 147              	.LASF3:
- 148 0123 73686F72 		.ascii	"short int\000"
- 148      7420696E 
- 148      7400
- 149              	.LASF13:
- 150 012d 2F686F6D 		.ascii	"/home/david/Desktop/Embebidos/code/src/chibios_hell"
- 150      652F6461 
- 150      7669642F 
- 150      4465736B 
- 150      746F702F 
- 151 0160 6F5F776F 		.ascii	"o_world\000"
- 151      726C6400 
- 152              	.LASF10:
- 153 0168 63686172 		.ascii	"char\000"
- 153      00
- 154              	.LASF8:
- 155 016d 6C6F6E67 		.ascii	"long long unsigned int\000"
- 155      206C6F6E 
- 155      6720756E 
- 155      7369676E 
- 155      65642069 
- 156              	.LASF2:
- 157 0184 756E7369 		.ascii	"unsigned char\000"
- 157      676E6564 
- 157      20636861 
- 157      7200
- 158              	.LASF5:
- 159 0192 6C6F6E67 		.ascii	"long int\000"
- 159      20696E74 
- 159      00
- 160              	.LASF9:
- 161 019b 73697A65 		.ascii	"sizetype\000"
- 161      74797065 
- 161      00
- 162              	.LASF12:
- 163 01a4 2E2E2F2E 		.ascii	"../../ext/ChibiOS/os/kernel/src/chlists.c\000"
- 163      2E2F6578 
- 163      742F4368 
- 163      6962694F 
- 163      532F6F73 
- 164              	.LASF7:
- 165 01ce 6C6F6E67 		.ascii	"long long int\000"
- 165      206C6F6E 
- 165      6720696E 
- 165      7400
-ARM GAS  /tmp/cc5hBQCa.s 			page 5
-
-
- 166              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/cc5hBQCa.s 			page 6
+ 142      65726E65 
+ 142      6C2F7372 
+ 143              	.LASF6:
+ 144 0112 6C6F6E67 		.ascii	"long unsigned int\000"
+ 144      20756E73 
+ 144      69676E65 
+ 144      6420696E 
+ 144      7400
+ 145              	.LASF1:
+ 146 0124 7369676E 		.ascii	"signed char\000"
+ 146      65642063 
+ 146      68617200 
+ 147              	.LASF4:
+ 148 0130 73686F72 		.ascii	"short unsigned int\000"
+ 148      7420756E 
+ 148      7369676E 
+ 148      65642069 
+ 148      6E7400
+ 149              	.LASF3:
+ 150 0143 73686F72 		.ascii	"short int\000"
+ 150      7420696E 
+ 150      7400
+ 151              	.LASF8:
+ 152 014d 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 152      206C6F6E 
+ 152      6720756E 
+ 152      7369676E 
+ 152      65642069 
+ 153              	.LASF13:
+ 154 0164 2F686F6D 		.ascii	"/home/david/Desktop/Embebidos/StampRepo\000"
+ 154      652F6461 
+ 154      7669642F 
+ 154      4465736B 
+ 154      746F702F 
+ 155              	.LASF2:
+ 156 018c 756E7369 		.ascii	"unsigned char\000"
+ 156      676E6564 
+ 156      20636861 
+ 156      7200
+ 157              	.LASF5:
+ 158 019a 6C6F6E67 		.ascii	"long int\000"
+ 158      20696E74 
+ 158      00
+ 159              	.LASF10:
+ 160 01a3 63686172 		.ascii	"char\000"
+ 160      00
+ 161              	.LASF9:
+ 162 01a8 73697A65 		.ascii	"sizetype\000"
+ 162      74797065 
+ 162      00
+ 163              	.LASF7:
+ 164 01b1 6C6F6E67 		.ascii	"long long int\000"
+ 164      206C6F6E 
+ 164      6720696E 
+ 164      7400
+ 165              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
+ARM GAS  /tmp/ccYBDlon.s 			page 5
 
 
 DEFINED SYMBOLS

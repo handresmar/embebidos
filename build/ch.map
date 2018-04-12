@@ -1,7 +1,7 @@
 Archive member included because of file (symbol)
 
 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(unwind-arm.o)
-                              build/obj/main.o (__aeabi_unwind_cpp_pr1)
+                              build/obj/main.o (__aeabi_unwind_cpp_pr0)
 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(libunwind.o)
                               /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(unwind-arm.o) (restore_core_regs)
 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(pr-support.o)
@@ -619,9 +619,28 @@ Discarded input sections
  .text          0x00000000        0x0 build/obj/chprintf.o
  .data          0x00000000        0x0 build/obj/chprintf.o
  .bss           0x00000000        0x0 build/obj/chprintf.o
+ .text.ltoa     0x00000000       0x40 build/obj/chprintf.o
+ .text.chprintf
+                0x00000000      0x378 build/obj/chprintf.o
+ .rodata.str1.4
+                0x00000000        0x7 build/obj/chprintf.o
+ .debug_info    0x00000000      0x49d build/obj/chprintf.o
+ .debug_abbrev  0x00000000      0x192 build/obj/chprintf.o
+ .debug_loc     0x00000000      0x6f7 build/obj/chprintf.o
+ .debug_aranges
+                0x00000000       0x28 build/obj/chprintf.o
+ .debug_ranges  0x00000000       0x18 build/obj/chprintf.o
+ .debug_line    0x00000000      0x2fc build/obj/chprintf.o
+ .debug_str     0x00000000      0x2dd build/obj/chprintf.o
+ .comment       0x00000000       0x71 build/obj/chprintf.o
+ .debug_frame   0x00000000       0x9c build/obj/chprintf.o
+ .ARM.attributes
+                0x00000000       0x33 build/obj/chprintf.o
  .text          0x00000000        0x0 build/obj/main.o
  .data          0x00000000        0x0 build/obj/main.o
  .bss           0x00000000        0x0 build/obj/main.o
+ .ARM.extab.text.startup.main
+                0x00000000        0x0 build/obj/main.o
  .data          0x00000000        0x0 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(unwind-arm.o)
  .bss           0x00000000        0x0 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(unwind-arm.o)
  .ARM.extab     0x00000000        0x0 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(unwind-arm.o)
@@ -978,466 +997,451 @@ destructors     0x004000d0        0x0
  *(SORT(.fini_array.*))
                 0x004000d0                PROVIDE (__fini_array_end, .)
 
-.text           0x004000d0     0x2770
+.text           0x004000d0     0x23b0
  *(.text.startup.*)
  .text.startup.main
-                0x004000d0       0x2c build/obj/main.o
+                0x004000d0       0x60 build/obj/main.o
                 0x004000d0                main
  *(.text)
- *fill*         0x004000fc        0x4 
- .text          0x00400100      0xa54 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(unwind-arm.o)
-                0x004003e0                _Unwind_GetCFA
-                0x004003e4                __gnu_Unwind_RaiseException
-                0x00400444                __gnu_Unwind_ForcedUnwind
-                0x00400458                __gnu_Unwind_Resume
-                0x0040049c                __gnu_Unwind_Resume_or_Rethrow
-                0x004004b0                _Unwind_Complete
-                0x004004b4                _Unwind_DeleteException
-                0x004004c0                _Unwind_VRS_Get
-                0x00400510                _Unwind_VRS_Set
-                0x00400560                __gnu_Unwind_Backtrace
-                0x004008a4                __aeabi_unwind_cpp_pr0
-                0x004008a8                __aeabi_unwind_cpp_pr1
-                0x004008ac                __aeabi_unwind_cpp_pr2
-                0x004008b0                _Unwind_VRS_Pop
- *fill*         0x00400b54        0xc 
- .text          0x00400b60      0x1ac /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(libunwind.o)
-                0x00400b60                __restore_core_regs
-                0x00400b60                restore_core_regs
-                0x00400b78                __gnu_Unwind_Restore_VFP
-                0x00400b80                __gnu_Unwind_Save_VFP
-                0x00400b88                __gnu_Unwind_Restore_VFP_D
-                0x00400b90                __gnu_Unwind_Save_VFP_D
-                0x00400b98                __gnu_Unwind_Restore_VFP_D_16_to_31
-                0x00400ba0                __gnu_Unwind_Save_VFP_D_16_to_31
-                0x00400ba8                __gnu_Unwind_Restore_WMMXD
-                0x00400bec                __gnu_Unwind_Save_WMMXD
-                0x00400c30                __gnu_Unwind_Restore_WMMXC
-                0x00400c44                __gnu_Unwind_Save_WMMXC
-                0x00400c58                ___Unwind_RaiseException
-                0x00400c58                _Unwind_RaiseException
-                0x00400c7c                ___Unwind_Resume
-                0x00400c7c                _Unwind_Resume
-                0x00400ca0                _Unwind_Resume_or_Rethrow
-                0x00400ca0                ___Unwind_Resume_or_Rethrow
-                0x00400cc4                ___Unwind_ForcedUnwind
-                0x00400cc4                _Unwind_ForcedUnwind
-                0x00400ce8                _Unwind_Backtrace
-                0x00400ce8                ___Unwind_Backtrace
- *fill*         0x00400d0c        0x4 
- .text          0x00400d10      0x37c /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(pr-support.o)
-                0x00400d68                __gnu_unwind_execute
-                0x00401034                __gnu_unwind_frame
-                0x0040105c                _Unwind_GetRegionStart
-                0x00401068                _Unwind_GetLanguageSpecificData
-                0x0040107c                _Unwind_GetDataRelBase
-                0x00401084                _Unwind_GetTextRelBase
+ .text          0x00400130      0xa54 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(unwind-arm.o)
+                0x00400410                _Unwind_GetCFA
+                0x00400414                __gnu_Unwind_RaiseException
+                0x00400474                __gnu_Unwind_ForcedUnwind
+                0x00400488                __gnu_Unwind_Resume
+                0x004004cc                __gnu_Unwind_Resume_or_Rethrow
+                0x004004e0                _Unwind_Complete
+                0x004004e4                _Unwind_DeleteException
+                0x004004f0                _Unwind_VRS_Get
+                0x00400540                _Unwind_VRS_Set
+                0x00400590                __gnu_Unwind_Backtrace
+                0x004008d4                __aeabi_unwind_cpp_pr0
+                0x004008d8                __aeabi_unwind_cpp_pr1
+                0x004008dc                __aeabi_unwind_cpp_pr2
+                0x004008e0                _Unwind_VRS_Pop
+ *fill*         0x00400b84        0xc 
+ .text          0x00400b90      0x1ac /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(libunwind.o)
+                0x00400b90                __restore_core_regs
+                0x00400b90                restore_core_regs
+                0x00400ba8                __gnu_Unwind_Restore_VFP
+                0x00400bb0                __gnu_Unwind_Save_VFP
+                0x00400bb8                __gnu_Unwind_Restore_VFP_D
+                0x00400bc0                __gnu_Unwind_Save_VFP_D
+                0x00400bc8                __gnu_Unwind_Restore_VFP_D_16_to_31
+                0x00400bd0                __gnu_Unwind_Save_VFP_D_16_to_31
+                0x00400bd8                __gnu_Unwind_Restore_WMMXD
+                0x00400c1c                __gnu_Unwind_Save_WMMXD
+                0x00400c60                __gnu_Unwind_Restore_WMMXC
+                0x00400c74                __gnu_Unwind_Save_WMMXC
+                0x00400c88                ___Unwind_RaiseException
+                0x00400c88                _Unwind_RaiseException
+                0x00400cac                ___Unwind_Resume
+                0x00400cac                _Unwind_Resume
+                0x00400cd0                _Unwind_Resume_or_Rethrow
+                0x00400cd0                ___Unwind_Resume_or_Rethrow
+                0x00400cf4                ___Unwind_ForcedUnwind
+                0x00400cf4                _Unwind_ForcedUnwind
+                0x00400d18                _Unwind_Backtrace
+                0x00400d18                ___Unwind_Backtrace
+ *fill*         0x00400d3c        0x4 
+ .text          0x00400d40      0x37c /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(pr-support.o)
+                0x00400d98                __gnu_unwind_execute
+                0x00401064                __gnu_unwind_frame
+                0x0040108c                _Unwind_GetRegionStart
+                0x00401098                _Unwind_GetLanguageSpecificData
+                0x004010ac                _Unwind_GetDataRelBase
+                0x004010b4                _Unwind_GetTextRelBase
  *(.text.*)
- *fill*         0x0040108c        0x4 
+ *fill*         0x004010bc        0x4 
  .text.__late_init
-                0x00401090        0x4 build/obj/crt0.o
-                0x00401090                __late_init
- *fill*         0x00401094        0xc 
+                0x004010c0        0x4 build/obj/crt0.o
+                0x004010c0                __late_init
+ *fill*         0x004010c4        0xc 
  .text._default_exit
-                0x004010a0        0x4 build/obj/crt0.o
-                0x004010a0                _default_exit
- *fill*         0x004010a4        0xc 
+                0x004010d0        0x4 build/obj/crt0.o
+                0x004010d0                _default_exit
+ *fill*         0x004010d4        0xc 
  .text.ResetHandler
-                0x004010b0      0x108 build/obj/crt0.o
-                0x004010b0                ResetHandler
- *fill*         0x004011b8        0x8 
+                0x004010e0      0x108 build/obj/crt0.o
+                0x004010e0                ResetHandler
+ *fill*         0x004011e8        0x8 
  .text._unhandled_exception
-                0x004011c0        0x4 build/obj/vectors.o
-                0x004011c0                Vector58
-                0x004011c0                Vector9C
-                0x004011c0                VectorAC
-                0x004011c0                Vector5C
-                0x004011c0                NMIVector
-                0x004011c0                Vector8C
-                0x004011c0                VectorC8
-                0x004011c0                Vector94
-                0x004011c0                VectorA8
-                0x004011c0                VectorB4
-                0x004011c0                Vector74
-                0x004011c0                UsageFaultVector
-                0x004011c0                DebugMonitorVector
-                0x004011c0                Vector40
-                0x004011c0                VectorBC
-                0x004011c0                PendSVVector
-                0x004011c0                VectorCC
-                0x004011c0                Vector54
-                0x004011c0                Vector98
-                0x004011c0                Vector24
-                0x004011c0                Vector84
-                0x004011c0                BusFaultVector
-                0x004011c0                VectorC0
-                0x004011c0                HardFaultVector
-                0x004011c0                MemManageVector
-                0x004011c0                Vector6C
-                0x004011c0                VectorA0
-                0x004011c0                VectorC4
-                0x004011c0                Vector7C
-                0x004011c0                VectorB0
-                0x004011c0                Vector90
-                0x004011c0                Vector1C
-                0x004011c0                Vector48
-                0x004011c0                Vector70
-                0x004011c0                Vector4C
-                0x004011c0                Vector80
-                0x004011c0                Vector68
-                0x004011c0                Vector78
-                0x004011c0                _unhandled_exception
-                0x004011c0                Vector88
-                0x004011c0                Vector50
-                0x004011c0                Vector44
-                0x004011c0                Vector28
-                0x004011c0                VectorB8
-                0x004011c0                Vector34
-                0x004011c0                VectorA4
-                0x004011c0                Vector20
- *fill*         0x004011c4        0xc 
- .text._port_switch_from_isr
-                0x004011d0        0x8 build/obj/chcore_v7m.o
-                0x004011d0                _port_switch_from_isr
- *fill*         0x004011d8        0x8 
- .text.SVCallVector
-                0x004011e0       0x14 build/obj/chcore_v7m.o
-                0x004011e0                SVCallVector
+                0x004011f0        0x4 build/obj/vectors.o
+                0x004011f0                Vector58
+                0x004011f0                Vector9C
+                0x004011f0                VectorAC
+                0x004011f0                Vector5C
+                0x004011f0                NMIVector
+                0x004011f0                Vector8C
+                0x004011f0                VectorC8
+                0x004011f0                Vector94
+                0x004011f0                VectorA8
+                0x004011f0                VectorB4
+                0x004011f0                Vector74
+                0x004011f0                UsageFaultVector
+                0x004011f0                DebugMonitorVector
+                0x004011f0                Vector40
+                0x004011f0                VectorBC
+                0x004011f0                PendSVVector
+                0x004011f0                VectorCC
+                0x004011f0                Vector54
+                0x004011f0                Vector98
+                0x004011f0                Vector24
+                0x004011f0                Vector84
+                0x004011f0                BusFaultVector
+                0x004011f0                VectorC0
+                0x004011f0                HardFaultVector
+                0x004011f0                MemManageVector
+                0x004011f0                Vector6C
+                0x004011f0                VectorA0
+                0x004011f0                VectorC4
+                0x004011f0                Vector7C
+                0x004011f0                VectorB0
+                0x004011f0                Vector90
+                0x004011f0                Vector1C
+                0x004011f0                Vector48
+                0x004011f0                Vector70
+                0x004011f0                Vector4C
+                0x004011f0                Vector80
+                0x004011f0                Vector68
+                0x004011f0                Vector78
+                0x004011f0                _unhandled_exception
+                0x004011f0                Vector88
+                0x004011f0                Vector50
+                0x004011f0                Vector44
+                0x004011f0                Vector28
+                0x004011f0                VectorB8
+                0x004011f0                Vector34
+                0x004011f0                VectorA4
+                0x004011f0                Vector20
  *fill*         0x004011f4        0xc 
+ .text._port_switch_from_isr
+                0x00401200        0x8 build/obj/chcore_v7m.o
+                0x00401200                _port_switch_from_isr
+ *fill*         0x00401208        0x8 
+ .text.SVCallVector
+                0x00401210       0x14 build/obj/chcore_v7m.o
+                0x00401210                SVCallVector
+ *fill*         0x00401224        0xc 
  .text._port_init
-                0x00401200       0x34 build/obj/chcore_v7m.o
-                0x00401200                _port_init
- *fill*         0x00401234        0xc 
+                0x00401230       0x34 build/obj/chcore_v7m.o
+                0x00401230                _port_init
+ *fill*         0x00401264        0xc 
  .text._port_irq_epilogue
-                0x00401240       0x74 build/obj/chcore_v7m.o
-                0x00401240                _port_irq_epilogue
- *fill*         0x004012b4        0xc 
+                0x00401270       0x74 build/obj/chcore_v7m.o
+                0x00401270                _port_irq_epilogue
+ *fill*         0x004012e4        0xc 
  .text.SysTickVector
-                0x004012c0       0x1c build/obj/chcore_v7m.o
-                0x004012c0                SysTickVector
- *fill*         0x004012dc        0x4 
+                0x004012f0       0x1c build/obj/chcore_v7m.o
+                0x004012f0                SysTickVector
+ *fill*         0x0040130c        0x4 
  .text._port_switch
-                0x004012e0       0x10 build/obj/chcore_v7m.o
-                0x004012e0                _port_switch
+                0x00401310       0x10 build/obj/chcore_v7m.o
+                0x00401310                _port_switch
  .text._port_thread_start
-                0x004012f0       0x10 build/obj/chcore_v7m.o
-                0x004012f0                _port_thread_start
+                0x00401320       0x10 build/obj/chcore_v7m.o
+                0x00401320                _port_thread_start
  .text.nvicEnableVector
-                0x00401300       0x48 build/obj/nvic.o
-                0x00401300                nvicEnableVector
- *fill*         0x00401348        0x8 
+                0x00401330       0x48 build/obj/nvic.o
+                0x00401330                nvicEnableVector
+ *fill*         0x00401378        0x8 
  .text.nvicSetSystemHandlerPriority
-                0x00401350       0x2c build/obj/nvic.o
-                0x00401350                nvicSetSystemHandlerPriority
- *fill*         0x0040137c        0x4 
+                0x00401380       0x2c build/obj/nvic.o
+                0x00401380                nvicSetSystemHandlerPriority
+ *fill*         0x004013ac        0x4 
  .text._idle_thread
-                0x00401380       0x14 build/obj/chsys.o
-                0x00401380                _idle_thread
- *fill*         0x00401394        0xc 
+                0x004013b0       0x14 build/obj/chsys.o
+                0x004013b0                _idle_thread
+ *fill*         0x004013c4        0xc 
  .text.chSysInit
-                0x004013a0       0x5c build/obj/chsys.o
-                0x004013a0                chSysInit
- *fill*         0x004013fc        0x4 
+                0x004013d0       0x5c build/obj/chsys.o
+                0x004013d0                chSysInit
+ *fill*         0x0040142c        0x4 
  .text.chSysTimerHandlerI
-                0x00401400       0x50 build/obj/chsys.o
-                0x00401400                chSysTimerHandlerI
+                0x00401430       0x50 build/obj/chsys.o
+                0x00401430                chSysTimerHandlerI
  .text._vt_init
-                0x00401450       0x18 build/obj/chvt.o
-                0x00401450                _vt_init
- *fill*         0x00401468        0x8 
+                0x00401480       0x18 build/obj/chvt.o
+                0x00401480                _vt_init
+ *fill*         0x00401498        0x8 
  .text.chVTSetI
-                0x00401470       0x3c build/obj/chvt.o
-                0x00401470                chVTSetI
- *fill*         0x004014ac        0x4 
+                0x004014a0       0x3c build/obj/chvt.o
+                0x004014a0                chVTSetI
+ *fill*         0x004014dc        0x4 
  .text.chVTResetI
-                0x004014b0       0x24 build/obj/chvt.o
-                0x004014b0                chVTResetI
- *fill*         0x004014d4        0xc 
- .text.wakeup   0x004014e0       0x58 build/obj/chschd.o
- *fill*         0x00401538        0x8 
+                0x004014e0       0x24 build/obj/chvt.o
+                0x004014e0                chVTResetI
+ *fill*         0x00401504        0xc 
+ .text.wakeup   0x00401510       0x58 build/obj/chschd.o
+ *fill*         0x00401568        0x8 
  .text._scheduler_init
-                0x00401540       0x18 build/obj/chschd.o
-                0x00401540                _scheduler_init
- *fill*         0x00401558        0x8 
+                0x00401570       0x18 build/obj/chschd.o
+                0x00401570                _scheduler_init
+ *fill*         0x00401588        0x8 
  .text.chSchReadyI
-                0x00401560       0x2c build/obj/chschd.o
-                0x00401560                chSchReadyI
- *fill*         0x0040158c        0x4 
+                0x00401590       0x2c build/obj/chschd.o
+                0x00401590                chSchReadyI
+ *fill*         0x004015bc        0x4 
  .text.chSchGoSleepS
-                0x00401590       0x28 build/obj/chschd.o
-                0x00401590                chSchGoSleepS
- *fill*         0x004015b8        0x8 
+                0x004015c0       0x28 build/obj/chschd.o
+                0x004015c0                chSchGoSleepS
+ *fill*         0x004015e8        0x8 
  .text.chSchGoSleepTimeoutS
-                0x004015c0       0x44 build/obj/chschd.o
-                0x004015c0                chSchGoSleepTimeoutS
- *fill*         0x00401604        0xc 
+                0x004015f0       0x44 build/obj/chschd.o
+                0x004015f0                chSchGoSleepTimeoutS
+ *fill*         0x00401634        0xc 
  .text.chSchWakeupS
-                0x00401610       0x5c build/obj/chschd.o
-                0x00401610                chSchWakeupS
- *fill*         0x0040166c        0x4 
+                0x00401640       0x5c build/obj/chschd.o
+                0x00401640                chSchWakeupS
+ *fill*         0x0040169c        0x4 
  .text.chSchDoReschedule
-                0x00401670       0x48 build/obj/chschd.o
-                0x00401670                chSchDoReschedule
- *fill*         0x004016b8        0x8 
+                0x004016a0       0x48 build/obj/chschd.o
+                0x004016a0                chSchDoReschedule
+ *fill*         0x004016e8        0x8 
  .text._thread_init
-                0x004016c0       0x44 build/obj/chthreads.o
-                0x004016c0                _thread_init
- *fill*         0x00401704        0xc 
+                0x004016f0       0x44 build/obj/chthreads.o
+                0x004016f0                _thread_init
+ *fill*         0x00401734        0xc 
  .text.chThdCreateStatic
-                0x00401710       0x80 build/obj/chthreads.o
-                0x00401710                chThdCreateStatic
+                0x00401740       0x80 build/obj/chthreads.o
+                0x00401740                chThdCreateStatic
  .text.chThdSleep
-                0x00401790       0x18 build/obj/chthreads.o
-                0x00401790                chThdSleep
- *fill*         0x004017a8        0x8 
+                0x004017c0       0x18 build/obj/chthreads.o
+                0x004017c0                chThdSleep
+ *fill*         0x004017d8        0x8 
  .text.chThdExitS
-                0x004017b0       0x40 build/obj/chthreads.o
-                0x004017b0                chThdExitS
+                0x004017e0       0x40 build/obj/chthreads.o
+                0x004017e0                chThdExitS
  .text.chThdExit
-                0x004017f0        0xc build/obj/chthreads.o
-                0x004017f0                chThdExit
- *fill*         0x004017fc        0x4 
+                0x00401820        0xc build/obj/chthreads.o
+                0x00401820                chThdExit
+ *fill*         0x0040182c        0x4 
  .text.chMtxInit
-                0x00401800        0xc build/obj/chmtx.o
-                0x00401800                chMtxInit
- *fill*         0x0040180c        0x4 
+                0x00401830        0xc build/obj/chmtx.o
+                0x00401830                chMtxInit
+ *fill*         0x0040183c        0x4 
  .text.chEvtSignalFlagsI
-                0x00401810       0x30 build/obj/chevents.o
-                0x00401810                chEvtSignalFlagsI
+                0x00401840       0x30 build/obj/chevents.o
+                0x00401840                chEvtSignalFlagsI
  .text.chEvtBroadcastFlagsI
-                0x00401840       0x20 build/obj/chevents.o
-                0x00401840                chEvtBroadcastFlagsI
- .text.qwait    0x00401860       0x2c build/obj/chqueues.o
- *fill*         0x0040188c        0x4 
+                0x00401870       0x20 build/obj/chevents.o
+                0x00401870                chEvtBroadcastFlagsI
+ .text.qwait    0x00401890       0x2c build/obj/chqueues.o
+ *fill*         0x004018bc        0x4 
  .text.chIQInit
-                0x00401890       0x1c build/obj/chqueues.o
-                0x00401890                chIQInit
- *fill*         0x004018ac        0x4 
+                0x004018c0       0x1c build/obj/chqueues.o
+                0x004018c0                chIQInit
+ *fill*         0x004018dc        0x4 
  .text.chIQPutI
-                0x004018b0       0x4c build/obj/chqueues.o
-                0x004018b0                chIQPutI
- *fill*         0x004018fc        0x4 
+                0x004018e0       0x4c build/obj/chqueues.o
+                0x004018e0                chIQPutI
+ *fill*         0x0040192c        0x4 
  .text.chIQGetTimeout
-                0x00401900       0x50 build/obj/chqueues.o
-                0x00401900                chIQGetTimeout
+                0x00401930       0x50 build/obj/chqueues.o
+                0x00401930                chIQGetTimeout
  .text.chIQReadTimeout
-                0x00401950       0x70 build/obj/chqueues.o
-                0x00401950                chIQReadTimeout
+                0x00401980       0x70 build/obj/chqueues.o
+                0x00401980                chIQReadTimeout
  .text.chOQInit
-                0x004019c0       0x1c build/obj/chqueues.o
-                0x004019c0                chOQInit
- *fill*         0x004019dc        0x4 
+                0x004019f0       0x1c build/obj/chqueues.o
+                0x004019f0                chOQInit
+ *fill*         0x00401a0c        0x4 
  .text.chOQPutTimeout
-                0x004019e0       0x54 build/obj/chqueues.o
-                0x004019e0                chOQPutTimeout
- *fill*         0x00401a34        0xc 
+                0x00401a10       0x54 build/obj/chqueues.o
+                0x00401a10                chOQPutTimeout
+ *fill*         0x00401a64        0xc 
  .text.chOQGetI
-                0x00401a40       0x48 build/obj/chqueues.o
-                0x00401a40                chOQGetI
- *fill*         0x00401a88        0x8 
+                0x00401a70       0x48 build/obj/chqueues.o
+                0x00401a70                chOQGetI
+ *fill*         0x00401ab8        0x8 
  .text.chOQWriteTimeout
-                0x00401a90       0x80 build/obj/chqueues.o
-                0x00401a90                chOQWriteTimeout
+                0x00401ac0       0x80 build/obj/chqueues.o
+                0x00401ac0                chOQWriteTimeout
  .text._core_init
-                0x00401b10       0x28 build/obj/chmemcore.o
-                0x00401b10                _core_init
- *fill*         0x00401b38        0x8 
+                0x00401b40       0x28 build/obj/chmemcore.o
+                0x00401b40                _core_init
+ *fill*         0x00401b68        0x8 
  .text.chCoreAlloc
-                0x00401b40       0x38 build/obj/chmemcore.o
-                0x00401b40                chCoreAlloc
- *fill*         0x00401b78        0x8 
+                0x00401b70       0x38 build/obj/chmemcore.o
+                0x00401b70                chCoreAlloc
+ *fill*         0x00401ba8        0x8 
  .text._heap_init
-                0x00401b80       0x1c build/obj/chheap.o
-                0x00401b80                _heap_init
- *fill*         0x00401b9c        0x4 
- .text.halInit  0x00401ba0       0x1c build/obj/hal.o
-                0x00401ba0                halInit
- *fill*         0x00401bbc        0x4 
- .text.putwouldblock
-                0x00401bc0        0xc build/obj/serial.o
+                0x00401bb0       0x1c build/obj/chheap.o
+                0x00401bb0                _heap_init
  *fill*         0x00401bcc        0x4 
+ .text.halInit  0x00401bd0       0x1c build/obj/hal.o
+                0x00401bd0                halInit
+ *fill*         0x00401bec        0x4 
+ .text.putwouldblock
+                0x00401bf0        0xc build/obj/serial.o
+ *fill*         0x00401bfc        0x4 
  .text.getwouldblock
-                0x00401bd0        0xc build/obj/serial.o
- *fill*         0x00401bdc        0x4 
+                0x00401c00        0xc build/obj/serial.o
+ *fill*         0x00401c0c        0x4 
  .text.getflags
-                0x00401be0       0x18 build/obj/serial.o
- *fill*         0x00401bf8        0x8 
- .text.readt    0x00401c00        0x8 build/obj/serial.o
- *fill*         0x00401c08        0x8 
- .text.reads    0x00401c10        0xc build/obj/serial.o
- *fill*         0x00401c1c        0x4 
- .text.writet   0x00401c20        0x8 build/obj/serial.o
+                0x00401c10       0x18 build/obj/serial.o
  *fill*         0x00401c28        0x8 
- .text.writes   0x00401c30        0xc build/obj/serial.o
- *fill*         0x00401c3c        0x4 
- .text.gett     0x00401c40        0x8 build/obj/serial.o
- *fill*         0x00401c48        0x8 
- .text.putt     0x00401c50        0x8 build/obj/serial.o
+ .text.readt    0x00401c30        0x8 build/obj/serial.o
+ *fill*         0x00401c38        0x8 
+ .text.reads    0x00401c40        0xc build/obj/serial.o
+ *fill*         0x00401c4c        0x4 
+ .text.writet   0x00401c50        0x8 build/obj/serial.o
  *fill*         0x00401c58        0x8 
- .text.sdInit   0x00401c60        0x4 build/obj/serial.o
-                0x00401c60                sdInit
- *fill*         0x00401c64        0xc 
+ .text.writes   0x00401c60        0xc build/obj/serial.o
+ *fill*         0x00401c6c        0x4 
+ .text.gett     0x00401c70        0x8 build/obj/serial.o
+ *fill*         0x00401c78        0x8 
+ .text.putt     0x00401c80        0x8 build/obj/serial.o
+ *fill*         0x00401c88        0x8 
+ .text.sdInit   0x00401c90        0x4 build/obj/serial.o
+                0x00401c90                sdInit
+ *fill*         0x00401c94        0xc 
  .text.sdObjectInit
-                0x00401c70       0x40 build/obj/serial.o
-                0x00401c70                sdObjectInit
- .text.sdStart  0x00401cb0       0x1c build/obj/serial.o
-                0x00401cb0                sdStart
- *fill*         0x00401ccc        0x4 
+                0x00401ca0       0x40 build/obj/serial.o
+                0x00401ca0                sdObjectInit
+ .text.sdStart  0x00401ce0       0x1c build/obj/serial.o
+                0x00401ce0                sdStart
+ *fill*         0x00401cfc        0x4 
  .text.sdIncomingDataI
-                0x00401cd0       0x4c build/obj/serial.o
-                0x00401cd0                sdIncomingDataI
- *fill*         0x00401d1c        0x4 
+                0x00401d00       0x4c build/obj/serial.o
+                0x00401d00                sdIncomingDataI
+ *fill*         0x00401d4c        0x4 
  .text.hal_lld_init
-                0x00401d20       0x38 build/obj/hal_lld.o
-                0x00401d20                hal_lld_init
- *fill*         0x00401d58        0x8 
+                0x00401d50       0x38 build/obj/hal_lld.o
+                0x00401d50                hal_lld_init
+ *fill*         0x00401d88        0x8 
  .text.at91sam3_clock_init
-                0x00401d60        0x4 build/obj/hal_lld.o
-                0x00401d60                at91sam3_clock_init
- *fill*         0x00401d64        0xc 
+                0x00401d90        0x4 build/obj/hal_lld.o
+                0x00401d90                at91sam3_clock_init
+ *fill*         0x00401d94        0xc 
  .text.SystemCoreClockUpdate
-                0x00401d70       0xf4 build/obj/system_SAM3.o
-                0x00401d70                SystemCoreClockUpdate
- *fill*         0x00401e64        0xc 
+                0x00401da0       0xf4 build/obj/system_SAM3.o
+                0x00401da0                SystemCoreClockUpdate
+ *fill*         0x00401e94        0xc 
  .text.SystemInit
-                0x00401e70       0x94 build/obj/system_SAM3.o
-                0x00401e70                SystemInit
- *fill*         0x00401f04        0xc 
+                0x00401ea0       0x94 build/obj/system_SAM3.o
+                0x00401ea0                SystemInit
+ *fill*         0x00401f34        0xc 
  .text._pal_lld_init
-                0x00401f10       0xb8 build/obj/pal_lld.o
-                0x00401f10                _pal_lld_init
- *fill*         0x00401fc8        0x8 
+                0x00401f40       0xb8 build/obj/pal_lld.o
+                0x00401f40                _pal_lld_init
+ *fill*         0x00401ff8        0x8 
  .text._pal_lld_setgroupmode
-                0x00401fd0       0x34 build/obj/pal_lld.o
-                0x00401fd0                _pal_lld_setgroupmode
- *fill*         0x00402004        0xc 
- .text.notify1  0x00402010        0xc build/obj/serial_lld.o
- *fill*         0x0040201c        0x4 
- .text.notify2  0x00402020        0xc build/obj/serial_lld.o
- *fill*         0x0040202c        0x4 
+                0x00402000       0x34 build/obj/pal_lld.o
+                0x00402000                _pal_lld_setgroupmode
+ *fill*         0x00402034        0xc 
+ .text.notify1  0x00402040        0xc build/obj/serial_lld.o
+ *fill*         0x0040204c        0x4 
+ .text.notify2  0x00402050        0xc build/obj/serial_lld.o
+ *fill*         0x0040205c        0x4 
  .text.serve_interrupt
-                0x00402030       0xa4 build/obj/serial_lld.o
- *fill*         0x004020d4        0xc 
+                0x00402060       0xa4 build/obj/serial_lld.o
+ *fill*         0x00402104        0xc 
  .text.Vector60
-                0x004020e0       0x14 build/obj/serial_lld.o
-                0x004020e0                Vector60
- *fill*         0x004020f4        0xc 
+                0x00402110       0x14 build/obj/serial_lld.o
+                0x00402110                Vector60
+ *fill*         0x00402124        0xc 
  .text.Vector64
-                0x00402100       0x14 build/obj/serial_lld.o
-                0x00402100                Vector64
- *fill*         0x00402114        0xc 
+                0x00402130       0x14 build/obj/serial_lld.o
+                0x00402130                Vector64
+ *fill*         0x00402144        0xc 
  .text.sd_lld_init
-                0x00402120       0x58 build/obj/serial_lld.o
-                0x00402120                sd_lld_init
- *fill*         0x00402178        0x8 
+                0x00402150       0x58 build/obj/serial_lld.o
+                0x00402150                sd_lld_init
+ *fill*         0x004021a8        0x8 
  .text.sd_lld_start
-                0x00402180       0xa4 build/obj/serial_lld.o
-                0x00402180                sd_lld_start
- *fill*         0x00402224        0xc 
+                0x004021b0       0xa4 build/obj/serial_lld.o
+                0x004021b0                sd_lld_start
+ *fill*         0x00402254        0xc 
  .text.__early_init
-                0x00402230       0x10 build/obj/board.o
-                0x00402230                __early_init
+                0x00402260       0x10 build/obj/board.o
+                0x00402260                __early_init
  .text.boardInit
-                0x00402240       0x20 build/obj/board.o
-                0x00402240                boardInit
- .text._getpid  0x00402260        0x4 build/obj/syscalls.o
-                0x00402260                _getpid
- *fill*         0x00402264        0xc 
- .text._exit    0x00402270        0x4 build/obj/syscalls.o
-                0x00402270                _exit
- *fill*         0x00402274        0xc 
- .text._kill    0x00402280        0x8 build/obj/syscalls.o
-                0x00402280                _kill
- *fill*         0x00402288        0x8 
- .text.ltoa     0x00402290       0x40 build/obj/chprintf.o
- .text.chprintf
-                0x004022d0      0x378 build/obj/chprintf.o
-                0x004022d0                chprintf
- *fill*         0x00402648        0x8 
- .text.abort    0x00402650        0xe /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-abort.o)
-                0x00402650                abort
- *fill*         0x0040265e        0x2 
- .text.memcpy   0x00402660       0x16 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memcpy.o)
-                0x00402660                memcpy
- *fill*         0x00402676        0xa 
+                0x00402270       0x20 build/obj/board.o
+                0x00402270                boardInit
+ .text._getpid  0x00402290        0x4 build/obj/syscalls.o
+                0x00402290                _getpid
+ *fill*         0x00402294        0xc 
+ .text._exit    0x004022a0        0x4 build/obj/syscalls.o
+                0x004022a0                _exit
+ *fill*         0x004022a4        0xc 
+ .text._kill    0x004022b0        0x8 build/obj/syscalls.o
+                0x004022b0                _kill
+ *fill*         0x004022b8        0x8 
+ .text.abort    0x004022c0        0xe /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-abort.o)
+                0x004022c0                abort
+ *fill*         0x004022ce        0x2 
+ .text.memcpy   0x004022d0       0x16 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-memcpy.o)
+                0x004022d0                memcpy
+ *fill*         0x004022e6        0xa 
  .text._raise_r
-                0x00402680       0x50 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-signal.o)
-                0x00402680                _raise_r
- .text.raise    0x004026d0       0x10 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-signal.o)
-                0x004026d0                raise
- .text._kill_r  0x004026e0       0x24 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-signalr.o)
-                0x004026e0                _kill_r
- *fill*         0x00402704        0xc 
+                0x004022f0       0x50 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-signal.o)
+                0x004022f0                _raise_r
+ .text.raise    0x00402340       0x10 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-signal.o)
+                0x00402340                raise
+ .text._kill_r  0x00402350       0x24 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-signalr.o)
+                0x00402350                _kill_r
+ *fill*         0x00402374        0xc 
  .text._getpid_r
-                0x00402710        0x4 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-signalr.o)
-                0x00402710                _getpid_r
+                0x00402380        0x4 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-signalr.o)
+                0x00402380                _getpid_r
  *(.rodata)
  *(.rodata.*)
- *fill*         0x00402714        0xc 
+ *fill*         0x00402384        0xc 
  .rodata.str1.4
-                0x00402720        0xd build/obj/chsys.o
- *fill*         0x0040272d        0x3 
- .rodata.vmt    0x00402730       0x24 build/obj/serial.o
- *fill*         0x00402754        0xc 
+                0x00402390       0x10 build/obj/chsys.o
+                                  0xd (size before relaxing)
+ .rodata.vmt    0x004023a0       0x24 build/obj/serial.o
+ *fill*         0x004023c4        0xc 
  .rodata.default_config
-                0x00402760        0x8 build/obj/serial_lld.o
- *fill*         0x00402768        0x8 
+                0x004023d0        0x8 build/obj/serial_lld.o
+ *fill*         0x004023d8        0x8 
  .rodata.pal_default_config
-                0x00402770       0x24 build/obj/board.o
-                0x00402770                pal_default_config
- *fill*         0x00402794        0xc 
- .rodata.str1.4
-                0x004027a0        0x7 build/obj/chprintf.o
- *fill*         0x004027a7        0x9 
- .rodata.str1.4
-                0x004027b0       0x1c build/obj/main.o
-                                 0x1b (size before relaxing)
- *fill*         0x004027cc        0x4 
+                0x004023e0       0x24 build/obj/board.o
+                0x004023e0                pal_default_config
+ *fill*         0x00402404        0xc 
  .rodata.str1.1
-                0x004027d0        0x2 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-impure.o)
- *fill*         0x004027d2        0xe 
+                0x00402410        0x2 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-impure.o)
+ *fill*         0x00402412        0xe 
  .rodata.__sf_fake_stdin
-                0x004027e0       0x20 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-findfp.o)
-                0x004027e0                __sf_fake_stdin
+                0x00402420       0x20 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-findfp.o)
+                0x00402420                __sf_fake_stdin
  .rodata.__sf_fake_stdout
-                0x00402800       0x20 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-findfp.o)
-                0x00402800                __sf_fake_stdout
+                0x00402440       0x20 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-findfp.o)
+                0x00402440                __sf_fake_stdout
  .rodata.__sf_fake_stderr
-                0x00402820       0x20 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-findfp.o)
-                0x00402820                __sf_fake_stderr
+                0x00402460       0x20 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-findfp.o)
+                0x00402460                __sf_fake_stderr
  *(.glue_7t)
  .glue_7t       0x00000000        0x0 linker stubs
  *(.glue_7)
  .glue_7        0x00000000        0x0 linker stubs
  *(.gcc*)
 
-.vfp11_veneer   0x00402840        0x0
+.vfp11_veneer   0x00402480        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x00402840        0x0
+.v4_bx          0x00402480        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x00402840        0x0
+.iplt           0x00402480        0x0
  .iplt          0x00000000        0x0 build/obj/crt0.o
 
-.ARM.extab      0x00402840       0x24
+.ARM.extab      0x00402480       0x18
  *(.ARM.extab* .gnu.linkonce.armextab.*)
- .ARM.extab.text.startup.main
-                0x00402840        0xc build/obj/main.o
- .ARM.extab     0x0040284c       0x18 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(pr-support.o)
+ .ARM.extab     0x00402480       0x18 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(pr-support.o)
 
-.ARM.exidx      0x00402864       0xc0
-                0x00402864                PROVIDE (__exidx_start, .)
+.ARM.exidx      0x00402498       0xc0
+                0x00402498                PROVIDE (__exidx_start, .)
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
  .ARM.exidx.text.startup.main
-                0x00402864        0x8 build/obj/main.o
- .ARM.exidx     0x0040286c       0x80 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(unwind-arm.o)
+                0x00402498        0x8 build/obj/main.o
+ .ARM.exidx     0x004024a0       0x80 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(unwind-arm.o)
                                  0xd8 (size before relaxing)
- .ARM.exidx     0x004028ec       0x38 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(pr-support.o)
+ .ARM.exidx     0x00402520       0x38 /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(pr-support.o)
                                  0x48 (size before relaxing)
-                0x00402924                PROVIDE (__exidx_end, .)
+                0x00402558                PROVIDE (__exidx_end, .)
 
-.rel.dyn        0x00402924        0x0
+.rel.dyn        0x00402558        0x0
  .rel.iplt      0x00000000        0x0 build/obj/crt0.o
 
 .eh_frame_hdr
@@ -1446,11 +1450,10 @@ destructors     0x004000d0        0x0
 .eh_frame
  *(.eh_frame)
 
-.textalign      0x00402924        0x4
-                0x00402928                . = ALIGN (0x8)
- *fill*         0x00402924        0x4 
-                0x00402928                _etext = .
-                0x00402928                _textdata = _etext
+.textalign      0x00402558        0x0
+                0x00402558                . = ALIGN (0x8)
+                0x00402558                _etext = .
+                0x00402558                _textdata = _etext
 
 .stacks         0x20000000      0x800
                 0x20000000                . = ALIGN (0x8)
@@ -1467,7 +1470,7 @@ destructors     0x004000d0        0x0
                 0x20000800                __process_stack_end__ = .
                 0x20000800                __main_thread_stack_end__ = .
 
-.data           0x20000800       0x68 load address 0x00402928
+.data           0x20000800       0x68 load address 0x00402558
                 0x20000800                . = ALIGN (0x4)
                 0x20000800                PROVIDE (_data, .)
  *(.data)
@@ -1486,10 +1489,10 @@ destructors     0x004000d0        0x0
                 0x20000868                . = ALIGN (0x4)
                 0x20000868                PROVIDE (_edata, .)
 
-.igot.plt       0x20000868        0x0 load address 0x00402990
+.igot.plt       0x20000868        0x0 load address 0x004025c0
  .igot.plt      0x00000000        0x0 build/obj/crt0.o
 
-.bss            0x20000868      0x24c load address 0x00402990
+.bss            0x20000868      0x24c load address 0x004025c0
                 0x20000868                . = ALIGN (0x4)
                 0x20000868                PROVIDE (_bss_start, .)
  *(.bss)
@@ -1524,7 +1527,7 @@ destructors     0x004000d0        0x0
                 0x20008000                __heap_end__ = __ram_end__
 OUTPUT(build/ch.elf elf32-littlearm)
 
-.debug_info     0x00000000     0xa4b4
+.debug_info     0x00000000     0xa44e
  .debug_info    0x00000000      0x2f2 build/obj/crt0.o
  .debug_info    0x000002f2       0xb3 build/obj/vectors.o
  .debug_info    0x000003a5      0x815 build/obj/chcore_v7m.o
@@ -1545,10 +1548,9 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_info    0x000070fe      0x88c build/obj/pal_lld.o
  .debug_info    0x0000798a     0x1594 build/obj/serial_lld.o
  .debug_info    0x00008f1e      0x6b3 build/obj/board.o
- .debug_info    0x000095d1      0x49d build/obj/chprintf.o
- .debug_info    0x00009a6e      0xa46 build/obj/main.o
+ .debug_info    0x000095d1      0xe7d build/obj/main.o
 
-.debug_abbrev   0x00000000     0x2a4d
+.debug_abbrev   0x00000000     0x28ce
  .debug_abbrev  0x00000000      0x13a build/obj/crt0.o
  .debug_abbrev  0x0000013a       0x75 build/obj/vectors.o
  .debug_abbrev  0x000001af      0x23f build/obj/chcore_v7m.o
@@ -1569,10 +1571,9 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_abbrev  0x00002083      0x11b build/obj/pal_lld.o
  .debug_abbrev  0x0000219e      0x3c2 build/obj/serial_lld.o
  .debug_abbrev  0x00002560      0x15a build/obj/board.o
- .debug_abbrev  0x000026ba      0x192 build/obj/chprintf.o
- .debug_abbrev  0x0000284c      0x201 build/obj/main.o
+ .debug_abbrev  0x000026ba      0x214 build/obj/main.o
 
-.debug_loc      0x00000000     0x2be0
+.debug_loc      0x00000000     0x24e9
  .debug_loc     0x00000000       0xba build/obj/crt0.o
  .debug_loc     0x000000ba       0x5a build/obj/chcore_v7m.o
  .debug_loc     0x00000114      0x158 build/obj/nvic.o
@@ -1588,9 +1589,8 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_loc     0x00001d2e      0x4e0 build/obj/serial.o
  .debug_loc     0x0000220e       0x42 build/obj/pal_lld.o
  .debug_loc     0x00002250      0x299 build/obj/serial_lld.o
- .debug_loc     0x000024e9      0x6f7 build/obj/chprintf.o
 
-.debug_aranges  0x00000000      0x5d0
+.debug_aranges  0x00000000      0x5a8
  .debug_aranges
                 0x00000000       0x38 build/obj/crt0.o
  .debug_aranges
@@ -1632,11 +1632,9 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_aranges
                 0x00000560       0x28 build/obj/board.o
  .debug_aranges
-                0x00000588       0x28 build/obj/chprintf.o
- .debug_aranges
-                0x000005b0       0x20 build/obj/main.o
+                0x00000588       0x20 build/obj/main.o
 
-.debug_ranges   0x00000000      0x8f0
+.debug_ranges   0x00000000      0x8d8
  .debug_ranges  0x00000000       0x58 build/obj/crt0.o
  .debug_ranges  0x00000058       0x10 build/obj/vectors.o
  .debug_ranges  0x00000068       0x58 build/obj/chcore_v7m.o
@@ -1657,10 +1655,9 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_ranges  0x00000820       0x18 build/obj/pal_lld.o
  .debug_ranges  0x00000838       0x78 build/obj/serial_lld.o
  .debug_ranges  0x000008b0       0x18 build/obj/board.o
- .debug_ranges  0x000008c8       0x18 build/obj/chprintf.o
- .debug_ranges  0x000008e0       0x10 build/obj/main.o
+ .debug_ranges  0x000008c8       0x10 build/obj/main.o
 
-.debug_line     0x00000000     0x3974
+.debug_line     0x00000000     0x3661
  .debug_line    0x00000000      0x186 build/obj/crt0.o
  .debug_line    0x00000186       0x68 build/obj/vectors.o
  .debug_line    0x000001ee      0x257 build/obj/chcore_v7m.o
@@ -1681,10 +1678,9 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_line    0x00002a4f      0x246 build/obj/pal_lld.o
  .debug_line    0x00002c95      0x483 build/obj/serial_lld.o
  .debug_line    0x00003118      0x20c build/obj/board.o
- .debug_line    0x00003324      0x2fc build/obj/chprintf.o
- .debug_line    0x00003620      0x354 build/obj/main.o
+ .debug_line    0x00003324      0x33d build/obj/main.o
 
-.debug_str      0x00000000     0x1a46
+.debug_str      0x00000000     0x19aa
  .debug_str     0x00000000      0x2bd build/obj/crt0.o
                                 0x30d (size before relaxing)
  .debug_str     0x000002bd       0x4e build/obj/vectors.o
@@ -1709,26 +1705,24 @@ OUTPUT(build/ch.elf elf32-littlearm)
                                 0x4cf (size before relaxing)
  .debug_str     0x00000c8c       0x72 build/obj/chmemcore.o
                                 0x24e (size before relaxing)
- .debug_str     0x00000cfe       0xaf build/obj/chheap.o
+ .debug_str     0x00000cfe       0xb5 build/obj/chheap.o
                                 0x42f (size before relaxing)
- .debug_str     0x00000dad       0xab build/obj/hal.o
+ .debug_str     0x00000db3       0xab build/obj/hal.o
                                 0x25e (size before relaxing)
- .debug_str     0x00000e58      0x259 build/obj/serial.o
+ .debug_str     0x00000e5e      0x259 build/obj/serial.o
                                 0x71a (size before relaxing)
- .debug_str     0x000010b1       0x8f build/obj/hal_lld.o
+ .debug_str     0x000010b7       0x8f build/obj/hal_lld.o
                                 0x279 (size before relaxing)
- .debug_str     0x00001140      0x1d8 build/obj/system_SAM3.o
+ .debug_str     0x00001146      0x1d8 build/obj/system_SAM3.o
                                 0x3e0 (size before relaxing)
- .debug_str     0x00001318      0x2ee build/obj/pal_lld.o
+ .debug_str     0x0000131e      0x2ee build/obj/pal_lld.o
                                 0x65a (size before relaxing)
- .debug_str     0x00001606      0x246 build/obj/serial_lld.o
+ .debug_str     0x0000160c      0x246 build/obj/serial_lld.o
                                 0xc62 (size before relaxing)
- .debug_str     0x0000184c       0x1d build/obj/board.o
+ .debug_str     0x00001852       0x1d build/obj/board.o
                                 0x586 (size before relaxing)
- .debug_str     0x00001869       0x99 build/obj/chprintf.o
-                                0x2dd (size before relaxing)
- .debug_str     0x00001902      0x144 build/obj/main.o
-                                0x632 (size before relaxing)
+ .debug_str     0x0000186f      0x13b build/obj/main.o
+                                0x8e2 (size before relaxing)
 
 .comment        0x00000000       0x70
  .comment       0x00000000       0x70 build/obj/crt0.o
@@ -1752,7 +1746,6 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .comment       0x00000000       0x71 build/obj/pal_lld.o
  .comment       0x00000000       0x71 build/obj/serial_lld.o
  .comment       0x00000000       0x71 build/obj/board.o
- .comment       0x00000000       0x71 build/obj/chprintf.o
  .comment       0x00000000       0x71 build/obj/main.o
 
 .ARM.attributes
@@ -1798,11 +1791,9 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .ARM.attributes
                 0x000003c9       0x33 build/obj/board.o
  .ARM.attributes
-                0x000003fc       0x33 build/obj/chprintf.o
- .ARM.attributes
-                0x0000042f       0x33 build/obj/main.o
+                0x000003fc       0x33 build/obj/main.o
 
-.debug_frame    0x00000000      0xec4
+.debug_frame    0x00000000      0xe28
  .debug_frame   0x00000000       0x50 build/obj/crt0.o
  .debug_frame   0x00000050       0x20 build/obj/vectors.o
  .debug_frame   0x00000070       0xa0 build/obj/chcore_v7m.o
@@ -1823,8 +1814,7 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_frame   0x00000c70       0x48 build/obj/pal_lld.o
  .debug_frame   0x00000cb8      0x108 build/obj/serial_lld.o
  .debug_frame   0x00000dc0       0x3c build/obj/board.o
- .debug_frame   0x00000dfc       0x9c build/obj/chprintf.o
- .debug_frame   0x00000e98       0x2c build/obj/main.o
+ .debug_frame   0x00000dfc       0x2c build/obj/main.o
 
 Cross Reference Table
 
@@ -1954,9 +1944,9 @@ ___Unwind_Resume                                  /home/david/Desktop/Embebidos/
 ___Unwind_Resume_or_Rethrow                       /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(libunwind.o)
 __aeabi_unwind_cpp_pr0                            /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(unwind-arm.o)
                                                   /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(pr-support.o)
+                                                  build/obj/main.o
 __aeabi_unwind_cpp_pr1                            /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(unwind-arm.o)
                                                   /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(pr-support.o)
-                                                  build/obj/main.o
 __aeabi_unwind_cpp_pr2                            /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(unwind-arm.o)
 __assert                                          /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-assert.o)
 __assert_func                                     /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-assert.o)
@@ -2235,6 +2225,7 @@ chHeapFree                                        build/obj/chheap.o
 chHeapInit                                        build/obj/chheap.o
 chHeapStatus                                      build/obj/chheap.o
 chIQGetTimeout                                    build/obj/chqueues.o
+                                                  build/obj/main.o
                                                   build/obj/serial.o
 chIQInit                                          build/obj/chqueues.o
                                                   build/obj/serial.o
@@ -2378,7 +2369,6 @@ chVTSetI                                          build/obj/chvt.o
                                                   build/obj/evtimer.o
                                                   build/obj/chschd.o
 chprintf                                          build/obj/chprintf.o
-                                                  build/obj/main.o
                                                   build/obj/atmel_adc.o
 cleanup_glue                                      /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-reent.o)
 errno                                             /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc_nano.a(lib_a-reent.o)

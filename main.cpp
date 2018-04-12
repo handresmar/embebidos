@@ -13,6 +13,7 @@
 #include "hal.h"
 #include "pio.h"
 #include "pmc.h"
+#include "string.h"
 
 static WORKING_AREA(waThread1, 128);
 
@@ -39,10 +40,19 @@ int main(void) {
 
   //Start Serial.
   sdStart(&SD2, NULL);
-  
   while(true) {
-    chprintf((BaseChannel *) &SD2, "Hello World from ChibiOS\r\n");
     chThdSleepMilliseconds(100);
+    int c = sdGet(&SD2);
+    if((char)sdGet(&SD2) == '1'){
+      /*chprintf((BaseChannel *) &SD2, "Lo que envio fue: ");
+      sdPut(&SD2, c);
+      chprintf((BaseChannel *) &SD2, "\r\n");
+      */
+      palSetPad(IOPORT3, BOARD_LED);
+    }else if((char)sdGet(&SD2) == '2'){
+      palClearPad(IOPORT3, BOARD_LED);
+    }
+    
   }
 
   // Creates blink thread

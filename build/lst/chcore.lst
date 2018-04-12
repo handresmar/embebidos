@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccjuQ2Rg.s 			page 1
+ARM GAS  /tmp/ccT6dAn6.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccjuQ2Rg.s 			page 1
   55 0011 29010000 		.4byte	.LASF12
   56 0015 6A010000 		.4byte	.LASF13
   57 0019 00000000 		.4byte	.Ldebug_ranges0+0
-ARM GAS  /tmp/ccjuQ2Rg.s 			page 2
+ARM GAS  /tmp/ccT6dAn6.s 			page 2
 
 
   58 001d 00000000 		.4byte	0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccjuQ2Rg.s 			page 1
  112 0080 00000000 		.4byte	.LFB7
  113 0084 04000000 		.4byte	.LFE7-.LFB7
  114 0088 01       		.uleb128 0x1
-ARM GAS  /tmp/ccjuQ2Rg.s 			page 3
+ARM GAS  /tmp/ccT6dAn6.s 			page 3
 
 
  115 0089 9C       		.byte	0x9c
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccjuQ2Rg.s 			page 1
  169 0032 3B       		.uleb128 0x3b
  170 0033 0B       		.uleb128 0xb
  171 0034 27       		.uleb128 0x27
-ARM GAS  /tmp/ccjuQ2Rg.s 			page 4
+ARM GAS  /tmp/ccT6dAn6.s 			page 4
 
 
  172 0035 19       		.uleb128 0x19
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccjuQ2Rg.s 			page 1
  210      6F726B20 
  210      2D6D7468 
  210      756D6220 
-ARM GAS  /tmp/ccjuQ2Rg.s 			page 5
+ARM GAS  /tmp/ccT6dAn6.s 			page 5
 
 
  210      2D676764 
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccjuQ2Rg.s 			page 1
  230      7420756E 
  230      7369676E 
  230      65642069 
-ARM GAS  /tmp/ccjuQ2Rg.s 			page 6
+ARM GAS  /tmp/ccT6dAn6.s 			page 6
 
 
  230      6E7400
@@ -319,13 +319,13 @@ ARM GAS  /tmp/ccjuQ2Rg.s 			page 1
  238      74797065 
  238      00
  239              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccjuQ2Rg.s 			page 7
+ARM GAS  /tmp/ccT6dAn6.s 			page 7
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chcore.c
-     /tmp/ccjuQ2Rg.s:19     .text.port_halt:00000000 $t
-     /tmp/ccjuQ2Rg.s:25     .text.port_halt:00000000 port_halt
+     /tmp/ccT6dAn6.s:19     .text.port_halt:00000000 $t
+     /tmp/ccT6dAn6.s:25     .text.port_halt:00000000 port_halt
                      .debug_frame:00000010 $d
 
 NO UNDEFINED SYMBOLS

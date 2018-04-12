@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cceEhs83.s 			page 1
+ARM GAS  /tmp/ccZWwyXK.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
   55              		.loc 1 73 0
   56 0018 0B61     		str	r3, [r1, #16]
   57 001a 08BD     		pop	{r3, pc}
-ARM GAS  /tmp/cceEhs83.s 			page 2
+ARM GAS  /tmp/ccZWwyXK.s 			page 2
 
 
   58              	.L3:
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  112              		.cfi_def_cfa_offset 8
  113              		.cfi_offset 3, -8
  114              		.cfi_offset 14, -4
-ARM GAS  /tmp/cceEhs83.s 			page 3
+ARM GAS  /tmp/ccZWwyXK.s 			page 3
 
 
  115              		.loc 1 100 0
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  169              		.section	.text.PMC_EnableAllPeripherals,"ax",%progbits
  170              		.align	2
  171              		.p2align 4,,15
-ARM GAS  /tmp/cceEhs83.s 			page 4
+ARM GAS  /tmp/ccZWwyXK.s 			page 4
 
 
  172              		.global	PMC_EnableAllPeripherals
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  226              		.cfi_startproc
  227              		@ args = 0, pretend = 0, frame = 0
  228              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/cceEhs83.s 			page 5
+ARM GAS  /tmp/ccZWwyXK.s 			page 5
 
 
  229              		@ link register save eliminated.
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  283              		.loc 1 162 0
  284 0004 10D8     		bhi	.L38
  285              		.loc 1 164 0
-ARM GAS  /tmp/cceEhs83.s 			page 6
+ARM GAS  /tmp/ccZWwyXK.s 			page 6
 
 
  286 0006 1F28     		cmp	r0, #31
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  340              		.cfi_startproc
  341              		@ args = 0, pretend = 0, frame = 0
  342              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/cceEhs83.s 			page 7
+ARM GAS  /tmp/ccZWwyXK.s 			page 7
 
 
  343              		@ link register save eliminated.
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  397              	.LVL24:
  398 0036 2163     		str	r1, [r4, #48]
  399              		.loc 1 192 0
-ARM GAS  /tmp/cceEhs83.s 			page 8
+ARM GAS  /tmp/ccZWwyXK.s 			page 8
 
 
  400 0038 02E0     		b	.L50
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  454              	.LVL34:
  455              	.L52:
  456              		.loc 1 204 0 is_stmt 1
-ARM GAS  /tmp/cceEhs83.s 			page 9
+ARM GAS  /tmp/ccZWwyXK.s 			page 9
 
 
  457 0068 0849     		ldr	r1, .L65
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  511 0000 084B     		ldr	r3, .L72
  512              		.loc 1 213 0
  513 0002 30B4     		push	{r4, r5}
-ARM GAS  /tmp/cceEhs83.s 			page 10
+ARM GAS  /tmp/ccZWwyXK.s 			page 10
 
 
  514              		.cfi_def_cfa_offset 8
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  568 0000 054B     		ldr	r3, .L79
  569 0002 064A     		ldr	r2, .L79+4
  570              		.loc 1 235 0
-ARM GAS  /tmp/cceEhs83.s 			page 11
+ARM GAS  /tmp/ccZWwyXK.s 			page 11
 
 
  571 0004 1946     		mov	r1, r3
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  625 000c 1440     		ands	r4, r4, r2
  626 000e 43F4F853 		orr	r3, r3, #7936
  627 0012 124A     		ldr	r2, .L96+4
-ARM GAS  /tmp/cceEhs83.s 			page 12
+ARM GAS  /tmp/ccZWwyXK.s 			page 12
 
 
  628 0014 2343     		orrs	r3, r3, r4
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  682              		.align	2
  683              	.L96:
  684 0058 0000FF07 		.word	134152192
-ARM GAS  /tmp/cceEhs83.s 			page 13
+ARM GAS  /tmp/ccZWwyXK.s 			page 13
 
 
  685 005c 00040E40 		.word	1074660352
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  721              		.file 4 "ChibiOS/os/hal/platforms/AT91SAM3S/at91lib/SAM3S.h"
  722              		.file 5 "/home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/assert.h
  723              		.section	.debug_info,"",%progbits
-ARM GAS  /tmp/cceEhs83.s 			page 14
+ARM GAS  /tmp/ccZWwyXK.s 			page 14
 
 
  724              	.Ldebug_info0:
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  778 006f D3020000 		.4byte	.LASF9
  779 0073 04       		.uleb128 0x4
  780 0074 04       		.byte	0x4
-ARM GAS  /tmp/cceEhs83.s 			page 15
+ARM GAS  /tmp/ccZWwyXK.s 			page 15
 
 
  781 0075 05       		.byte	0x5
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  835 00ed 00       		.byte	0
  836 00ee 09       		.uleb128 0x9
  837 00ef 1401     		.2byte	0x114
-ARM GAS  /tmp/cceEhs83.s 			page 16
+ARM GAS  /tmp/ccZWwyXK.s 			page 16
 
 
  838 00f1 04       		.byte	0x4
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  892 0166 480D     		.2byte	0xd48
  893 0168 BC000000 		.4byte	0xbc
  894 016c 20       		.byte	0x20
-ARM GAS  /tmp/cceEhs83.s 			page 17
+ARM GAS  /tmp/ccZWwyXK.s 			page 17
 
 
  895 016d 0A       		.uleb128 0xa
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  949 01e2 0A       		.uleb128 0xa
  950 01e3 44010000 		.4byte	.LASF35
  951 01e7 04       		.byte	0x4
-ARM GAS  /tmp/cceEhs83.s 			page 18
+ARM GAS  /tmp/ccZWwyXK.s 			page 18
 
 
  952 01e8 520D     		.2byte	0xd52
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  1006 025d 5B0D     		.2byte	0xd5b
  1007 025f 97000000 		.4byte	0x97
  1008 0263 E8       		.byte	0xe8
-ARM GAS  /tmp/cceEhs83.s 			page 19
+ARM GAS  /tmp/ccZWwyXK.s 			page 19
 
 
  1009 0264 0A       		.uleb128 0xa
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  1063 02e1 06       		.uleb128 0x6
  1064 02e2 DE000000 		.4byte	0xde
  1065 02e6 07       		.uleb128 0x7
-ARM GAS  /tmp/cceEhs83.s 			page 20
+ARM GAS  /tmp/ccZWwyXK.s 			page 20
 
 
  1066 02e7 BC000000 		.4byte	0xbc
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  1120 0360 01       		.uleb128 0x1
  1121 0361 51       		.byte	0x51
  1122 0362 02       		.uleb128 0x2
-ARM GAS  /tmp/cceEhs83.s 			page 21
+ARM GAS  /tmp/ccZWwyXK.s 			page 21
 
 
  1123 0363 08       		.byte	0x8
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  1177 03d2 01       		.uleb128 0x1
  1178 03d3 52       		.byte	0x52
  1179 03d4 05       		.uleb128 0x5
-ARM GAS  /tmp/cceEhs83.s 			page 22
+ARM GAS  /tmp/ccZWwyXK.s 			page 22
 
 
  1180 03d5 03       		.byte	0x3
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  1234 0441 A0       		.byte	0xa0
  1235 0442 8C000000 		.4byte	0x8c
  1236 0446 72000000 		.4byte	.LLST2
-ARM GAS  /tmp/cceEhs83.s 			page 23
+ARM GAS  /tmp/ccZWwyXK.s 			page 23
 
 
  1237 044a 0F       		.uleb128 0xf
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  1291 04b0 53030000 		.4byte	.LASF59
  1292 04b4 01       		.byte	0x1
  1293 04b5 AE       		.byte	0xae
-ARM GAS  /tmp/cceEhs83.s 			page 24
+ARM GAS  /tmp/ccZWwyXK.s 			page 24
 
 
  1294 04b6 8C000000 		.4byte	0x8c
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  1348 0534 0D       		.uleb128 0xd
  1349 0535 AC020000 		.4byte	.LASF64
  1350 0539 01       		.byte	0x1
-ARM GAS  /tmp/cceEhs83.s 			page 25
+ARM GAS  /tmp/ccZWwyXK.s 			page 25
 
 
  1351 053a EF       		.byte	0xef
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  1405              	.Ldebug_abbrev0:
  1406 0000 01       		.uleb128 0x1
  1407 0001 11       		.uleb128 0x11
-ARM GAS  /tmp/cceEhs83.s 			page 26
+ARM GAS  /tmp/ccZWwyXK.s 			page 26
 
 
  1408 0002 01       		.byte	0x1
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  1462 0038 00       		.byte	0
  1463 0039 49       		.uleb128 0x49
  1464 003a 13       		.uleb128 0x13
-ARM GAS  /tmp/cceEhs83.s 			page 27
+ARM GAS  /tmp/ccZWwyXK.s 			page 27
 
 
  1465 003b 00       		.byte	0
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  1519 0071 00       		.byte	0
  1520 0072 0B       		.uleb128 0xb
  1521 0073 0D       		.uleb128 0xd
-ARM GAS  /tmp/cceEhs83.s 			page 28
+ARM GAS  /tmp/ccZWwyXK.s 			page 28
 
 
  1522 0074 00       		.byte	0
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  1576 00ab 03       		.uleb128 0x3
  1577 00ac 0E       		.uleb128 0xe
  1578 00ad 3A       		.uleb128 0x3a
-ARM GAS  /tmp/cceEhs83.s 			page 29
+ARM GAS  /tmp/ccZWwyXK.s 			page 29
 
 
  1579 00ae 0B       		.uleb128 0xb
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  1633 00e9 01       		.uleb128 0x1
  1634 00ea 12       		.uleb128 0x12
  1635 00eb 06       		.uleb128 0x6
-ARM GAS  /tmp/cceEhs83.s 			page 30
+ARM GAS  /tmp/ccZWwyXK.s 			page 30
 
 
  1636 00ec 40       		.uleb128 0x40
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  1690 0124 0B       		.uleb128 0xb
  1691 0125 3B       		.uleb128 0x3b
  1692 0126 0B       		.uleb128 0xb
-ARM GAS  /tmp/cceEhs83.s 			page 31
+ARM GAS  /tmp/ccZWwyXK.s 			page 31
 
 
  1693 0127 49       		.uleb128 0x49
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  1747 015d 00       		.byte	0
  1748              		.section	.debug_loc,"",%progbits
  1749              	.Ldebug_loc0:
-ARM GAS  /tmp/cceEhs83.s 			page 32
+ARM GAS  /tmp/ccZWwyXK.s 			page 32
 
 
  1750              	.LLST0:
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  1804 0081 18000000 		.4byte	.LVL12
  1805 0085 0300     		.2byte	0x3
  1806 0087 70       		.byte	0x70
-ARM GAS  /tmp/cceEhs83.s 			page 33
+ARM GAS  /tmp/ccZWwyXK.s 			page 33
 
 
  1807 0088 20       		.sleb128 32
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  1861 0102 50       		.byte	0x50
  1862 0103 9F       		.byte	0x9f
  1863 0104 00000000 		.4byte	0
-ARM GAS  /tmp/cceEhs83.s 			page 34
+ARM GAS  /tmp/ccZWwyXK.s 			page 34
 
 
  1864 0108 00000000 		.4byte	0
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  1918 018a 0100     		.2byte	0x1
  1919 018c 51       		.byte	0x51
  1920 018d 40000000 		.4byte	.LVL26
-ARM GAS  /tmp/cceEhs83.s 			page 35
+ARM GAS  /tmp/ccZWwyXK.s 			page 35
 
 
  1921 0191 44000000 		.4byte	.LVL27
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  1975 021d F3       		.byte	0xf3
  1976 021e 01       		.uleb128 0x1
  1977 021f 51       		.byte	0x51
-ARM GAS  /tmp/cceEhs83.s 			page 36
+ARM GAS  /tmp/ccZWwyXK.s 			page 36
 
 
  1978 0220 9F       		.byte	0x9f
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  2032 0040 00000000 		.4byte	.LFB6
  2033 0044 2C000000 		.4byte	.LFE6-.LFB6
  2034 0048 00000000 		.4byte	.LFB7
-ARM GAS  /tmp/cceEhs83.s 			page 37
+ARM GAS  /tmp/ccZWwyXK.s 			page 37
 
 
  2035 004c 20000000 		.4byte	.LFE7-.LFB7
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  2076      6200
  2077              	.LASF2:
  2078 0031 73686F72 		.ascii	"short int\000"
-ARM GAS  /tmp/cceEhs83.s 			page 38
+ARM GAS  /tmp/ccZWwyXK.s 			page 38
 
 
  2078      7420696E 
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  2104      72766564 
  2104      3400
  2105              	.LASF34:
-ARM GAS  /tmp/cceEhs83.s 			page 39
+ARM GAS  /tmp/ccZWwyXK.s 			page 39
 
 
  2106 00e5 52657365 		.ascii	"Reserved5\000"
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  2130      00
  2131              	.LASF5:
  2132 0180 5F5F7569 		.ascii	"__uint8_t\000"
-ARM GAS  /tmp/cceEhs83.s 			page 40
+ARM GAS  /tmp/ccZWwyXK.s 			page 40
 
 
  2132      6E74385F 
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  2150      6C6F636B 
  2151              	.LASF15:
  2152 02c1 52775265 		.ascii	"RwReg\000"
-ARM GAS  /tmp/cceEhs83.s 			page 41
+ARM GAS  /tmp/ccZWwyXK.s 			page 41
 
 
  2152      6700
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  2179              	.LASF59:
  2180 0353 6477436C 		.ascii	"dwClockSource\000"
  2180      6F636B53 
-ARM GAS  /tmp/cceEhs83.s 			page 42
+ARM GAS  /tmp/ccZWwyXK.s 			page 42
 
 
  2180      6F757263 
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  2204      61696E43 
  2204      6C6F636B 
  2204      53776974 
-ARM GAS  /tmp/cceEhs83.s 			page 43
+ARM GAS  /tmp/ccZWwyXK.s 			page 43
 
 
  2204      63684D61 
@@ -2544,47 +2544,47 @@ ARM GAS  /tmp/cceEhs83.s 			page 1
  2214      5F504C4C 
  2214      425200
  2215              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/cceEhs83.s 			page 44
+ARM GAS  /tmp/ccZWwyXK.s 			page 44
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 pmc.c
-     /tmp/cceEhs83.s:19     .text.PMC_EnablePeripheral:00000000 $t
-     /tmp/cceEhs83.s:25     .text.PMC_EnablePeripheral:00000000 PMC_EnablePeripheral
-     /tmp/cceEhs83.s:87     .text.PMC_EnablePeripheral:00000040 $d
-     /tmp/cceEhs83.s:95     .text.PMC_DisablePeripheral:00000000 $t
-     /tmp/cceEhs83.s:101    .text.PMC_DisablePeripheral:00000000 PMC_DisablePeripheral
-     /tmp/cceEhs83.s:162    .text.PMC_DisablePeripheral:00000040 $d
-     /tmp/cceEhs83.s:170    .text.PMC_EnableAllPeripherals:00000000 $t
-     /tmp/cceEhs83.s:176    .text.PMC_EnableAllPeripherals:00000000 PMC_EnableAllPeripherals
-     /tmp/cceEhs83.s:212    .text.PMC_EnableAllPeripherals:0000002c $d
-     /tmp/cceEhs83.s:217    .text.PMC_DisableAllPeripherals:00000000 $t
-     /tmp/cceEhs83.s:223    .text.PMC_DisableAllPeripherals:00000000 PMC_DisableAllPeripherals
-     /tmp/cceEhs83.s:258    .text.PMC_DisableAllPeripherals:00000028 $d
-     /tmp/cceEhs83.s:263    .text.PMC_IsPeriphEnabled:00000000 $t
-     /tmp/cceEhs83.s:269    .text.PMC_IsPeriphEnabled:00000000 PMC_IsPeriphEnabled
-     /tmp/cceEhs83.s:323    .text.PMC_IsPeriphEnabled:00000034 $d
-     /tmp/cceEhs83.s:331    .text.PmcMasterClockSelection:00000000 $t
-     /tmp/cceEhs83.s:337    .text.PmcMasterClockSelection:00000000 PmcMasterClockSelection
-     /tmp/cceEhs83.s:354    .text.PmcMasterClockSelection:0000000a $d
-     /tmp/cceEhs83.s:358    .text.PmcMasterClockSelection:0000000e $t
-     /tmp/cceEhs83.s:491    .text.PmcMasterClockSelection:0000008c $d
-     /tmp/cceEhs83.s:496    .text.ConfigurePck:00000000 $t
-     /tmp/cceEhs83.s:502    .text.ConfigurePck:00000000 ConfigurePck
-     /tmp/cceEhs83.s:548    .text.ConfigurePck:00000024 $d
-     /tmp/cceEhs83.s:554    .text.PmcMainClockSwitchMainOsc:00000000 $t
-     /tmp/cceEhs83.s:560    .text.PmcMainClockSwitchMainOsc:00000000 PmcMainClockSwitchMainOsc
-     /tmp/cceEhs83.s:596    .text.PmcMainClockSwitchMainOsc:00000018 $d
-     /tmp/cceEhs83.s:602    .text.PmcConfigurePllClock:00000000 $t
-     /tmp/cceEhs83.s:608    .text.PmcConfigurePllClock:00000000 PmcConfigurePllClock
-     /tmp/cceEhs83.s:684    .text.PmcConfigurePllClock:00000058 $d
-     /tmp/cceEhs83.s:690    .rodata.__func__.4818:00000000 $d
-     /tmp/cceEhs83.s:694    .rodata.__func__.4818:00000000 __func__.4818
-     /tmp/cceEhs83.s:697    .rodata.__func__.4792:00000000 $d
-     /tmp/cceEhs83.s:701    .rodata.__func__.4792:00000000 __func__.4792
-     /tmp/cceEhs83.s:704    .rodata.__func__.4796:00000000 $d
-     /tmp/cceEhs83.s:708    .rodata.__func__.4796:00000000 __func__.4796
-     /tmp/cceEhs83.s:711    .rodata.str1.4:00000000 $d
+     /tmp/ccZWwyXK.s:19     .text.PMC_EnablePeripheral:00000000 $t
+     /tmp/ccZWwyXK.s:25     .text.PMC_EnablePeripheral:00000000 PMC_EnablePeripheral
+     /tmp/ccZWwyXK.s:87     .text.PMC_EnablePeripheral:00000040 $d
+     /tmp/ccZWwyXK.s:95     .text.PMC_DisablePeripheral:00000000 $t
+     /tmp/ccZWwyXK.s:101    .text.PMC_DisablePeripheral:00000000 PMC_DisablePeripheral
+     /tmp/ccZWwyXK.s:162    .text.PMC_DisablePeripheral:00000040 $d
+     /tmp/ccZWwyXK.s:170    .text.PMC_EnableAllPeripherals:00000000 $t
+     /tmp/ccZWwyXK.s:176    .text.PMC_EnableAllPeripherals:00000000 PMC_EnableAllPeripherals
+     /tmp/ccZWwyXK.s:212    .text.PMC_EnableAllPeripherals:0000002c $d
+     /tmp/ccZWwyXK.s:217    .text.PMC_DisableAllPeripherals:00000000 $t
+     /tmp/ccZWwyXK.s:223    .text.PMC_DisableAllPeripherals:00000000 PMC_DisableAllPeripherals
+     /tmp/ccZWwyXK.s:258    .text.PMC_DisableAllPeripherals:00000028 $d
+     /tmp/ccZWwyXK.s:263    .text.PMC_IsPeriphEnabled:00000000 $t
+     /tmp/ccZWwyXK.s:269    .text.PMC_IsPeriphEnabled:00000000 PMC_IsPeriphEnabled
+     /tmp/ccZWwyXK.s:323    .text.PMC_IsPeriphEnabled:00000034 $d
+     /tmp/ccZWwyXK.s:331    .text.PmcMasterClockSelection:00000000 $t
+     /tmp/ccZWwyXK.s:337    .text.PmcMasterClockSelection:00000000 PmcMasterClockSelection
+     /tmp/ccZWwyXK.s:354    .text.PmcMasterClockSelection:0000000a $d
+     /tmp/ccZWwyXK.s:358    .text.PmcMasterClockSelection:0000000e $t
+     /tmp/ccZWwyXK.s:491    .text.PmcMasterClockSelection:0000008c $d
+     /tmp/ccZWwyXK.s:496    .text.ConfigurePck:00000000 $t
+     /tmp/ccZWwyXK.s:502    .text.ConfigurePck:00000000 ConfigurePck
+     /tmp/ccZWwyXK.s:548    .text.ConfigurePck:00000024 $d
+     /tmp/ccZWwyXK.s:554    .text.PmcMainClockSwitchMainOsc:00000000 $t
+     /tmp/ccZWwyXK.s:560    .text.PmcMainClockSwitchMainOsc:00000000 PmcMainClockSwitchMainOsc
+     /tmp/ccZWwyXK.s:596    .text.PmcMainClockSwitchMainOsc:00000018 $d
+     /tmp/ccZWwyXK.s:602    .text.PmcConfigurePllClock:00000000 $t
+     /tmp/ccZWwyXK.s:608    .text.PmcConfigurePllClock:00000000 PmcConfigurePllClock
+     /tmp/ccZWwyXK.s:684    .text.PmcConfigurePllClock:00000058 $d
+     /tmp/ccZWwyXK.s:690    .rodata.__func__.4818:00000000 $d
+     /tmp/ccZWwyXK.s:694    .rodata.__func__.4818:00000000 __func__.4818
+     /tmp/ccZWwyXK.s:697    .rodata.__func__.4792:00000000 $d
+     /tmp/ccZWwyXK.s:701    .rodata.__func__.4792:00000000 __func__.4792
+     /tmp/ccZWwyXK.s:704    .rodata.__func__.4796:00000000 $d
+     /tmp/ccZWwyXK.s:708    .rodata.__func__.4796:00000000 __func__.4796
+     /tmp/ccZWwyXK.s:711    .rodata.str1.4:00000000 $d
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

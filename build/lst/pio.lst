@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccmcoRPY.s 			page 1
+ARM GAS  /tmp/cchCOh0C.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
   55 001c 22       		.byte	(.L9-.L5)/2
   56 001d 04       		.byte	(.L10-.L5)/2
   57 001e 04       		.byte	(.L10-.L5)/2
-ARM GAS  /tmp/ccmcoRPY.s 			page 2
+ARM GAS  /tmp/cchCOh0C.s 			page 2
 
 
   58 001f 00       		.p2align 1
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  112              	.LVL7:
  113              	.LBE29:
  114              	.LBE31:
-ARM GAS  /tmp/ccmcoRPY.s 			page 3
+ARM GAS  /tmp/cchCOh0C.s 			page 3
 
 
  115              	.LBE47:
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  169 0094 11E0     		b	.L13
  170              	.LVL14:
  171              	.L8:
-ARM GAS  /tmp/ccmcoRPY.s 			page 4
+ARM GAS  /tmp/cchCOh0C.s 			page 4
 
 
  172              	.LBE33:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  226              	.LVL26:
  227              	.L7:
  228              	.LBB49:
-ARM GAS  /tmp/ccmcoRPY.s 			page 5
+ARM GAS  /tmp/cchCOh0C.s 			page 5
 
 
  229              		.loc 1 328 0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  283              		.loc 1 106 0
  284 0100 1143     		orrs	r1, r1, r2
  285              	.LVL35:
-ARM GAS  /tmp/ccmcoRPY.s 			page 6
+ARM GAS  /tmp/cchCOh0C.s 			page 6
 
 
  286 0102 1967     		str	r1, [r3, #112]
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  340              	.LVL44:
  341              		.loc 1 73 0
  342 0138 5E6F     		ldr	r6, [r3, #116]
-ARM GAS  /tmp/ccmcoRPY.s 			page 7
+ARM GAS  /tmp/cchCOh0C.s 			page 7
 
 
  343 013a 3240     		ands	r2, r2, r6
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  397 0004 1A63     		str	r2, [r3, #48]
  398 0006 7047     		bx	lr
  399              		.cfi_endproc
-ARM GAS  /tmp/ccmcoRPY.s 			page 8
+ARM GAS  /tmp/cchCOh0C.s 			page 8
 
 
  400              	.LFE7:
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  454              		.loc 1 418 0
  455 0012 14BF     		ite	ne
  456 0014 0120     		movne	r0, #1
-ARM GAS  /tmp/ccmcoRPY.s 			page 9
+ARM GAS  /tmp/cchCOh0C.s 			page 9
 
 
  457              	.LVL54:
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  511 0006 B3FBF1F3 		udiv	r3, r3, r1
  512              		.loc 1 450 0
  513 000a 4268     		ldr	r2, [r0, #4]
-ARM GAS  /tmp/ccmcoRPY.s 			page 10
+ARM GAS  /tmp/cchCOh0C.s 			page 10
 
 
  514              	.LVL59:
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  568 0048 A1030000 		.4byte	.LASF3
  569 004c 02       		.uleb128 0x2
  570 004d 04       		.byte	0x4
-ARM GAS  /tmp/ccmcoRPY.s 			page 11
+ARM GAS  /tmp/cchCOh0C.s 			page 11
 
 
  571 004e 05       		.byte	0x5
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  625 00bd 10040000 		.4byte	.LASF15
  626 00c1 04       		.byte	0x4
  627 00c2 3A       		.byte	0x3a
-ARM GAS  /tmp/ccmcoRPY.s 			page 12
+ARM GAS  /tmp/cchCOh0C.s 			page 12
 
 
  628 00c3 B7000000 		.4byte	0xb7
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  682 013a 97000000 		.4byte	0x97
  683 013e 08       		.byte	0x8
  684 013f 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccmcoRPY.s 			page 13
+ARM GAS  /tmp/cchCOh0C.s 			page 13
 
 
  685 0140 17020000 		.4byte	.LASF20
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  739 01b5 A7050000 		.4byte	.LASF29
  740 01b9 04       		.byte	0x4
  741 01ba E706     		.2byte	0x6e7
-ARM GAS  /tmp/ccmcoRPY.s 			page 14
+ARM GAS  /tmp/cchCOh0C.s 			page 14
 
 
  742 01bc AC000000 		.4byte	0xac
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  796 0231 AC000000 		.4byte	0xac
  797 0235 54       		.byte	0x54
  798 0236 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccmcoRPY.s 			page 15
+ARM GAS  /tmp/cchCOh0C.s 			page 15
 
 
  799 0237 20040000 		.4byte	.LASF39
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  853 02ac 93050000 		.4byte	.LASF48
  854 02b0 04       		.byte	0x4
  855 02b1 FA06     		.2byte	0x6fa
-ARM GAS  /tmp/ccmcoRPY.s 			page 16
+ARM GAS  /tmp/cchCOh0C.s 			page 16
 
 
  856 02b3 AC000000 		.4byte	0xac
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  910 0328 97000000 		.4byte	0x97
  911 032c A8       		.byte	0xa8
  912 032d 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccmcoRPY.s 			page 17
+ARM GAS  /tmp/cchCOh0C.s 			page 17
 
 
  913 032e 67020000 		.4byte	.LASF58
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  967 03a3 61040000 		.4byte	.LASF67
  968 03a7 04       		.byte	0x4
  969 03a8 0D07     		.2byte	0x70d
-ARM GAS  /tmp/ccmcoRPY.s 			page 18
+ARM GAS  /tmp/cchCOh0C.s 			page 18
 
 
  970 03aa AC000000 		.4byte	0xac
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  1024 0420 48050000 		.4byte	0x548
  1025 0424 0401     		.2byte	0x104
  1026 0426 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccmcoRPY.s 			page 19
+ARM GAS  /tmp/cchCOh0C.s 			page 19
 
 
  1027 0427 6C040000 		.4byte	.LASF77
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  1081 04a5 4C030000 		.4byte	.LASF86
  1082 04a9 04       		.byte	0x4
  1083 04aa 2007     		.2byte	0x720
-ARM GAS  /tmp/ccmcoRPY.s 			page 20
+ARM GAS  /tmp/cchCOh0C.s 			page 20
 
 
  1084 04ac BC000000 		.4byte	0xbc
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  1138 052b DE000000 		.4byte	0xde
  1139 052f 06       		.uleb128 0x6
  1140 0530 DE000000 		.4byte	0xde
-ARM GAS  /tmp/ccmcoRPY.s 			page 21
+ARM GAS  /tmp/cchCOh0C.s 			page 21
 
 
  1141 0534 06       		.uleb128 0x6
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  1195 05a3 4D050000 		.4byte	0x54d
  1196 05a7 11       		.uleb128 0x11
  1197 05a8 50696E00 		.ascii	"Pin\000"
-ARM GAS  /tmp/ccmcoRPY.s 			page 22
+ARM GAS  /tmp/cchCOh0C.s 			page 22
 
 
  1198 05ac 05       		.byte	0x5
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  1252 061e 5B       		.byte	0x5b
  1253 061f 7A000000 		.4byte	0x7a
  1254 0623 00       		.byte	0
-ARM GAS  /tmp/ccmcoRPY.s 			page 23
+ARM GAS  /tmp/cchCOh0C.s 			page 23
 
 
  1255 0624 12       		.uleb128 0x12
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  1309 0696 12       		.uleb128 0x12
  1310 0697 2E050000 		.4byte	.LASF102
  1311 069b 01       		.byte	0x1
-ARM GAS  /tmp/ccmcoRPY.s 			page 24
+ARM GAS  /tmp/cchCOh0C.s 			page 24
 
 
  1312 069c F4       		.byte	0xf4
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  1366 070e 3101     		.2byte	0x131
  1367 0710 81000000 		.4byte	0x81
  1368 0714 00000000 		.4byte	.LFB6
-ARM GAS  /tmp/ccmcoRPY.s 			page 25
+ARM GAS  /tmp/cchCOh0C.s 			page 25
 
 
  1369 0718 52010000 		.4byte	.LFE6-.LFB6
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  1423 07a9 5201     		.2byte	0x152
  1424 07ab CB070000 		.4byte	0x7cb
  1425 07af 1C       		.uleb128 0x1c
-ARM GAS  /tmp/ccmcoRPY.s 			page 26
+ARM GAS  /tmp/cchCOh0C.s 			page 26
 
 
  1426 07b0 FC060000 		.4byte	0x6fc
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  1480 084b 5D020000 		.4byte	.LLST17
  1481 084f 00       		.byte	0
  1482 0850 00       		.byte	0
-ARM GAS  /tmp/ccmcoRPY.s 			page 27
+ARM GAS  /tmp/cchCOh0C.s 			page 27
 
 
  1483 0851 1D       		.uleb128 0x1d
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  1537 08e0 E4080000 		.4byte	0x8e4
  1538 08e4 05       		.uleb128 0x5
  1539 08e5 A7050000 		.4byte	0x5a7
-ARM GAS  /tmp/ccmcoRPY.s 			page 28
+ARM GAS  /tmp/cchCOh0C.s 			page 28
 
 
  1540 08e9 21       		.uleb128 0x21
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  1594 0965 7A000000 		.4byte	0x7a
  1595 0969 01       		.uleb128 0x1
  1596 096a 52       		.byte	0x52
-ARM GAS  /tmp/ccmcoRPY.s 			page 29
+ARM GAS  /tmp/cchCOh0C.s 			page 29
 
 
  1597 096b 00       		.byte	0
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  1651 09e7 00       		.byte	0
  1652 09e8 00       		.byte	0
  1653              		.section	.debug_abbrev,"",%progbits
-ARM GAS  /tmp/ccmcoRPY.s 			page 30
+ARM GAS  /tmp/cchCOh0C.s 			page 30
 
 
  1654              	.Ldebug_abbrev0:
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  1708 0035 00       		.byte	0
  1709 0036 05       		.uleb128 0x5
  1710 0037 26       		.uleb128 0x26
-ARM GAS  /tmp/ccmcoRPY.s 			page 31
+ARM GAS  /tmp/cchCOh0C.s 			page 31
 
 
  1711 0038 00       		.byte	0
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  1765 006e 38       		.uleb128 0x38
  1766 006f 0B       		.uleb128 0xb
  1767 0070 00       		.byte	0
-ARM GAS  /tmp/ccmcoRPY.s 			page 32
+ARM GAS  /tmp/cchCOh0C.s 			page 32
 
 
  1768 0071 00       		.byte	0
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  1822 00a7 13       		.uleb128 0x13
  1823 00a8 38       		.uleb128 0x38
  1824 00a9 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccmcoRPY.s 			page 33
+ARM GAS  /tmp/cchCOh0C.s 			page 33
 
 
  1825 00aa 00       		.byte	0
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  1879 00e0 00       		.byte	0
  1880 00e1 00       		.byte	0
  1881 00e2 13       		.uleb128 0x13
-ARM GAS  /tmp/ccmcoRPY.s 			page 34
+ARM GAS  /tmp/cchCOh0C.s 			page 34
 
 
  1882 00e3 05       		.uleb128 0x5
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  1936 0119 01       		.uleb128 0x1
  1937 011a 12       		.uleb128 0x12
  1938 011b 06       		.uleb128 0x6
-ARM GAS  /tmp/ccmcoRPY.s 			page 35
+ARM GAS  /tmp/cchCOh0C.s 			page 35
 
 
  1939 011c 40       		.uleb128 0x40
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  1993 0153 1B       		.uleb128 0x1b
  1994 0154 1D       		.uleb128 0x1d
  1995 0155 01       		.byte	0x1
-ARM GAS  /tmp/ccmcoRPY.s 			page 36
+ARM GAS  /tmp/cchCOh0C.s 			page 36
 
 
  1996 0156 31       		.uleb128 0x31
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  2050 018c 02       		.uleb128 0x2
  2051 018d 17       		.uleb128 0x17
  2052 018e 00       		.byte	0
-ARM GAS  /tmp/ccmcoRPY.s 			page 37
+ARM GAS  /tmp/cchCOh0C.s 			page 37
 
 
  2053 018f 00       		.byte	0
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  2107 01c8 08       		.uleb128 0x8
  2108 01c9 3A       		.uleb128 0x3a
  2109 01ca 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccmcoRPY.s 			page 38
+ARM GAS  /tmp/cchCOh0C.s 			page 38
 
 
  2110 01cb 3B       		.uleb128 0x3b
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  2164 0018 54000000 		.4byte	.LVL6
  2165 001c 56000000 		.4byte	.LVL7
  2166 0020 0300     		.2byte	0x3
-ARM GAS  /tmp/ccmcoRPY.s 			page 39
+ARM GAS  /tmp/cchCOh0C.s 			page 39
 
 
  2167 0022 74       		.byte	0x74
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  2221 00a4 34000000 		.4byte	.LVL3
  2222 00a8 0500     		.2byte	0x5
  2223 00aa 76       		.byte	0x76
-ARM GAS  /tmp/ccmcoRPY.s 			page 40
+ARM GAS  /tmp/cchCOh0C.s 			page 40
 
 
  2224 00ab 00       		.sleb128 0
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  2278 010e 73       		.byte	0x73
  2279 010f 00       		.sleb128 0
  2280 0110 08       		.byte	0x8
-ARM GAS  /tmp/ccmcoRPY.s 			page 41
+ARM GAS  /tmp/cchCOh0C.s 			page 41
 
 
  2281 0111 FF       		.byte	0xff
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  2335 019e 0100     		.2byte	0x1
  2336 01a0 53       		.byte	0x53
  2337 01a1 48010000 		.4byte	.LVL47
-ARM GAS  /tmp/ccmcoRPY.s 			page 42
+ARM GAS  /tmp/cchCOh0C.s 			page 42
 
 
  2338 01a5 4E010000 		.4byte	.LVL48
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  2392 0228 0500     		.2byte	0x5
  2393 022a 71       		.byte	0x71
  2394 022b 00       		.sleb128 0
-ARM GAS  /tmp/ccmcoRPY.s 			page 43
+ARM GAS  /tmp/cchCOh0C.s 			page 43
 
 
  2395 022c 31       		.byte	0x31
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  2449 02b5 0100     		.2byte	0x1
  2450 02b7 51       		.byte	0x51
  2451 02b8 06010000 		.4byte	.LVL36
-ARM GAS  /tmp/ccmcoRPY.s 			page 44
+ARM GAS  /tmp/cchCOh0C.s 			page 44
 
 
  2452 02bc 0A010000 		.4byte	.LVL37
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  2506 033f 0100     		.2byte	0x1
  2507 0341 50       		.byte	0x50
  2508 0342 16000000 		.4byte	.LVL54
-ARM GAS  /tmp/ccmcoRPY.s 			page 45
+ARM GAS  /tmp/cchCOh0C.s 			page 45
 
 
  2509 0346 1A000000 		.4byte	.LFE9
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  2563 0038 00000000 		.4byte	.LFB11
  2564 003c 1E000000 		.4byte	.LFE11-.LFB11
  2565 0040 00000000 		.4byte	0
-ARM GAS  /tmp/ccmcoRPY.s 			page 46
+ARM GAS  /tmp/cchCOh0C.s 			page 46
 
 
  2566 0044 00000000 		.4byte	0
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  2616              	.LASF82:
  2617 0000 50494F5F 		.ascii	"PIO_PCRHR\000"
  2617      50435248 
-ARM GAS  /tmp/ccmcoRPY.s 			page 47
+ARM GAS  /tmp/cchCOh0C.s 			page 47
 
 
  2617      5200
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  2639 0140 6174612D 		.ascii	"ata-sections -fno-common\000"
  2639      73656374 
  2639      696F6E73 
-ARM GAS  /tmp/ccmcoRPY.s 			page 48
+ARM GAS  /tmp/cchCOh0C.s 			page 48
 
 
  2639      202D666E 
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  2661 01f1 7369676E 		.ascii	"signed char\000"
  2661      65642063 
  2661      68617200 
-ARM GAS  /tmp/ccmcoRPY.s 			page 49
+ARM GAS  /tmp/cchCOh0C.s 			page 49
 
 
  2662              	.LASF80:
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  2689      50445200 
  2690              	.LASF4:
  2691 028d 6C6F6E67 		.ascii	"long int\000"
-ARM GAS  /tmp/ccmcoRPY.s 			page 50
+ARM GAS  /tmp/cchCOh0C.s 			page 50
 
 
  2691      20696E74 
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  2718              	.LASF76:
  2719 031a 52657365 		.ascii	"Reserved13\000"
  2719      72766564 
-ARM GAS  /tmp/ccmcoRPY.s 			page 51
+ARM GAS  /tmp/cchCOh0C.s 			page 51
 
 
  2719      313300
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  2747      7369676E 
  2747      65642069 
  2747      6E7400
-ARM GAS  /tmp/ccmcoRPY.s 			page 52
+ARM GAS  /tmp/cchCOh0C.s 			page 52
 
 
  2748              	.LASF83:
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  2777      61537461 
  2778              	.LASF51:
  2779 0441 50494F5F 		.ascii	"PIO_PPDDR\000"
-ARM GAS  /tmp/ccmcoRPY.s 			page 53
+ARM GAS  /tmp/cchCOh0C.s 			page 53
 
 
  2779      50504444 
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  2806              	.LASF84:
  2807 04cf 50494F5F 		.ascii	"PIO_RCR\000"
  2807      52435200 
-ARM GAS  /tmp/ccmcoRPY.s 			page 54
+ARM GAS  /tmp/cchCOh0C.s 			page 54
 
 
  2808              	.LASF30:
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  2835      6C655075 
  2835      6C6C5570 
  2835      00
-ARM GAS  /tmp/ccmcoRPY.s 			page 55
+ARM GAS  /tmp/cchCOh0C.s 			page 55
 
 
  2836              	.LASF87:
@@ -3290,27 +3290,27 @@ ARM GAS  /tmp/ccmcoRPY.s 			page 1
  2859      4465736B 
  2859      746F702F 
  2860              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/ccmcoRPY.s 			page 56
+ARM GAS  /tmp/cchCOh0C.s 			page 56
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 pio.c
-     /tmp/ccmcoRPY.s:19     .text.PIO_Configure:00000000 $t
-     /tmp/ccmcoRPY.s:25     .text.PIO_Configure:00000000 PIO_Configure
-     /tmp/ccmcoRPY.s:51     .text.PIO_Configure:00000018 $d
-     /tmp/ccmcoRPY.s:381    .text.PIO_Set:00000000 $t
-     /tmp/ccmcoRPY.s:387    .text.PIO_Set:00000000 PIO_Set
-     /tmp/ccmcoRPY.s:403    .text.PIO_Clear:00000000 $t
-     /tmp/ccmcoRPY.s:409    .text.PIO_Clear:00000000 PIO_Clear
-     /tmp/ccmcoRPY.s:425    .text.PIO_Get:00000000 $t
-     /tmp/ccmcoRPY.s:431    .text.PIO_Get:00000000 PIO_Get
-     /tmp/ccmcoRPY.s:464    .text.PIO_GetOutputDataStatus:00000000 $t
-     /tmp/ccmcoRPY.s:470    .text.PIO_GetOutputDataStatus:00000000 PIO_GetOutputDataStatus
-     /tmp/ccmcoRPY.s:493    .text.PIO_SetDebounceFilter:00000000 $t
-     /tmp/ccmcoRPY.s:499    .text.PIO_SetDebounceFilter:00000000 PIO_SetDebounceFilter
+     /tmp/cchCOh0C.s:19     .text.PIO_Configure:00000000 $t
+     /tmp/cchCOh0C.s:25     .text.PIO_Configure:00000000 PIO_Configure
+     /tmp/cchCOh0C.s:51     .text.PIO_Configure:00000018 $d
+     /tmp/cchCOh0C.s:381    .text.PIO_Set:00000000 $t
+     /tmp/cchCOh0C.s:387    .text.PIO_Set:00000000 PIO_Set
+     /tmp/cchCOh0C.s:403    .text.PIO_Clear:00000000 $t
+     /tmp/cchCOh0C.s:409    .text.PIO_Clear:00000000 PIO_Clear
+     /tmp/cchCOh0C.s:425    .text.PIO_Get:00000000 $t
+     /tmp/cchCOh0C.s:431    .text.PIO_Get:00000000 PIO_Get
+     /tmp/cchCOh0C.s:464    .text.PIO_GetOutputDataStatus:00000000 $t
+     /tmp/cchCOh0C.s:470    .text.PIO_GetOutputDataStatus:00000000 PIO_GetOutputDataStatus
+     /tmp/cchCOh0C.s:493    .text.PIO_SetDebounceFilter:00000000 $t
+     /tmp/cchCOh0C.s:499    .text.PIO_SetDebounceFilter:00000000 PIO_SetDebounceFilter
                      .debug_frame:00000010 $d
-     /tmp/ccmcoRPY.s:58     .text.PIO_Configure:0000001f $d
-     /tmp/ccmcoRPY.s:58     .text.PIO_Configure:00000020 $t
+     /tmp/cchCOh0C.s:58     .text.PIO_Configure:0000001f $d
+     /tmp/cchCOh0C.s:58     .text.PIO_Configure:00000020 $t
 
 UNDEFINED SYMBOLS
 PMC_EnablePeripheral

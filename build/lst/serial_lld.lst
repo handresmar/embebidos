@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc2VEWFF.s 			page 1
+ARM GAS  /tmp/ccvB23xs.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
   55              		@ args = 0, pretend = 0, frame = 0
   56              		@ frame_needed = 0, uses_anonymous_args = 0
   57              		@ link register save eliminated.
-ARM GAS  /tmp/cc2VEWFF.s 			page 2
+ARM GAS  /tmp/ccvB23xs.s 			page 2
 
 
   58              	.LVL1:
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  112              		.loc 1 167 0 is_stmt 1
  113 0016 14F0E004 		ands	r4, r4, #224
  114              	.LVL7:
-ARM GAS  /tmp/cc2VEWFF.s 			page 3
+ARM GAS  /tmp/ccvB23xs.s 			page 3
 
 
  115 001a 1DD0     		beq	.L7
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  169              	.LVL14:
  170              	.L7:
  171 0058 70BD     		pop	{r4, r5, r6, pc}
-ARM GAS  /tmp/cc2VEWFF.s 			page 4
+ARM GAS  /tmp/ccvB23xs.s 			page 4
 
 
  172              	.LVL15:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  226              	.L39:
  227              	.LBE25:
  228              		.loc 1 157 0
-ARM GAS  /tmp/cc2VEWFF.s 			page 5
+ARM GAS  /tmp/ccvB23xs.s 			page 5
 
 
  229 008c B368     		ldr	r3, [r6, #8]
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  283              		.p2align 4,,15
  284              		.global	Vector64
  285              		.thumb
-ARM GAS  /tmp/cc2VEWFF.s 			page 6
+ARM GAS  /tmp/ccvB23xs.s 			page 6
 
 
  286              		.thumb_func
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  340 0008 0C4A     		ldr	r2, .L50+4
  341 000a FFF7FEFF 		bl	sdObjectInit
  342              	.LVL26:
-ARM GAS  /tmp/cc2VEWFF.s 			page 7
+ARM GAS  /tmp/ccvB23xs.s 			page 7
 
 
  343              		.loc 1 248 0
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  397              		.type	sd_lld_start, %function
  398              	sd_lld_start:
  399              	.LFB45:
-ARM GAS  /tmp/cc2VEWFF.s 			page 8
+ARM GAS  /tmp/ccvB23xs.s 			page 8
 
 
  400              		.loc 1 266 0
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  454 0030 E322     		movs	r2, #227
  455              	.LVL35:
  456              		.loc 1 85 0
-ARM GAS  /tmp/cc2VEWFF.s 			page 9
+ARM GAS  /tmp/ccvB23xs.s 			page 9
 
 
  457 0032 E660     		str	r6, [r4, #12]
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  511 0070 4FF48071 		mov	r1, #256
  512              		.loc 1 278 0
  513 0074 C3F8E400 		str	r0, [r3, #228]
-ARM GAS  /tmp/cc2VEWFF.s 			page 10
+ARM GAS  /tmp/ccvB23xs.s 			page 10
 
 
  514              		.loc 1 279 0
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  568 000c 036F     		ldr	r3, [r0, #112]
  569              	.LVL43:
  570              	.LBB28:
-ARM GAS  /tmp/cc2VEWFF.s 			page 11
+ARM GAS  /tmp/ccvB23xs.s 			page 11
 
 
  571              	.LBB29:
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  625 0032 104B     		ldr	r3, .L72+8
  626              	.LVL45:
  627 0034 1048     		ldr	r0, .L72+12
-ARM GAS  /tmp/cc2VEWFF.s 			page 12
+ARM GAS  /tmp/ccvB23xs.s 			page 12
 
 
  628              	.LVL46:
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  682 0074 00040E40 		.word	1074660352
  683 0078 00434D50 		.word	1347240704
  684 007c 01434D50 		.word	1347240705
-ARM GAS  /tmp/cc2VEWFF.s 			page 13
+ARM GAS  /tmp/ccvB23xs.s 			page 13
 
 
  685              		.cfi_endproc
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  731              		.file 19 "ChibiOS/os/ports/common/ARMCMx/nvic.h"
  732              		.section	.debug_info,"",%progbits
  733              	.Ldebug_info0:
-ARM GAS  /tmp/cc2VEWFF.s 			page 14
+ARM GAS  /tmp/ccvB23xs.s 			page 14
 
 
  734 0000 90150000 		.4byte	0x1590
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  788 0076 3F       		.byte	0x3f
  789 0077 7B000000 		.4byte	0x7b
  790 007b 04       		.uleb128 0x4
-ARM GAS  /tmp/cc2VEWFF.s 			page 15
+ARM GAS  /tmp/ccvB23xs.s 			page 15
 
 
  791 007c 04       		.byte	0x4
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  845 00eb A2000000 		.4byte	0xa2
  846 00ef 03       		.uleb128 0x3
  847 00f0 0C020000 		.4byte	.LASF21
-ARM GAS  /tmp/cc2VEWFF.s 			page 16
+ARM GAS  /tmp/ccvB23xs.s 			page 16
 
 
  848 00f4 06       		.byte	0x6
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  902 0166 63       		.byte	0x63
  903 0167 05010000 		.4byte	0x105
  904 016b 08       		.byte	0x8
-ARM GAS  /tmp/cc2VEWFF.s 			page 17
+ARM GAS  /tmp/ccvB23xs.s 			page 17
 
 
  905 016c 06       		.uleb128 0x6
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  959 01d8 06       		.uleb128 0x6
  960 01d9 29070000 		.4byte	.LASF39
  961 01dd 08       		.byte	0x8
-ARM GAS  /tmp/cc2VEWFF.s 			page 18
+ARM GAS  /tmp/ccvB23xs.s 			page 18
 
 
  962 01de B3       		.byte	0xb3
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  1016 0247 64       		.byte	0x64
  1017 0248 4E020000 		.4byte	0x24e
  1018 024c 04       		.byte	0x4
-ARM GAS  /tmp/cc2VEWFF.s 			page 19
+ARM GAS  /tmp/ccvB23xs.s 			page 19
 
 
  1019 024d 00       		.byte	0
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  1073 02b5 1301     		.2byte	0x113
  1074 02b7 7F020000 		.4byte	0x27f
  1075 02bb 08       		.byte	0x8
-ARM GAS  /tmp/cc2VEWFF.s 			page 20
+ARM GAS  /tmp/ccvB23xs.s 			page 20
 
 
  1076 02bc 0B       		.uleb128 0xb
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  1130 0329 C3000000 		.4byte	0xc3
  1131 032d 04       		.uleb128 0x4
  1132 032e 04       		.byte	0x4
-ARM GAS  /tmp/cc2VEWFF.s 			page 21
+ARM GAS  /tmp/ccvB23xs.s 			page 21
 
 
  1133 032f 07       		.byte	0x7
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  1187 039e 06       		.uleb128 0x6
  1188 039f 3B0C0000 		.4byte	.LASF58
  1189 03a3 0B       		.byte	0xb
-ARM GAS  /tmp/cc2VEWFF.s 			page 22
+ARM GAS  /tmp/ccvB23xs.s 			page 22
 
 
  1190 03a4 32       		.byte	0x32
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  1244 0410 AC       		.byte	0xac
  1245 0411 1B010000 		.4byte	0x11b
  1246 0415 00       		.byte	0
-ARM GAS  /tmp/cc2VEWFF.s 			page 23
+ARM GAS  /tmp/ccvB23xs.s 			page 23
 
 
  1247 0416 09       		.uleb128 0x9
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  1301 0482 BE010000 		.4byte	.LASF73
  1302 0486 0C       		.byte	0xc
  1303 0487 4C       		.byte	0x4c
-ARM GAS  /tmp/cc2VEWFF.s 			page 24
+ARM GAS  /tmp/ccvB23xs.s 			page 24
 
 
  1304 0488 BC040000 		.4byte	0x4bc
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  1358 04fd 04       		.byte	0x4
  1359 04fe D8040000 		.4byte	0x4d8
  1360 0502 13       		.uleb128 0x13
-ARM GAS  /tmp/cc2VEWFF.s 			page 25
+ARM GAS  /tmp/ccvB23xs.s 			page 25
 
 
  1361 0503 2C000000 		.4byte	0x2c
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  1415 0587 12       		.uleb128 0x12
  1416 0588 26010000 		.4byte	0x126
  1417 058c 00       		.byte	0
-ARM GAS  /tmp/cc2VEWFF.s 			page 26
+ARM GAS  /tmp/ccvB23xs.s 			page 26
 
 
  1418 058d 09       		.uleb128 0x9
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  1472 0606 FB060000 		.4byte	0x6fb
  1473 060a 16       		.uleb128 0x16
  1474 060b AC050000 		.4byte	.LASF82
-ARM GAS  /tmp/cc2VEWFF.s 			page 27
+ARM GAS  /tmp/ccvB23xs.s 			page 27
 
 
  1475 060f 72       		.sleb128 -14
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  1529 067b 0B       		.sleb128 11
  1530 067c 16       		.uleb128 0x16
  1531 067d FB090000 		.4byte	.LASF101
-ARM GAS  /tmp/cc2VEWFF.s 			page 28
+ARM GAS  /tmp/ccvB23xs.s 			page 28
 
 
  1532 0681 0C       		.sleb128 12
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  1586 06ed 20       		.sleb128 32
  1587 06ee 16       		.uleb128 0x16
  1588 06ef 1F040000 		.4byte	.LASF120
-ARM GAS  /tmp/cc2VEWFF.s 			page 29
+ARM GAS  /tmp/ccvB23xs.s 			page 29
 
 
  1589 06f3 21       		.sleb128 33
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  1643 0767 D8050000 		.4byte	0x5d8
  1644 076b 08       		.byte	0x8
  1645 076c 1A       		.uleb128 0x1a
-ARM GAS  /tmp/cc2VEWFF.s 			page 30
+ARM GAS  /tmp/ccvB23xs.s 			page 30
 
 
  1646 076d A4090000 		.4byte	.LASF125
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  1700 07e2 0B070000 		.4byte	.LASF134
  1701 07e6 0E       		.byte	0xe
  1702 07e7 E706     		.2byte	0x6e7
-ARM GAS  /tmp/cc2VEWFF.s 			page 31
+ARM GAS  /tmp/ccvB23xs.s 			page 31
 
 
  1703 07e9 E8050000 		.4byte	0x5e8
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  1757 085e E8050000 		.4byte	0x5e8
  1758 0862 54       		.byte	0x54
  1759 0863 1A       		.uleb128 0x1a
-ARM GAS  /tmp/cc2VEWFF.s 			page 32
+ARM GAS  /tmp/ccvB23xs.s 			page 32
 
 
  1760 0864 190A0000 		.4byte	.LASF144
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  1814 08d9 14070000 		.4byte	.LASF153
  1815 08dd 0E       		.byte	0xe
  1816 08de FA06     		.2byte	0x6fa
-ARM GAS  /tmp/cc2VEWFF.s 			page 33
+ARM GAS  /tmp/ccvB23xs.s 			page 33
 
 
  1817 08e0 E8050000 		.4byte	0x5e8
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  1871 0955 D8050000 		.4byte	0x5d8
  1872 0959 A8       		.byte	0xa8
  1873 095a 1A       		.uleb128 0x1a
-ARM GAS  /tmp/cc2VEWFF.s 			page 34
+ARM GAS  /tmp/ccvB23xs.s 			page 34
 
 
  1874 095b E5000000 		.4byte	.LASF163
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  1928 09d0 B9030000 		.4byte	.LASF172
  1929 09d4 0E       		.byte	0xe
  1930 09d5 0D07     		.2byte	0x70d
-ARM GAS  /tmp/cc2VEWFF.s 			page 35
+ARM GAS  /tmp/ccvB23xs.s 			page 35
 
 
  1931 09d7 E8050000 		.4byte	0x5e8
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  1985 0a4d 750B0000 		.4byte	0xb75
  1986 0a51 0401     		.2byte	0x104
  1987 0a53 1B       		.uleb128 0x1b
-ARM GAS  /tmp/cc2VEWFF.s 			page 36
+ARM GAS  /tmp/ccvB23xs.s 			page 36
 
 
  1988 0a54 150B0000 		.4byte	.LASF182
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  2042 0ad2 BB080000 		.4byte	.LASF191
  2043 0ad6 0E       		.byte	0xe
  2044 0ad7 2007     		.2byte	0x720
-ARM GAS  /tmp/cc2VEWFF.s 			page 37
+ARM GAS  /tmp/ccvB23xs.s 			page 37
 
 
  2045 0ad9 F3050000 		.4byte	0x5f3
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  2099 0b58 0B070000 		.4byte	0x70b
  2100 0b5c 0D       		.uleb128 0xd
  2101 0b5d 0B070000 		.4byte	0x70b
-ARM GAS  /tmp/cc2VEWFF.s 			page 38
+ARM GAS  /tmp/ccvB23xs.s 			page 38
 
 
  2102 0b61 0D       		.uleb128 0xd
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  2156 0bd9 E8050000 		.4byte	0x5e8
  2157 0bdd 14       		.byte	0x14
  2158 0bde 1A       		.uleb128 0x1a
-ARM GAS  /tmp/cc2VEWFF.s 			page 39
+ARM GAS  /tmp/ccvB23xs.s 			page 39
 
 
  2159 0bdf AA060000 		.4byte	.LASF203
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  2213 0c54 C2090000 		.4byte	.LASF145
  2214 0c58 0E       		.byte	0xe
  2215 0c59 4F0D     		.2byte	0xd4f
-ARM GAS  /tmp/cc2VEWFF.s 			page 40
+ARM GAS  /tmp/ccvB23xs.s 			page 40
 
 
  2216 0c5b 5F0D0000 		.4byte	0xd5f
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  2270 0cd0 E8050000 		.4byte	0x5e8
  2271 0cd4 78       		.byte	0x78
  2272 0cd5 1A       		.uleb128 0x1a
-ARM GAS  /tmp/cc2VEWFF.s 			page 41
+ARM GAS  /tmp/ccvB23xs.s 			page 41
 
 
  2273 0cd6 D6090000 		.4byte	.LASF151
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  2327 0d50 0D       		.uleb128 0xd
  2328 0d51 0B070000 		.4byte	0x70b
  2329 0d55 0D       		.uleb128 0xd
-ARM GAS  /tmp/cc2VEWFF.s 			page 42
+ARM GAS  /tmp/ccvB23xs.s 			page 42
 
 
  2330 0d56 0B070000 		.4byte	0x70b
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  2384 0dd3 0B17     		.2byte	0x170b
  2385 0dd5 E8050000 		.4byte	0x5e8
  2386 0dd9 08       		.byte	0x8
-ARM GAS  /tmp/cc2VEWFF.s 			page 43
+ARM GAS  /tmp/ccvB23xs.s 			page 43
 
 
  2387 0dda 1A       		.uleb128 0x1a
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  2441 0e51 1B       		.uleb128 0x1b
  2442 0e52 A2080000 		.4byte	.LASF235
  2443 0e56 0E       		.byte	0xe
-ARM GAS  /tmp/cc2VEWFF.s 			page 44
+ARM GAS  /tmp/ccvB23xs.s 			page 44
 
 
  2444 0e57 1517     		.2byte	0x1715
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  2498 0ed3 C20E0000 		.4byte	0xec2
  2499 0ed7 14       		.uleb128 0x14
  2500 0ed8 07040000 		.4byte	.LASF243
-ARM GAS  /tmp/cc2VEWFF.s 			page 45
+ARM GAS  /tmp/ccvB23xs.s 			page 45
 
 
  2501 0edc 0E       		.byte	0xe
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  2555 0f49 0F       		.byte	0xf
  2556 0f4a 8A       		.byte	0x8a
  2557 0f4b FE0E0000 		.4byte	0xefe
-ARM GAS  /tmp/cc2VEWFF.s 			page 46
+ARM GAS  /tmp/ccvB23xs.s 			page 46
 
 
  2558 0f4f 0C       		.byte	0xc
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  2612 0fb3 8B0F0000 		.4byte	0xf8b
  2613 0fb7 05       		.uleb128 0x5
  2614 0fb8 37060000 		.4byte	.LASF258
-ARM GAS  /tmp/cc2VEWFF.s 			page 47
+ARM GAS  /tmp/ccvB23xs.s 			page 47
 
 
  2615 0fbc 24       		.byte	0x24
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  2669 1028 0F       		.byte	0xf
  2670 1029 7D       		.byte	0x7d
  2671 102a D2050000 		.4byte	0x5d2
-ARM GAS  /tmp/cc2VEWFF.s 			page 48
+ARM GAS  /tmp/ccvB23xs.s 			page 48
 
 
  2672 102e 20       		.byte	0x20
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  2726 109e 01       		.byte	0x1
  2727 109f 67       		.byte	0x67
  2728 10a0 01       		.byte	0x1
-ARM GAS  /tmp/cc2VEWFF.s 			page 49
+ARM GAS  /tmp/ccvB23xs.s 			page 49
 
 
  2729 10a1 AF100000 		.4byte	0x10af
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  2783 110e 01       		.byte	0x1
  2784 110f 75       		.byte	0x75
  2785 1110 AD000000 		.4byte	0xad
-ARM GAS  /tmp/cc2VEWFF.s 			page 50
+ARM GAS  /tmp/ccvB23xs.s 			page 50
 
 
  2786 1114 21       		.uleb128 0x21
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  2840 1189 A8       		.byte	0xa8
  2841 118a F3110000 		.4byte	0x11f3
  2842 118e 2B       		.uleb128 0x2b
-ARM GAS  /tmp/cc2VEWFF.s 			page 51
+ARM GAS  /tmp/ccvB23xs.s 			page 51
 
 
  2843 118f 0A110000 		.4byte	0x110a
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  2897 1207 C3000000 		.4byte	0xc3
  2898 120b 01       		.uleb128 0x1
  2899 120c 53       		.byte	0x53
-ARM GAS  /tmp/cc2VEWFF.s 			page 52
+ARM GAS  /tmp/ccvB23xs.s 			page 52
 
 
  2900 120d 00       		.byte	0
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  2954 1289 02       		.uleb128 0x2
  2955 128a 76       		.byte	0x76
  2956 128b 30       		.sleb128 48
-ARM GAS  /tmp/cc2VEWFF.s 			page 53
+ARM GAS  /tmp/ccvB23xs.s 			page 53
 
 
  2957 128c 00       		.byte	0
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  3011 12f8 32       		.uleb128 0x32
  3012 12f9 08000000 		.4byte	.LVL24
  3013 12fd 3E110000 		.4byte	0x113e
-ARM GAS  /tmp/cc2VEWFF.s 			page 54
+ARM GAS  /tmp/ccvB23xs.s 			page 54
 
 
  3014 1301 0F130000 		.4byte	0x130f
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  3068 1364 51       		.byte	0x51
  3069 1365 01       		.uleb128 0x1
  3070 1366 30       		.byte	0x30
-ARM GAS  /tmp/cc2VEWFF.s 			page 55
+ARM GAS  /tmp/ccvB23xs.s 			page 55
 
 
  3071 1367 31       		.uleb128 0x31
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  3125 13ef 00       		.byte	0
  3126 13f0 00       		.byte	0
  3127 13f1 32       		.uleb128 0x32
-ARM GAS  /tmp/cc2VEWFF.s 			page 56
+ARM GAS  /tmp/ccvB23xs.s 			page 56
 
 
  3128 13f2 68000000 		.4byte	.LVL38
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  3182 145b A5100000 		.4byte	0x10a5
  3183 145f 14020000 		.4byte	.LLST13
  3184 1463 00       		.byte	0
-ARM GAS  /tmp/cc2VEWFF.s 			page 57
+ARM GAS  /tmp/ccvB23xs.s 			page 57
 
 
  3185 1464 3A       		.uleb128 0x3a
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  3239 14d8 2E       		.byte	0x2e
  3240 14d9 090F0000 		.4byte	0xf09
  3241 14dd 05       		.uleb128 0x5
-ARM GAS  /tmp/cc2VEWFF.s 			page 58
+ARM GAS  /tmp/ccvB23xs.s 			page 58
 
 
  3242 14de 03       		.byte	0x3
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  3296 1557 12       		.uleb128 0x12
  3297 1558 88100000 		.4byte	0x1088
  3298 155c 12       		.uleb128 0x12
-ARM GAS  /tmp/cc2VEWFF.s 			page 59
+ARM GAS  /tmp/ccvB23xs.s 			page 59
 
 
  3299 155d 9A040000 		.4byte	0x49a
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  3353 001a 03       		.uleb128 0x3
  3354 001b 08       		.uleb128 0x8
  3355 001c 00       		.byte	0
-ARM GAS  /tmp/cc2VEWFF.s 			page 60
+ARM GAS  /tmp/ccvB23xs.s 			page 60
 
 
  3356 001d 00       		.byte	0
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  3410 0053 00       		.byte	0
  3411 0054 07       		.uleb128 0x7
  3412 0055 0D       		.uleb128 0xd
-ARM GAS  /tmp/cc2VEWFF.s 			page 61
+ARM GAS  /tmp/ccvB23xs.s 			page 61
 
 
  3413 0056 00       		.byte	0
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  3467 008c 0B       		.uleb128 0xb
  3468 008d 00       		.byte	0
  3469 008e 00       		.byte	0
-ARM GAS  /tmp/cc2VEWFF.s 			page 62
+ARM GAS  /tmp/ccvB23xs.s 			page 62
 
 
  3470 008f 0C       		.uleb128 0xc
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  3524 00c5 00       		.byte	0
  3525 00c6 11       		.uleb128 0x11
  3526 00c7 15       		.uleb128 0x15
-ARM GAS  /tmp/cc2VEWFF.s 			page 63
+ARM GAS  /tmp/ccvB23xs.s 			page 63
 
 
  3527 00c8 01       		.byte	0x1
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  3581 00fe 28       		.uleb128 0x28
  3582 00ff 00       		.byte	0
  3583 0100 03       		.uleb128 0x3
-ARM GAS  /tmp/cc2VEWFF.s 			page 64
+ARM GAS  /tmp/ccvB23xs.s 			page 64
 
 
  3584 0101 0E       		.uleb128 0xe
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  3638 0137 03       		.uleb128 0x3
  3639 0138 0E       		.uleb128 0xe
  3640 0139 3A       		.uleb128 0x3a
-ARM GAS  /tmp/cc2VEWFF.s 			page 65
+ARM GAS  /tmp/ccvB23xs.s 			page 65
 
 
  3641 013a 0B       		.uleb128 0xb
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  3695 0170 00       		.byte	0
  3696 0171 03       		.uleb128 0x3
  3697 0172 08       		.uleb128 0x8
-ARM GAS  /tmp/cc2VEWFF.s 			page 66
+ARM GAS  /tmp/ccvB23xs.s 			page 66
 
 
  3698 0173 3A       		.uleb128 0x3a
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  3752 01a9 3B       		.uleb128 0x3b
  3753 01aa 0B       		.uleb128 0xb
  3754 01ab 27       		.uleb128 0x27
-ARM GAS  /tmp/cc2VEWFF.s 			page 67
+ARM GAS  /tmp/ccvB23xs.s 			page 67
 
 
  3755 01ac 19       		.uleb128 0x19
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  3809 01e3 00       		.byte	0
  3810 01e4 28       		.uleb128 0x28
  3811 01e5 34       		.uleb128 0x34
-ARM GAS  /tmp/cc2VEWFF.s 			page 68
+ARM GAS  /tmp/ccvB23xs.s 			page 68
 
 
  3812 01e6 00       		.byte	0
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  3866 021c 2C       		.uleb128 0x2c
  3867 021d 0B       		.uleb128 0xb
  3868 021e 01       		.byte	0x1
-ARM GAS  /tmp/cc2VEWFF.s 			page 69
+ARM GAS  /tmp/ccvB23xs.s 			page 69
 
 
  3869 021f 11       		.uleb128 0x11
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  3923 025a 898201   		.uleb128 0x4109
  3924 025d 01       		.byte	0x1
  3925 025e 11       		.uleb128 0x11
-ARM GAS  /tmp/cc2VEWFF.s 			page 70
+ARM GAS  /tmp/ccvB23xs.s 			page 70
 
 
  3926 025f 01       		.uleb128 0x1
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  3980 029b 01       		.byte	0x1
  3981 029c 3F       		.uleb128 0x3f
  3982 029d 19       		.uleb128 0x19
-ARM GAS  /tmp/cc2VEWFF.s 			page 71
+ARM GAS  /tmp/ccvB23xs.s 			page 71
 
 
  3983 029e 03       		.uleb128 0x3
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  4037 02d5 13       		.uleb128 0x13
  4038 02d6 11       		.uleb128 0x11
  4039 02d7 01       		.uleb128 0x1
-ARM GAS  /tmp/cc2VEWFF.s 			page 72
+ARM GAS  /tmp/ccvB23xs.s 			page 72
 
 
  4040 02d8 12       		.uleb128 0x12
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  4094 0314 03       		.uleb128 0x3
  4095 0315 0E       		.uleb128 0xe
  4096 0316 3A       		.uleb128 0x3a
-ARM GAS  /tmp/cc2VEWFF.s 			page 73
+ARM GAS  /tmp/ccvB23xs.s 			page 73
 
 
  4097 0317 0B       		.uleb128 0xb
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  4151 034d 3F       		.uleb128 0x3f
  4152 034e 19       		.uleb128 0x19
  4153 034f 02       		.uleb128 0x2
-ARM GAS  /tmp/cc2VEWFF.s 			page 74
+ARM GAS  /tmp/ccvB23xs.s 			page 74
 
 
  4154 0350 18       		.uleb128 0x18
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  4208 0386 27       		.uleb128 0x27
  4209 0387 19       		.uleb128 0x19
  4210 0388 3C       		.uleb128 0x3c
-ARM GAS  /tmp/cc2VEWFF.s 			page 75
+ARM GAS  /tmp/ccvB23xs.s 			page 75
 
 
  4211 0389 19       		.uleb128 0x19
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  4265 03bf 00       		.byte	0
  4266 03c0 00       		.byte	0
  4267 03c1 00       		.byte	0
-ARM GAS  /tmp/cc2VEWFF.s 			page 76
+ARM GAS  /tmp/ccvB23xs.s 			page 76
 
 
  4268              		.section	.debug_loc,"",%progbits
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  4322 0084 58000000 		.4byte	.LVL14
  4323 0088 0100     		.2byte	0x1
  4324 008a 56       		.byte	0x56
-ARM GAS  /tmp/cc2VEWFF.s 			page 77
+ARM GAS  /tmp/ccvB23xs.s 			page 77
 
 
  4325 008b 00000000 		.4byte	0
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  4379 0119 A4000000 		.4byte	.LFE45
  4380 011d 0100     		.2byte	0x1
  4381 011f 54       		.byte	0x54
-ARM GAS  /tmp/cc2VEWFF.s 			page 78
+ARM GAS  /tmp/ccvB23xs.s 			page 78
 
 
  4382 0120 00000000 		.4byte	0
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  4436 019a 01       		.uleb128 0x1
  4437 019b 51       		.byte	0x51
  4438 019c 03       		.byte	0x3
-ARM GAS  /tmp/cc2VEWFF.s 			page 79
+ARM GAS  /tmp/ccvB23xs.s 			page 79
 
 
  4439 019d 00000000 		.4byte	.LANCHOR2
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  4493 0218 34000000 		.4byte	.LVL45
  4494 021c 0100     		.2byte	0x1
  4495 021e 53       		.byte	0x53
-ARM GAS  /tmp/cc2VEWFF.s 			page 80
+ARM GAS  /tmp/ccvB23xs.s 			page 80
 
 
  4496 021f 34000000 		.4byte	.LVL45
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  4550 0004 0200     		.2byte	0x2
  4551 0006 00000000 		.4byte	.Ldebug_info0
  4552 000a 04       		.byte	0x4
-ARM GAS  /tmp/cc2VEWFF.s 			page 81
+ARM GAS  /tmp/ccvB23xs.s 			page 81
 
 
  4553 000b 00       		.byte	0
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  4607              	.Ldebug_line0:
  4608 0000 7F040000 		.section	.debug_str,"MS",%progbits,1
  4608      02003003 
-ARM GAS  /tmp/cc2VEWFF.s 			page 82
+ARM GAS  /tmp/ccvB23xs.s 			page 82
 
 
  4608      00000201 
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  4636      00
  4637              	.LASF263:
  4638 0084 77726974 		.ascii	"writet\000"
-ARM GAS  /tmp/cc2VEWFF.s 			page 83
+ARM GAS  /tmp/ccvB23xs.s 			page 83
 
 
  4638      657400
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  4668      655F696E 
  4668      74657272 
  4668      75707400 
-ARM GAS  /tmp/cc2VEWFF.s 			page 84
+ARM GAS  /tmp/ccvB23xs.s 			page 84
 
 
  4669              	.LASF205:
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  4698      6A656374 
  4698      496E6974 
  4698      00
-ARM GAS  /tmp/cc2VEWFF.s 			page 85
+ARM GAS  /tmp/ccvB23xs.s 			page 85
 
 
  4699              	.LASF156:
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  4728 021f 504D435F 		.ascii	"PMC_PCER1\000"
  4728      50434552 
  4728      3100
-ARM GAS  /tmp/cc2VEWFF.s 			page 86
+ARM GAS  /tmp/ccvB23xs.s 			page 86
 
 
  4729              	.LASF43:
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  4757              	.LASF50:
  4758 02b4 636F6E74 		.ascii	"context\000"
  4758      65787400 
-ARM GAS  /tmp/cc2VEWFF.s 			page 87
+ARM GAS  /tmp/ccvB23xs.s 			page 87
 
 
  4759              	.LASF192:
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  4786      313000
  4787              	.LASF175:
  4788 0343 52657365 		.ascii	"Reserved11\000"
-ARM GAS  /tmp/cc2VEWFF.s 			page 88
+ARM GAS  /tmp/ccvB23xs.s 			page 88
 
 
  4788      72766564 
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  4816      00
  4817              	.LASF142:
  4818 03d5 50494F5F 		.ascii	"PIO_MDER\000"
-ARM GAS  /tmp/cc2VEWFF.s 			page 89
+ARM GAS  /tmp/ccvB23xs.s 			page 89
 
 
  4818      4D444552 
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  4846      4320342E 
  4846      392E3320 
  4846      32303135 
-ARM GAS  /tmp/cc2VEWFF.s 			page 90
+ARM GAS  /tmp/ccvB23xs.s 			page 90
 
 
  4846      30353239 
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  4868      00
  4869              	.LASF147:
  4870 0590 50494F5F 		.ascii	"PIO_PUER\000"
-ARM GAS  /tmp/cc2VEWFF.s 			page 91
+ARM GAS  /tmp/ccvB23xs.s 			page 91
 
 
  4870      50554552 
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  4895              	.LASF200:
  4896 062e 504D435F 		.ascii	"PMC_SCSR\000"
  4896      53435352 
-ARM GAS  /tmp/cc2VEWFF.s 			page 92
+ARM GAS  /tmp/ccvB23xs.s 			page 92
 
 
  4896      00
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  4923              	.LASF107:
  4924 06c5 54574931 		.ascii	"TWI1_IRQn\000"
  4924      5F495251 
-ARM GAS  /tmp/cc2VEWFF.s 			page 93
+ARM GAS  /tmp/ccvB23xs.s 			page 93
 
 
  4924      6E00
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  4954 074f 756E7369 		.ascii	"unsigned int\000"
  4954      676E6564 
  4954      20696E74 
-ARM GAS  /tmp/cc2VEWFF.s 			page 94
+ARM GAS  /tmp/ccvB23xs.s 			page 94
 
 
  4954      00
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  4980      4465736B 
  4980      746F702F 
  4981              	.LASF78:
-ARM GAS  /tmp/cc2VEWFF.s 			page 95
+ARM GAS  /tmp/ccvB23xs.s 			page 95
 
 
  4982 0822 696F666C 		.ascii	"ioflags_t\000"
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  5006      00
  5007              	.LASF252:
  5008 08b4 69717565 		.ascii	"iqueue\000"
-ARM GAS  /tmp/cc2VEWFF.s 			page 96
+ARM GAS  /tmp/ccvB23xs.s 			page 96
 
 
  5008      756500
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  5038 0946 50494F5F 		.ascii	"PIO_AIMDR\000"
  5038      41494D44 
  5038      5200
-ARM GAS  /tmp/cc2VEWFF.s 			page 97
+ARM GAS  /tmp/ccvB23xs.s 			page 97
 
 
  5039              	.LASF97:
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  5066      72766564 
  5066      3600
  5067              	.LASF110:
-ARM GAS  /tmp/cc2VEWFF.s 			page 98
+ARM GAS  /tmp/ccvB23xs.s 			page 98
 
 
  5068 09e0 5443305F 		.ascii	"TC0_IRQn\000"
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  5096 0a67 50494F5F 		.ascii	"PIO_TNCR\000"
  5096      544E4352 
  5096      00
-ARM GAS  /tmp/cc2VEWFF.s 			page 99
+ARM GAS  /tmp/ccvB23xs.s 			page 99
 
 
  5097              	.LASF180:
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  5128      74656E65 
  5128      7200
  5129              	.LASF218:
-ARM GAS  /tmp/cc2VEWFF.s 			page 100
+ARM GAS  /tmp/ccvB23xs.s 			page 100
 
 
  5130 0af6 504D435F 		.ascii	"PMC_WPMR\000"
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  5154      65642069 
  5154      6E7400
  5155              	.LASF278:
-ARM GAS  /tmp/cc2VEWFF.s 			page 101
+ARM GAS  /tmp/ccvB23xs.s 			page 101
 
 
  5156 0b8d 73645F6C 		.ascii	"sd_lld_stop\000"
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  5186 0c17 504D435F 		.ascii	"PMC_PCSR1\000"
  5186      50435352 
  5186      3100
-ARM GAS  /tmp/cc2VEWFF.s 			page 102
+ARM GAS  /tmp/ccvB23xs.s 			page 102
 
 
  5187              	.LASF92:
@@ -6088,40 +6088,40 @@ ARM GAS  /tmp/cc2VEWFF.s 			page 1
  5200 0c5a 705F7374 		.ascii	"p_state\000"
  5200      61746500 
  5201              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/cc2VEWFF.s 			page 103
+ARM GAS  /tmp/ccvB23xs.s 			page 103
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 serial_lld.c
-     /tmp/cc2VEWFF.s:19     .text.notify1:00000000 $t
-     /tmp/cc2VEWFF.s:24     .text.notify1:00000000 notify1
-     /tmp/cc2VEWFF.s:41     .text.notify1:00000008 $d
-     /tmp/cc2VEWFF.s:46     .text.notify2:00000000 $t
-     /tmp/cc2VEWFF.s:51     .text.notify2:00000000 notify2
-     /tmp/cc2VEWFF.s:67     .text.notify2:00000008 $d
-     /tmp/cc2VEWFF.s:72     .text.serve_interrupt:00000000 $t
-     /tmp/cc2VEWFF.s:77     .text.serve_interrupt:00000000 serve_interrupt
-     /tmp/cc2VEWFF.s:246    .text.Vector60:00000000 $t
-     /tmp/cc2VEWFF.s:252    .text.Vector60:00000000 Vector60
-     /tmp/cc2VEWFF.s:277    .text.Vector60:00000010 $d
-     /tmp/cc2VEWFF.s:282    .text.Vector64:00000000 $t
-     /tmp/cc2VEWFF.s:288    .text.Vector64:00000000 Vector64
-     /tmp/cc2VEWFF.s:313    .text.Vector64:00000010 $d
-     /tmp/cc2VEWFF.s:318    .text.sd_lld_init:00000000 $t
-     /tmp/cc2VEWFF.s:324    .text.sd_lld_init:00000000 sd_lld_init
-     /tmp/cc2VEWFF.s:380    .text.sd_lld_init:00000038 $d
-     /tmp/cc2VEWFF.s:392    .text.sd_lld_start:00000000 $t
-     /tmp/cc2VEWFF.s:398    .text.sd_lld_start:00000000 sd_lld_start
-     /tmp/cc2VEWFF.s:528    .text.sd_lld_start:00000088 $d
-     /tmp/cc2VEWFF.s:539    .text.sd_lld_stop:00000000 $t
-     /tmp/cc2VEWFF.s:545    .text.sd_lld_stop:00000000 sd_lld_stop
-     /tmp/cc2VEWFF.s:680    .text.sd_lld_stop:0000006c $d
-     /tmp/cc2VEWFF.s:710    .bss.SD2:00000000 SD2
-     /tmp/cc2VEWFF.s:703    .bss.SD1:00000000 SD1
-     /tmp/cc2VEWFF.s:691    .rodata.default_config:00000000 $d
-     /tmp/cc2VEWFF.s:695    .rodata.default_config:00000000 default_config
-     /tmp/cc2VEWFF.s:699    .bss.SD1:00000000 $d
-     /tmp/cc2VEWFF.s:706    .bss.SD2:00000000 $d
+     /tmp/ccvB23xs.s:19     .text.notify1:00000000 $t
+     /tmp/ccvB23xs.s:24     .text.notify1:00000000 notify1
+     /tmp/ccvB23xs.s:41     .text.notify1:00000008 $d
+     /tmp/ccvB23xs.s:46     .text.notify2:00000000 $t
+     /tmp/ccvB23xs.s:51     .text.notify2:00000000 notify2
+     /tmp/ccvB23xs.s:67     .text.notify2:00000008 $d
+     /tmp/ccvB23xs.s:72     .text.serve_interrupt:00000000 $t
+     /tmp/ccvB23xs.s:77     .text.serve_interrupt:00000000 serve_interrupt
+     /tmp/ccvB23xs.s:246    .text.Vector60:00000000 $t
+     /tmp/ccvB23xs.s:252    .text.Vector60:00000000 Vector60
+     /tmp/ccvB23xs.s:277    .text.Vector60:00000010 $d
+     /tmp/ccvB23xs.s:282    .text.Vector64:00000000 $t
+     /tmp/ccvB23xs.s:288    .text.Vector64:00000000 Vector64
+     /tmp/ccvB23xs.s:313    .text.Vector64:00000010 $d
+     /tmp/ccvB23xs.s:318    .text.sd_lld_init:00000000 $t
+     /tmp/ccvB23xs.s:324    .text.sd_lld_init:00000000 sd_lld_init
+     /tmp/ccvB23xs.s:380    .text.sd_lld_init:00000038 $d
+     /tmp/ccvB23xs.s:392    .text.sd_lld_start:00000000 $t
+     /tmp/ccvB23xs.s:398    .text.sd_lld_start:00000000 sd_lld_start
+     /tmp/ccvB23xs.s:528    .text.sd_lld_start:00000088 $d
+     /tmp/ccvB23xs.s:539    .text.sd_lld_stop:00000000 $t
+     /tmp/ccvB23xs.s:545    .text.sd_lld_stop:00000000 sd_lld_stop
+     /tmp/ccvB23xs.s:680    .text.sd_lld_stop:0000006c $d
+     /tmp/ccvB23xs.s:710    .bss.SD2:00000000 SD2
+     /tmp/ccvB23xs.s:703    .bss.SD1:00000000 SD1
+     /tmp/ccvB23xs.s:691    .rodata.default_config:00000000 $d
+     /tmp/ccvB23xs.s:695    .rodata.default_config:00000000 default_config
+     /tmp/ccvB23xs.s:699    .bss.SD1:00000000 $d
+     /tmp/ccvB23xs.s:706    .bss.SD2:00000000 $d
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

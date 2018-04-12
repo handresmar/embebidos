@@ -45,7 +45,19 @@ build/obj/main.o: main.cpp ChibiOS/boards/STAMP/board.h \
  ChibiOS/os/hal/include/uart.h ChibiOS/os/hal/include/usb.h \
  ChibiOS/os/hal/include/mmc_spi.h ChibiOS/os/hal/include/serial_usb.h \
  ChibiOS/os/hal/platforms/AT91SAM3S/pio.h \
- ChibiOS/os/hal/platforms/AT91SAM3S/pmc.h
+ ChibiOS/os/hal/platforms/AT91SAM3S/pmc.h \
+ /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/string.h \
+ /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/_ansi.h \
+ /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/newlib.h \
+ /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/config.h \
+ /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/machine/ieeefp.h \
+ /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/reent.h \
+ /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/_ansi.h \
+ /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/_types.h \
+ /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/machine/_types.h \
+ /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/lock.h \
+ /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/cdefs.h \
+ /home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/string.h
 
 ChibiOS/boards/STAMP/board.h:
 
@@ -184,3 +196,27 @@ ChibiOS/os/hal/include/serial_usb.h:
 ChibiOS/os/hal/platforms/AT91SAM3S/pio.h:
 
 ChibiOS/os/hal/platforms/AT91SAM3S/pmc.h:
+
+/home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/string.h:
+
+/home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/_ansi.h:
+
+/home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/newlib.h:
+
+/home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/config.h:
+
+/home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/machine/ieeefp.h:
+
+/home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/reent.h:
+
+/home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/_ansi.h:
+
+/home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/_types.h:
+
+/home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/machine/_types.h:
+
+/home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/lock.h:
+
+/home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/cdefs.h:
+
+/home/david/Desktop/Embebidos/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include/sys/string.h:

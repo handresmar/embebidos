@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cciGf10l.s 			page 1
+ARM GAS  /tmp/cc544gIg.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cciGf10l.s 			page 1
   55              		.align	2
   56              		.p2align 4,,15
   57              		.global	chVTSetI
-ARM GAS  /tmp/cciGf10l.s 			page 2
+ARM GAS  /tmp/cc544gIg.s 			page 2
 
 
   58              		.thumb
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cciGf10l.s 			page 1
  112              		.loc 1 96 0
  113 002a 9A68     		ldr	r2, [r3, #8]
  114 002c 511A     		subs	r1, r2, r1
-ARM GAS  /tmp/cciGf10l.s 			page 3
+ARM GAS  /tmp/cc544gIg.s 			page 3
 
 
  115              	.LVL5:
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cciGf10l.s 			page 1
  169              	.L16:
  170 001e 00BF     		.align	2
  171              	.L15:
-ARM GAS  /tmp/cciGf10l.s 			page 4
+ARM GAS  /tmp/cc544gIg.s 			page 4
 
 
  172 0020 00000000 		.word	.LANCHOR0
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cciGf10l.s 			page 1
  226 0020 7047     		bx	lr
  227              	.L24:
  228 0022 00BF     		.align	2
-ARM GAS  /tmp/cciGf10l.s 			page 5
+ARM GAS  /tmp/cc544gIg.s 			page 5
 
 
  229              	.L23:
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cciGf10l.s 			page 1
  280 0043 05       		.byte	0x5
  281 0044 30020000 		.4byte	.LASF3
  282 0048 03       		.uleb128 0x3
-ARM GAS  /tmp/cciGf10l.s 			page 6
+ARM GAS  /tmp/cc544gIg.s 			page 6
 
 
  283 0049 02       		.byte	0x2
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cciGf10l.s 			page 1
  337 00b2 F3010000 		.4byte	.LASF15
  338 00b6 04       		.uleb128 0x4
  339 00b7 4D000000 		.4byte	.LASF16
-ARM GAS  /tmp/cciGf10l.s 			page 7
+ARM GAS  /tmp/cc544gIg.s 			page 7
 
 
  340 00bb 05       		.byte	0x5
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cciGf10l.s 			page 1
  394 0127 04       		.byte	0x4
  395 0128 D2000000 		.4byte	0xd2
  396 012c 0B       		.uleb128 0xb
-ARM GAS  /tmp/cciGf10l.s 			page 8
+ARM GAS  /tmp/cc544gIg.s 			page 8
 
 
  397 012d 10       		.byte	0x10
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cciGf10l.s 			page 1
  451 019c 01       		.uleb128 0x1
  452 019d 9C       		.byte	0x9c
  453 019e EA010000 		.4byte	0x1ea
-ARM GAS  /tmp/cciGf10l.s 			page 9
+ARM GAS  /tmp/cc544gIg.s 			page 9
 
 
  454 01a2 0F       		.uleb128 0xf
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cciGf10l.s 			page 1
  508 0218 00000000 		.4byte	.LFB10
  509 021c 28000000 		.4byte	.LFE10-.LFB10
  510 0220 01       		.uleb128 0x1
-ARM GAS  /tmp/cciGf10l.s 			page 10
+ARM GAS  /tmp/cc544gIg.s 			page 10
 
 
  511 0221 9C       		.byte	0x9c
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cciGf10l.s 			page 1
  565 0014 24       		.uleb128 0x24
  566 0015 00       		.byte	0
  567 0016 0B       		.uleb128 0xb
-ARM GAS  /tmp/cciGf10l.s 			page 11
+ARM GAS  /tmp/cc544gIg.s 			page 11
 
 
  568 0017 0B       		.uleb128 0xb
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cciGf10l.s 			page 1
  622 004d 00       		.byte	0
  623 004e 00       		.byte	0
  624 004f 08       		.uleb128 0x8
-ARM GAS  /tmp/cciGf10l.s 			page 12
+ARM GAS  /tmp/cc544gIg.s 			page 12
 
 
  625 0050 05       		.uleb128 0x5
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cciGf10l.s 			page 1
  679 0086 00       		.byte	0
  680 0087 00       		.byte	0
  681 0088 0D       		.uleb128 0xd
-ARM GAS  /tmp/cciGf10l.s 			page 13
+ARM GAS  /tmp/cc544gIg.s 			page 13
 
 
  682 0089 2E       		.uleb128 0x2e
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cciGf10l.s 			page 1
  736 00c1 3B       		.uleb128 0x3b
  737 00c2 0B       		.uleb128 0xb
  738 00c3 49       		.uleb128 0x49
-ARM GAS  /tmp/cciGf10l.s 			page 14
+ARM GAS  /tmp/cc544gIg.s 			page 14
 
 
  739 00c4 13       		.uleb128 0x13
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cciGf10l.s 			page 1
  793 00fa 19       		.uleb128 0x19
  794 00fb 03       		.uleb128 0x3
  795 00fc 0E       		.uleb128 0xe
-ARM GAS  /tmp/cciGf10l.s 			page 15
+ARM GAS  /tmp/cc544gIg.s 			page 15
 
 
  796 00fd 3A       		.uleb128 0x3a
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cciGf10l.s 			page 1
  850              	.Ldebug_loc0:
  851              	.LLST0:
  852 0000 00000000 		.4byte	.LVL0
-ARM GAS  /tmp/cciGf10l.s 			page 16
+ARM GAS  /tmp/cc544gIg.s 			page 16
 
 
  853 0004 14000000 		.4byte	.LVL4
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cciGf10l.s 			page 1
  907 0091 12000000 		.4byte	.LVL10
  908 0095 16000000 		.4byte	.LVL11
  909 0099 0400     		.2byte	0x4
-ARM GAS  /tmp/cciGf10l.s 			page 17
+ARM GAS  /tmp/cc544gIg.s 			page 17
 
 
  910 009b F3       		.byte	0xf3
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cciGf10l.s 			page 1
  964 0018 00000000 		.4byte	.LFB10
  965 001c 28000000 		.4byte	.LFE10
  966 0020 00000000 		.4byte	0
-ARM GAS  /tmp/cciGf10l.s 			page 18
+ARM GAS  /tmp/cc544gIg.s 			page 18
 
 
  967 0024 00000000 		.4byte	0
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cciGf10l.s 			page 1
  991              	.LASF17:
  992 0084 56697274 		.ascii	"VirtualTimer\000"
  992      75616C54 
-ARM GAS  /tmp/cciGf10l.s 			page 19
+ARM GAS  /tmp/cc544gIg.s 			page 19
 
 
  992      696D6572 
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cciGf10l.s 			page 1
  1010 01d7 76746C69 		.ascii	"vtlist\000"
  1010      737400
  1011              	.LASF26:
-ARM GAS  /tmp/cciGf10l.s 			page 20
+ARM GAS  /tmp/cc544gIg.s 			page 20
 
 
  1012 01de 74696D65 		.ascii	"time\000"
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cciGf10l.s 			page 1
  1042      65642063 
  1042      68617200 
  1043              	.LASF24:
-ARM GAS  /tmp/cciGf10l.s 			page 21
+ARM GAS  /tmp/cc544gIg.s 			page 21
 
 
  1044 026d 56544C69 		.ascii	"VTList\000"
@@ -1211,25 +1211,25 @@ ARM GAS  /tmp/cciGf10l.s 			page 1
  1048      52657365 
  1048      744900
  1049              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  /tmp/cciGf10l.s 			page 22
+ARM GAS  /tmp/cc544gIg.s 			page 22
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chvt.c
-     /tmp/cciGf10l.s:19     .text._vt_init:00000000 $t
-     /tmp/cciGf10l.s:25     .text._vt_init:00000000 _vt_init
-     /tmp/cciGf10l.s:50     .text._vt_init:00000014 $d
-     /tmp/cciGf10l.s:55     .text.chVTSetI:00000000 $t
-     /tmp/cciGf10l.s:61     .text.chVTSetI:00000000 chVTSetI
-     /tmp/cciGf10l.s:127    .text.chVTSetI:00000038 $d
-     /tmp/cciGf10l.s:132    .text.chVTResetI:00000000 $t
-     /tmp/cciGf10l.s:138    .text.chVTResetI:00000000 chVTResetI
-     /tmp/cciGf10l.s:172    .text.chVTResetI:00000020 $d
-     /tmp/cciGf10l.s:177    .text.chTimeIsWithin:00000000 $t
-     /tmp/cciGf10l.s:183    .text.chTimeIsWithin:00000000 chTimeIsWithin
-     /tmp/cciGf10l.s:230    .text.chTimeIsWithin:00000024 $d
-     /tmp/cciGf10l.s:240    .bss.vtlist:00000000 vtlist
-     /tmp/cciGf10l.s:236    .bss.vtlist:00000000 $d
+     /tmp/cc544gIg.s:19     .text._vt_init:00000000 $t
+     /tmp/cc544gIg.s:25     .text._vt_init:00000000 _vt_init
+     /tmp/cc544gIg.s:50     .text._vt_init:00000014 $d
+     /tmp/cc544gIg.s:55     .text.chVTSetI:00000000 $t
+     /tmp/cc544gIg.s:61     .text.chVTSetI:00000000 chVTSetI
+     /tmp/cc544gIg.s:127    .text.chVTSetI:00000038 $d
+     /tmp/cc544gIg.s:132    .text.chVTResetI:00000000 $t
+     /tmp/cc544gIg.s:138    .text.chVTResetI:00000000 chVTResetI
+     /tmp/cc544gIg.s:172    .text.chVTResetI:00000020 $d
+     /tmp/cc544gIg.s:177    .text.chTimeIsWithin:00000000 $t
+     /tmp/cc544gIg.s:183    .text.chTimeIsWithin:00000000 chTimeIsWithin
+     /tmp/cc544gIg.s:230    .text.chTimeIsWithin:00000024 $d
+     /tmp/cc544gIg.s:240    .bss.vtlist:00000000 vtlist
+     /tmp/cc544gIg.s:236    .bss.vtlist:00000000 $d
                      .debug_frame:00000010 $d
 
 NO UNDEFINED SYMBOLS

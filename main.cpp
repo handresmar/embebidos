@@ -30,6 +30,8 @@ static msg_t Thread1(void *arg) {
   return(0);
 }
 
+
+
 /*
 * Application entry point.
 */
@@ -40,19 +42,32 @@ int main(void) {
 
   //Start Serial.
   sdStart(&SD2, NULL);
+  sdStart(&SD1, NULL);
+  char UartBuffer[100];
+  uint32_t UartBufferPtr = 0;
+
   while(true) {
-    chThdSleepMilliseconds(100);
-    int c = sdGet(&SD2);
-    if((char)sdGet(&SD2) == '1'){
-      /*chprintf((BaseChannel *) &SD2, "Lo que envio fue: ");
-      sdPut(&SD2, c);
-      chprintf((BaseChannel *) &SD2, "\r\n");
-      */
-      palSetPad(IOPORT3, BOARD_LED);
-    }else if((char)sdGet(&SD2) == '2'){
-      palClearPad(IOPORT3, BOARD_LED);
+    char byte_u8 = sdGet(&SD1);
+    if (UartBufferPtr >= 100)
+    {
+        UartBufferPtr = 0;
     }
-    
+
+    if (byte_u8 == '\r' || byte_u8 == '\n')
+    {
+        UartBuffer[UartBufferPtr++] = '\0'; // null character manually added
+        UartBufferPtr = 0;
+        char *FAIL = strstr(UartBuffer, "FAIL");
+         if(FAIL != NULL){
+            chprintf((BaseChannel *) &SD2, "Lo que envio por SD1 fue: ");
+            chprintf((BaseChannel *) &SD2, UartBuffer);
+            chprintf((BaseChannel *) &SD2, "\r\n");
+         }
+    }
+    else if (byte_u8 >= ' ' && byte_u8 <= '~')
+    {
+        UartBuffer[UartBufferPtr++] = byte_u8;
+    }
   }
 
   // Creates blink thread

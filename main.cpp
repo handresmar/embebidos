@@ -45,8 +45,12 @@ int main(void) {
   sdStart(&SD1, NULL);
   char UartBuffer[100];
   uint32_t UartBufferPtr = 0;
+  char *GPGGA[16];
+  char *GPRMC[16];
 
   while(true) {
+    int i=0;
+    int j=0;
     char byte_u8 = sdGet(&SD1);
     if (UartBufferPtr >= 100)
     {
@@ -55,14 +59,49 @@ int main(void) {
 
     if (byte_u8 == '\r' || byte_u8 == '\n')
     {
-        UartBuffer[UartBufferPtr++] = '\0'; // null character manually added
+        UartBuffer[UartBufferPtr++] = '\0';
         UartBufferPtr = 0;
-        char *FAIL = strstr(UartBuffer, "FAIL");
-         if(FAIL != NULL){
-            chprintf((BaseChannel *) &SD2, "Lo que envio por SD1 fue: ");
-            chprintf((BaseChannel *) &SD2, UartBuffer);
+        char *GPRMC_c = strstr(UartBuffer, "$GPRMC");
+        char *GPGGA_c = strstr(UartBuffer, "$GPGGA");
+        if (GPRMC_c != NULL){
+          
+        }
+        if (GPGGA_c != NULL){
+          char *pt;
+          pt = strtok (UartBuffer,",");
+            while (pt != NULL) {
+              GPGGA[i]=pt;
+              pt = strtok (NULL, ",");
+              i++;
+            }
+            chprintf((BaseChannel *) &SD2, "SAT=");
+            chprintf((BaseChannel *) &SD2, GPGGA[7]);
             chprintf((BaseChannel *) &SD2, "\r\n");
-         }
+            chprintf((BaseChannel *) &SD2, "VAL=");
+            chprintf((BaseChannel *) &SD2, GPGGA[6]);
+            chprintf((BaseChannel *) &SD2, "\r\n");
+        }
+        if (GPRMC_c != NULL){
+          char *pt2;
+          pt2 = strtok (UartBuffer,",");
+            while (pt2 != NULL) {
+              GPRMC[j]=pt2;
+              pt2 = strtok (NULL, ",");
+              j++;
+            }
+            chprintf((BaseChannel *) &SD2, "LAT=");
+            chprintf((BaseChannel *) &SD2, GPRMC[3]);
+            chprintf((BaseChannel *) &SD2, GPRMC[4]);
+            chprintf((BaseChannel *) &SD2, "\r\n");
+            chprintf((BaseChannel *) &SD2, "LON=");
+            chprintf((BaseChannel *) &SD2, GPRMC[5]);
+            chprintf((BaseChannel *) &SD2, GPRMC[6]);
+            chprintf((BaseChannel *) &SD2, "\r\n");
+            chprintf((BaseChannel *) &SD2, "SP=");
+            chprintf((BaseChannel *) &SD2, GPRMC[7]);
+            chprintf((BaseChannel *) &SD2, "\r\n");
+          }
+
     }
     else if (byte_u8 >= ' ' && byte_u8 <= '~')
     {

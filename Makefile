@@ -69,7 +69,8 @@ CSRC = $(PORTSRC) \
        
 # C++ sources that can be compiled in ARM or THUMB mode depending on the global
 # setting.
-CPPSRC = main.cpp 
+CPPSRC = main.cpp \
+		 i2c.cpp
 
 EXTSRC = ../../ext
 

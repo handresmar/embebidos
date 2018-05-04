@@ -5,6 +5,8 @@ PLATFORMSRC = ${CHIBIOS}/os/hal/platforms/AT91SAM3S/hal_lld.c \
               ${CHIBIOS}/os/hal/platforms/AT91SAM3S/serial_lld.c \
               ${CHIBIOS}/os/hal/platforms/AT91SAM3S/atmel_adc.c \
               ${CHIBIOS}/os/hal/platforms/AT91SAM3S/pio.c \
+              ${CHIBIOS}/os/hal/platforms/AT91SAM3S/atmel_twi.c   \
+              ${CHIBIOS}/os/hal/platforms/AT91SAM3S/atmel_twid.c  \
               ${CHIBIOS}/os/hal/platforms/AT91SAM3S/pmc.c
 
 # Required include directories

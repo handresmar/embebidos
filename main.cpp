@@ -101,29 +101,21 @@ static msg_t GPSThread(void *arg) {
             }
             chprintf((BaseChannel *) &SD2, "LAT=");
             chprintf((BaseChannel *) &SD2, GPRMC[3]);
+            chprintf((BaseChannel *) &SD2, "\r\n");
+            chprintf((BaseChannel *) &SD2, "CLAT=");
             chprintf((BaseChannel *) &SD2, GPRMC[4]);
             chprintf((BaseChannel *) &SD2, "\r\n");
             chprintf((BaseChannel *) &SD2, "LON=");
             chprintf((BaseChannel *) &SD2, GPRMC[5]);
+            chprintf((BaseChannel *) &SD2, "\r\n");
+            chprintf((BaseChannel *) &SD2, "CLON=");
             chprintf((BaseChannel *) &SD2, GPRMC[6]);
             chprintf((BaseChannel *) &SD2, "\r\n");
             chprintf((BaseChannel *) &SD2, "SP=");
             chprintf((BaseChannel *) &SD2, GPRMC[7]);
             chprintf((BaseChannel *) &SD2, "\r\n");
-          }
-          if (GPGGA_c != NULL){
-            char *pt;
-            pt = strtok (UartBuffer,",");
-            while (pt != NULL) {
-              GPGGA[i]=pt;
-              pt = strtok (NULL, ",");
-              i++;
-            }
-            chprintf((BaseChannel *) &SD2, "SAT=");
-            chprintf((BaseChannel *) &SD2, GPGGA[7]);
-            chprintf((BaseChannel *) &SD2, "\r\n");
             chprintf((BaseChannel *) &SD2, "VAL=");
-            chprintf((BaseChannel *) &SD2, GPGGA[6]);
+            chprintf((BaseChannel *) &SD2, GPRMC[2]);
             chprintf((BaseChannel *) &SD2, "\r\n");
           }
         }

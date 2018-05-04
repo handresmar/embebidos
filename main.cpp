@@ -90,7 +90,6 @@ static msg_t GPSThread(void *arg) {
           UartBuffer[UartBufferPtr++] = '\0';
           UartBufferPtr = 0;
           char *GPRMC_c = strstr(UartBuffer, "$GPRMC");
-          char *GPGGA_c = strstr(UartBuffer, "$GPGGA");
           if (GPRMC_c != NULL){
             char *pt2;
             pt2 = strtok (UartBuffer,",");

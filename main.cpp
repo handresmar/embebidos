@@ -58,9 +58,9 @@ static msg_t Thread1(void *arg) {
 
   while (TRUE) {
     palClearPad(IOPORT3, BOARD_LED);
-    chThdSleepMilliseconds(200);
+    chThdSleepMilliseconds(1000);
     palSetPad(IOPORT3, BOARD_LED);
-    chThdSleepMilliseconds(200);
+    chThdSleepMilliseconds(1);
     //char x = I2CReadByte(0x69,0x3B);
     //chprintf((BaseChannel *) &SD2, "I2C=");
     //chprintf((BaseChannel *) &SD2, (char*)x);
@@ -100,22 +100,22 @@ static msg_t GPSThread(void *arg) {
             }
             chprintf((BaseChannel *) &SD2, "LAT=");
             chprintf((BaseChannel *) &SD2, GPRMC[3]);
-            chprintf((BaseChannel *) &SD2, "\r\n");
+            chprintf((BaseChannel *) &SD2, ";");
             chprintf((BaseChannel *) &SD2, "CLAT=");
             chprintf((BaseChannel *) &SD2, GPRMC[4]);
-            chprintf((BaseChannel *) &SD2, "\r\n");
+            chprintf((BaseChannel *) &SD2, ";");
             chprintf((BaseChannel *) &SD2, "LON=");
             chprintf((BaseChannel *) &SD2, GPRMC[5]);
-            chprintf((BaseChannel *) &SD2, "\r\n");
+            chprintf((BaseChannel *) &SD2, ";");
             chprintf((BaseChannel *) &SD2, "CLON=");
             chprintf((BaseChannel *) &SD2, GPRMC[6]);
-            chprintf((BaseChannel *) &SD2, "\r\n");
+            chprintf((BaseChannel *) &SD2, ";");
             chprintf((BaseChannel *) &SD2, "SP=");
             chprintf((BaseChannel *) &SD2, GPRMC[7]);
-            chprintf((BaseChannel *) &SD2, "\r\n");
+            chprintf((BaseChannel *) &SD2, ";");
             chprintf((BaseChannel *) &SD2, "VAL=");
             chprintf((BaseChannel *) &SD2, GPRMC[2]);
-            chprintf((BaseChannel *) &SD2, "\r\n");
+            //chprintf((BaseChannel *) &SD2, "\r\n");
           }
         }
         else if (byte_u8 >= ' ' && byte_u8 <= '~'){

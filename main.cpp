@@ -40,7 +40,7 @@ void I2CInit() {
   chSysUnlock();
 }
 
-uint8_t I2CReadByte(uint8_t address, uint8_t subAddress) {
+uint8_t I2CReadByte_sub(uint8_t address, uint8_t subAddress) {
   // TODO (andres.calderon): Handle timeouts, handle errors
   chSysLock();
   uint8_t ret;
@@ -51,20 +51,67 @@ uint8_t I2CReadByte(uint8_t address, uint8_t subAddress) {
   return ret;
 }
 
+void I2CWriteByte(uint8_t address, uint8_t data) {
+  // TODO (andres.calderon): Handle timeouts, handle errors
+  chSysLock();
+  TWID_Write(&twid_, address, 0, 0, &data, 1, 0);
+  chSysUnlock();
+}
+
+uint8_t I2CReadByte(uint8_t address) {
+  // TODO (andres.calderon): Handle timeouts, handle errors
+  chSysLock();
+  uint8_t ret;
+  uint8_t data;
+
+  if (TWID_Read(&twid_, address, 0, 0, &data, 1, 0) == 0) ret = data;
+  chSysUnlock();
+  return ret;
+}
+
+void I2CWriteBytes(uint8_t address, uint8_t subAddress, uint8_t data) {
+  // TODO (andres.calderon): Handle timeouts, handle errors
+  chSysLock();
+  TWID_Write(&twid_, address, subAddress, 1, &data, 1, 0);
+  chSysUnlock();
+}
 static WORKING_AREA(waThread1, 128);
+
+uint8_t I2CReadBytes(uint8_t address, uint8_t subAddress, uint8_t* dest,
+                       uint8_t count) {
+  chSysLock();
+  uint8_t ret = 0;
+  // TODO (andres.calderon): Handle timeouts, handle errors
+  if (TWID_Read(&twid_, address, subAddress, 1, dest, count, 0) == 0) {
+    ret = count;
+  }
+  chSysUnlock();
+  return ret;
+}
 
 static msg_t Thread1(void *arg) {
   (void)arg;
 
   while (TRUE) {
-    palClearPad(IOPORT3, BOARD_LED);
-    chThdSleepMilliseconds(1000);
-    palSetPad(IOPORT3, BOARD_LED);
-    chThdSleepMilliseconds(1);
-    //char x = I2CReadByte(0x69,0x3B);
-    //chprintf((BaseChannel *) &SD2, "I2C=");
-    //chprintf((BaseChannel *) &SD2, (char*)x);
-    //chprintf((BaseChannel *) &SD2, "\r\n");
+    uint8_t MPUbuffer[14];
+    int16_t x;
+    //palClearPad(IOPORT3, BOARD_LED);
+    //chThdSleepMilliseconds(1000);
+    //palSetPad(IOPORT3, BOARD_LED);
+    //chThdSleepMilliseconds(1);
+    I2CWriteBytes(0x68,0x6B,0);
+    //uint8_t x = I2CReadByte_sub(0x68,0x3B);
+    I2CReadBytes(0x68,0x3B,MPUbuffer,2);
+    x = (((uint16_t)MPUbuffer[0] <<8) | MPUbuffer[1]);
+    if(x>30000 || x<-30000){
+      chprintf((BaseChannel *) &SD2, "Perreo intenso\r\n");
+
+    }
+    chprintf((BaseChannel *)&SD2, "x: %5d\t\r\n",x);
+    //chprintf((BaseSequentialStream *)&SD2, "Y: %5d\t\r\n",y);
+    //chprintf((BaseSequentialStream *)&SD2, "Z: %5d\t\r\n",z);
+    //I2CWriteByte(8,100);
+    //chThdSleepMilliseconds(1000);
   }
 
   return(0);
@@ -141,7 +188,7 @@ int main(void) {
   I2CInit();
   // Creates threads
   chThdCreateStatic(waThread1, sizeof(waThread1), NORMALPRIO, Thread1, NULL);
-  chThdCreateStatic(AreaGPS, sizeof(AreaGPS), ABSPRIO, GPSThread, NULL);
+  //chThdCreateStatic(AreaGPS, sizeof(AreaGPS), ABSPRIO, GPSThread, NULL);
 
   
 

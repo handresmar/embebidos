@@ -75,7 +75,7 @@ void I2CWriteBytes(uint8_t address, uint8_t subAddress, uint8_t data) {
   TWID_Write(&twid_, address, subAddress, 1, &data, 1, 0);
   chSysUnlock();
 }
-static WORKING_AREA(waThread1, 128);
+
 
 uint8_t I2CReadBytes(uint8_t address, uint8_t subAddress, uint8_t* dest,
                        uint8_t count) {
@@ -89,29 +89,16 @@ uint8_t I2CReadBytes(uint8_t address, uint8_t subAddress, uint8_t* dest,
   return ret;
 }
 
+static WORKING_AREA(waThread1, 128);
+
 static msg_t Thread1(void *arg) {
   (void)arg;
 
   while (TRUE) {
-    uint8_t MPUbuffer[14];
-    int16_t x;
-    //palClearPad(IOPORT3, BOARD_LED);
-    //chThdSleepMilliseconds(1000);
-    //palSetPad(IOPORT3, BOARD_LED);
-    //chThdSleepMilliseconds(1);
-    I2CWriteBytes(0x68,0x6B,0);
-    //uint8_t x = I2CReadByte_sub(0x68,0x3B);
-    I2CReadBytes(0x68,0x3B,MPUbuffer,2);
-    x = (((uint16_t)MPUbuffer[0] <<8) | MPUbuffer[1]);
-    if(x>30000 || x<-30000){
-      chprintf((BaseChannel *) &SD2, "Perreo intenso\r\n");
-
-    }
-    chprintf((BaseChannel *)&SD2, "x: %5d\t\r\n",x);
-    //chprintf((BaseSequentialStream *)&SD2, "Y: %5d\t\r\n",y);
-    //chprintf((BaseSequentialStream *)&SD2, "Z: %5d\t\r\n",z);
-    //I2CWriteByte(8,100);
-    //chThdSleepMilliseconds(1000);
+    palClearPad(IOPORT3, BOARD_LED);
+    chThdSleepMilliseconds(1000);
+    palSetPad(IOPORT3, BOARD_LED);
+    chThdSleepMilliseconds(1);
   }
 
   return(0);
@@ -126,9 +113,12 @@ static msg_t GPSThread(void *arg) {
     uint32_t UartBufferPtr = 0;
     char *GPGGA[16];
     char *GPRMC[16];
+    uint8_t MPUbuffer[2];
+    int16_t x;
     while(true) {
       int i=0;
       int j=0;
+      int MPUStatus;
       char byte_u8 = sdGet(&SD1);
         if (UartBufferPtr >= 100){
           UartBufferPtr = 0;
@@ -144,6 +134,14 @@ static msg_t GPSThread(void *arg) {
               GPRMC[j]=pt2;
               pt2 = strtok (NULL, ",");
               j++;
+            }
+            I2CWriteBytes(0x68,0x6B,0); //Wake up MPU
+            I2CReadBytes(0x68,0x3B,MPUbuffer,2);
+            x = (((uint16_t)MPUbuffer[0] <<8) | MPUbuffer[1]);
+            if(x>30000 || x<-30000){
+              MPUStatus = 1;
+            }else{
+              MPUStatus = 0;
             }
             chprintf((BaseChannel *) &SD2, "LAT=");
             chprintf((BaseChannel *) &SD2, GPRMC[3]);
@@ -162,7 +160,10 @@ static msg_t GPSThread(void *arg) {
             chprintf((BaseChannel *) &SD2, ";");
             chprintf((BaseChannel *) &SD2, "VAL=");
             chprintf((BaseChannel *) &SD2, GPRMC[2]);
-            //chprintf((BaseChannel *) &SD2, "\r\n");
+            chprintf((BaseChannel *) &SD2, ";");
+            chprintf((BaseChannel *) &SD2, "MPU=");
+            chprintf((BaseChannel *)&SD2,"%0d", MPUStatus);
+            chprintf((BaseChannel *) &SD2, "\r\n");
           }
         }
         else if (byte_u8 >= ' ' && byte_u8 <= '~'){
@@ -188,7 +189,8 @@ int main(void) {
   I2CInit();
   // Creates threads
   chThdCreateStatic(waThread1, sizeof(waThread1), NORMALPRIO, Thread1, NULL);
-  //chThdCreateStatic(AreaGPS, sizeof(AreaGPS), ABSPRIO, GPSThread, NULL);
+  //chThdCreateStatic(AreaMPU, sizeof(AreaMPU), NORMALPRIO, MPUThread, NULL);
+  chThdCreateStatic(AreaGPS, sizeof(AreaGPS), ABSPRIO, GPSThread, NULL);
 
   
 

@@ -17,77 +17,8 @@
 #include "atmel_twid.h"
 #include "pio.h"
 #include "atmel_twi.h"
+#include "./i2c.h"
 
-
-Twid twid_;
-/** TWI clock frequency in Hz. */
-#define TWCK 400000
-
-#define BOARD_MCK 64000000
-
-static const Pin pins[] = {PIN_TWD0, PIN_TWCK0};
-
-
-void I2CInit() {
-  /* Configure TWI */
-  chSysLock();
-  PIO_Configure(pins, PIO_LISTSIZE(pins));
-  PMC->PMC_WPMR = 0x504D4300; /* Disable write protect */
-  PMC->PMC_PCER0 = 1 << ID_TWI0;
-  PMC->PMC_WPMR = 0x504D4301; /* Enable write protect */
-  TWI_ConfigureMaster(TWI0, TWCK, BOARD_MCK);
-  TWID_Initialize(&twid_, TWI0);
-  chSysUnlock();
-}
-
-uint8_t I2CReadByte_sub(uint8_t address, uint8_t subAddress) {
-  // TODO (andres.calderon): Handle timeouts, handle errors
-  chSysLock();
-  uint8_t ret;
-  uint8_t data;
-
-  if (TWID_Read(&twid_, address, subAddress, 1, &data, 1, 0) == 0) ret = data;
-  chSysUnlock();
-  return ret;
-}
-
-void I2CWriteByte(uint8_t address, uint8_t data) {
-  // TODO (andres.calderon): Handle timeouts, handle errors
-  chSysLock();
-  TWID_Write(&twid_, address, 0, 0, &data, 1, 0);
-  chSysUnlock();
-}
-
-uint8_t I2CReadByte(uint8_t address) {
-  // TODO (andres.calderon): Handle timeouts, handle errors
-  chSysLock();
-  uint8_t ret;
-  uint8_t data;
-
-  if (TWID_Read(&twid_, address, 0, 0, &data, 1, 0) == 0) ret = data;
-  chSysUnlock();
-  return ret;
-}
-
-void I2CWriteBytes(uint8_t address, uint8_t subAddress, uint8_t data) {
-  // TODO (andres.calderon): Handle timeouts, handle errors
-  chSysLock();
-  TWID_Write(&twid_, address, subAddress, 1, &data, 1, 0);
-  chSysUnlock();
-}
-
-
-uint8_t I2CReadBytes(uint8_t address, uint8_t subAddress, uint8_t* dest,
-                       uint8_t count) {
-  chSysLock();
-  uint8_t ret = 0;
-  // TODO (andres.calderon): Handle timeouts, handle errors
-  if (TWID_Read(&twid_, address, subAddress, 1, dest, count, 0) == 0) {
-    ret = count;
-  }
-  chSysUnlock();
-  return ret;
-}
 
 static WORKING_AREA(waThread1, 128);
 
@@ -189,7 +120,6 @@ int main(void) {
   I2CInit();
   // Creates threads
   chThdCreateStatic(waThread1, sizeof(waThread1), NORMALPRIO, Thread1, NULL);
-  //chThdCreateStatic(AreaMPU, sizeof(AreaMPU), NORMALPRIO, MPUThread, NULL);
   chThdCreateStatic(AreaGPS, sizeof(AreaGPS), ABSPRIO, GPSThread, NULL);
 
   

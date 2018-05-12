@@ -18,30 +18,12 @@
  * with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#ifndef CPP_CREATOR_I2C_H_
-#define CPP_CREATOR_I2C_H_
-
 #include "atmel_twid.h"
 #include "ch.h"
 #include "chtypes.h"
 
-namespace creator {
 
-class I2C {
- public:
-  void Init();
-
-  void WriteByte(uint8_t address, uint8_t subAddress, uint8_t data);
-
-  void WriteByte(uint8_t address, uint8_t data);
-
-  uint8_t ReadByte(uint8_t address, uint8_t subAddress);
-  uint8_t ReadByte(uint8_t address);
-  uint8_t ReadBytes(uint8_t address, uint8_t subAddress, uint8_t* dest,
-                    uint8_t count);
-
- private:
-  Twid twid_;
-};
-}      // namespace creator
-#endif  // CPP_CREATOR_I2C_H_
+/* I2C */
+void I2CInit();
+void I2CWriteBytes(uint8_t address, uint8_t subAddress, uint8_t data);
+uint8_t I2CReadBytes(uint8_t address, uint8_t subAddress, uint8_t* dest, uint8_t count);

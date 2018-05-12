@@ -23,7 +23,7 @@
 
 #include "./i2c.h"
 
-namespace creator {
+
 
 /** TWI clock frequency in Hz. */
 #define TWCK 400000
@@ -32,7 +32,10 @@ namespace creator {
 
 static const Pin pins[] = {PIN_TWD0, PIN_TWCK0};
 
-void I2C::Init() {
+Twid twid_;
+
+
+void I2CInit() {
   /* Configure TWI */
   chSysLock();
   PIO_Configure(pins, PIO_LISTSIZE(pins));
@@ -44,43 +47,16 @@ void I2C::Init() {
   chSysUnlock();
 }
 
-void I2C::WriteByte(uint8_t address, uint8_t subAddress, uint8_t data) {
+
+void I2CWriteBytes(uint8_t address, uint8_t subAddress, uint8_t data) {
   // TODO (andres.calderon): Handle timeouts, handle errors
   chSysLock();
   TWID_Write(&twid_, address, subAddress, 1, &data, 1, 0);
   chSysUnlock();
 }
 
-void I2C::WriteByte(uint8_t address, uint8_t data) {
-  // TODO (andres.calderon): Handle timeouts, handle errors
-  chSysLock();
-  TWID_Write(&twid_, address, 0, 0, &data, 1, 0);
-  chSysUnlock();
-}
 
-uint8_t I2C::ReadByte(uint8_t address, uint8_t subAddress) {
-  // TODO (andres.calderon): Handle timeouts, handle errors
-  chSysLock();
-  uint8_t ret;
-  uint8_t data;
-
-  if (TWID_Read(&twid_, address, subAddress, 1, &data, 1, 0) == 0) ret = data;
-  chSysUnlock();
-  return ret;
-}
-
-uint8_t I2C::ReadByte(uint8_t address) {
-  // TODO (andres.calderon): Handle timeouts, handle errors
-  chSysLock();
-  uint8_t ret;
-  uint8_t data;
-
-  if (TWID_Read(&twid_, address, 0, 0, &data, 1, 0) == 0) ret = data;
-  chSysUnlock();
-  return ret;
-}
-
-uint8_t I2C::ReadBytes(uint8_t address, uint8_t subAddress, uint8_t* dest,
+uint8_t I2CReadBytes(uint8_t address, uint8_t subAddress, uint8_t* dest,
                        uint8_t count) {
   chSysLock();
   uint8_t ret = 0;
@@ -91,5 +67,3 @@ uint8_t I2C::ReadBytes(uint8_t address, uint8_t subAddress, uint8_t* dest,
   chSysUnlock();
   return ret;
 }
-
-};  // namespace creator

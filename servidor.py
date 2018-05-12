@@ -30,5 +30,8 @@ while 1:
                         	if (Values[3]=="CLON=W"):
 					LON = -LON
 				Vel_Km = float(Values[4][3:]) * 1.852
-                        	print "LAT=" + str(round(LAT,6)) + " LON=" + str(round(LON,6)) + " Vel=" + str(round(Vel_Km,2))  + " " + Values[6][0:5]
+                        	#print "LAT=" + str(round(LAT,6)) + " LON=" + str(round(LON,6)) + " Vel=" + str(round(Vel_Km,2))  + " " + Values[6][0:5]
+                        	trama = hex(str(round(LAT,6)) + ";" + str(round(LON,6)) + ";" + str(round(Vel_Km,2)) + ";" + Values[6][4:5])
+                        	print trama
+
 pass

@@ -95,6 +95,7 @@ static msg_t GPSThread(void *arg) {
             chprintf((BaseChannel *) &SD2, "MPU=");
             chprintf((BaseChannel *)&SD2,"%0d", MPUStatus);
             chprintf((BaseChannel *) &SD2, "\r\n");
+            chThdSleepMilliseconds(40000);
           }
         }
         else if (byte_u8 >= ' ' && byte_u8 <= '~'){

@@ -13,10 +13,13 @@ $_seqNumber             = $_GET["seqNumber"];
 $_date                  = date('Y-m-d H:i:s');
 $_ack                   = $_GET["ack"];
 
-//Mysql
-$result     =   mysqli_query($link,"SELECT * FROM tramas ORDER BY id DESC");
+eeee//Mysql
+$result     =   mysqli_query($link,"SELECT * FROM gps ORDER BY id DESC");
 $row        =   mysqli_fetch_array($result);            
 $id         =   ($row["id"]+1);
-mysqli_query($link,"INSERT INTO tramas(id,tramas,fecha) VALUES('$id','$_data','$_date')");
+mysqli_query($link,"INSERT INTO tramas(id,trama,fecha) VALUES('$id','$_data','$_date')");
+
+echo "$_data y $_date";
+echo $link;
 
 

@@ -1,8 +1,6 @@
-
 <?php
-
-
 //Variables GET desde back-end
+include 'inc/config.php';
 $_id                    = $_GET["id"];
 $_time                  = $_GET["time"];
 $_snr                   = $_GET["snr"];
@@ -22,6 +20,11 @@ if ( $_ack == "true" ) {
                 echo json_encode($payload);
    } 
 
+//Mysql
+$result     =   mysqli_query($link,"SELECT * FROM gps ORDER BY id DESC");
+$row        =   mysqli_fetch_array($result);            
+$id         =   ($row["id"]+1);
+mysqli_query($link,"INSERT INTO tramas(id,trama,fecha) VALUES('$id','$_data','$_date')");
 
 //Registrar cambios en un archivo
 if ( $fl = fopen('/var/www/html/sigfox/Data.txt','a')) {

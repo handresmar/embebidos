@@ -50,7 +50,7 @@ static msg_t GPSThread(void *arg) {
       int i=0;
       int j=0;
       int MPUStatus;
-      char byte_u8 = sdGet(&SD1);
+      char byte_u8 = sdGet(&SD1); 
         if (UartBufferPtr >= 100){
           UartBufferPtr = 0;
         }

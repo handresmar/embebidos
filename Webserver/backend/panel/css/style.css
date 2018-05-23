@@ -5474,15 +5474,6 @@ div.tagsinput span.tag {
     font-size: 12px;
 }
 
-#map-canvas{
-    margin-top: 40px;
-    width:400px;
-    height:400px;
-    webkit-border-radius:100%; -moz-border-radius:100%; border-radius:100%;
-    border:#eee 10px solid;
-}
-
-
 .gear-settings{ width: 35px; height: 35px; -webkit-border-radius: 0 30% 0 0; -moz-border-radius: 0 30% 0 0; border-radius: 0 30% 0 0;}
 
 .gear-settings i{

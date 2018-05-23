@@ -53,7 +53,7 @@
             <!--logo start-->
             <div class="brand">
                  <a href="index.php" class="logo">
-                    <img src="backend/panel/images/logo.png" alt="" width="210" height="75">
+                    <img src="backend/panel/images/logoo.png" alt="" width="210" height="75">
                 </a>
                 <div class="sidebar-toggle-box">
                     <div class="fa fa-bars"></div>
@@ -135,18 +135,8 @@
                             <li>
                                 <a href="index.php">
                                     <i class="fa fa-dashboard"></i>
-                                    <span>OSS S.A.S</span>
+                                    <span>GPS Tracker</span>
                                 </a>
-                            </li>
-                            <li class="sub-menu">
-                                <a href="javascript:;">
-                                    <i class="fa fa-users"></i>
-                                    <span>Dashboard</span>
-                                </a>
-                                <ul class="sub">
-                                    <li><a href="?page=custom">Exportar informes personalizados</a></li>
-                                    <li><a href="?page=profile">Configuración perfiles de pozos</a></li> 
-                                </ul>
                             </li>
                             <li>
                                 <a href="?page=setting">
@@ -155,7 +145,6 @@
                                 </a>
                                 <ul class="sub">
                                     <li><a href="?page=setting">Cambiar mi contraseña</a></li>
-									<li><a href="?page=correos">Correos para envío de reportes</a></li>
                                      </ul>
                             </li
                     </div>        

@@ -12,7 +12,7 @@ if (mysqli_connect_errno($con))
 {
     $data_points = array();
     
-    $QueryTesting       =       mysqli_query($con,"SELECT * FROM testing ORDER BY id DESC");
+    $QueryTesting       =       mysqli_query($con,"SELECT * FROM gps ORDER BY id DESC");
     $RowTesting         =       mysqli_fetch_array($QueryTesting);
     if($RowTesting['status'] == '0'){
         $id_e = 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
@@ -21,12 +21,12 @@ if (mysqli_connect_errno($con))
         $id_e = $RowTesting['start_id'];
     }
 
-    $result = mysqli_query($con, "SELECT * FROM minutedata WHERE id >= $id_e");
+    $result = mysqli_query($con, "SELECT * FROM gps ORDER BY id ASC");
 
     
     while($row = mysqli_fetch_array($result))
     {        
-        $point = array("valorx" => $row['hour'] , "valory" => $row['TMP']);
+        $point = array("valorx" => $row['fecha'] , "valory" => $row['sp']);
         
         array_push($data_points, $point);        
     }

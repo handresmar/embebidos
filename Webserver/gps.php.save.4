@@ -1,0 +1,22 @@
+<?php
+        $locations=array(); 
+        $uname="root";
+        $pass="jesus00**";
+        $servername="localhost";
+        $dbname="gps";
+        $db=new mysqli($servername,$uname,$pass,$dbname);
+        $query =  $db->query("SELECT * FROM gps");
+        //$number_of_rows = mysql_num_rows($db);  
+        //echo $number_of_rows;
+        while( $row = $query->fetch_assoc() ){
+            $fecha = $row['fecha'];
+            $longitude = $row['lon'];
+            $latitude = $row['lat'];
+            $sp=$row['sp'];
+            /* Each row is added as a new array */
+            $locations[]=array( 'fecha'=>$fecha, 'lat'=>$latitude, 'lng'=>$longitude, 'sp'=>$sp );
+        }
+        //echo $locations[0]['name'].": In stock: ".$locations[0]['lat'].", sold: ".$locations[0]['lng'].".<br>";
+        //echo $locations[1]['name'].": In stock: ".$locations[1]['lat'].", sold: ".$locations[1]['lng'].".<br>";
+    ?>
+    <body id="map-canvas">
